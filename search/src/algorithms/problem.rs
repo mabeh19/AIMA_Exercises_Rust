@@ -121,7 +121,7 @@ lazy_static! {
         (("Fagaras", "Bucharest", Action::ToBucharest), 211),
         (("Bucharest", "Fagaras", Action::ToFagaras), 211),
         (("Pitesti", "Bucharest", Action::ToBucharest), 101),
-        (("Bucharest", "Pitesti", Action::ToPitesti), 101)
+        (("Bucharest", "Pitesti", Action::ToPitesti), 101),
     ].iter().cloned().collect();
 
     pub static ref RESULT_STATE: HashMap<(State, Action), State> = [
@@ -154,7 +154,9 @@ lazy_static! {
         (("Fagaras", Action::ToSibiu), "Sibiu"),
         (("Pitesti", Action::ToBucharest), "Bucharest"),
         (("Pitesti", Action::ToCraiova), "Craiova"),
-        (("Pitesti", Action::ToRimnicuVilcea), "Rimnicu Vilcea")
+        (("Pitesti", Action::ToRimnicuVilcea), "Rimnicu Vilcea"),
+        (("Bucharest", Action::ToPitesti), "Pitesti"),
+        (("Bucharest", Action::ToFagaras), "Fagaras")
     ].iter().cloned().collect();
 
     pub static ref ACTIONS: HashMap<State, Vec<Action>> = [
@@ -169,7 +171,8 @@ lazy_static! {
         ("Craiova", vec![ Action::ToRimnicuVilcea, Action::ToPitesti, Action::ToDrobeta ]),
         ("Rimnicu Vilcea", vec![ Action::ToCraiova, Action::ToPitesti, Action::ToSibiu ]),
         ("Fagaras", vec![ Action::ToBucharest, Action::ToSibiu ]),
-        ("Pitesti", vec![ Action::ToBucharest, Action::ToCraiova, Action::ToRimnicuVilcea ])
+        ("Pitesti", vec![ Action::ToBucharest, Action::ToCraiova, Action::ToRimnicuVilcea ]),
+        ("Bucharest", vec![ Action::ToPitesti, Action::ToFagaras ])
     ].iter().cloned().collect();
 }
 

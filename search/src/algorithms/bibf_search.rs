@@ -31,8 +31,11 @@
 ///     return solution
 ///
 
-use std::collections::HashMap;
-use std::hash::Hash;
+use std::{
+    collections::{HashMap, VecDeque},
+    hash::Hash,
+    fmt::Debug
+};
 
 use crate::algorithms::{
     problem::*,
@@ -47,8 +50,8 @@ enum Direction {
 pub fn bibf_search<P, S, A>(problem: &P) -> SearchResult<S, A> 
 where
     P: Problem<S, A>,
-    S: Clone + Eq + Ord + Hash,
-    A: Clone + Eq + Ord + Hash
+    S: Clone + Eq + Ord + Hash + Debug,
+    A: Clone + Eq + Ord + Hash + Debug
 {
     let node_f = problem.get_initial_node();
     let node_b = problem.get_goal_node();
@@ -78,8 +81,8 @@ where
 fn proceed<P, S, A>(problem: &P, dir: Direction, frontier: &mut Vec<Node<S, A>>, reached: &mut HashMap<S, Node<S, A>>, reached_2: &mut HashMap<S, Node<S, A>>, solution: SearchResult<S, A>) -> SearchResult<S, A> 
 where 
     P: Problem<S, A>,
-    S: Clone + Eq + Ord + Hash, 
-    A: Clone + Eq + Ord + Hash
+    S: Clone + Eq + Ord + Hash + Debug, 
+    A: Clone + Eq + Ord + Hash + Debug
 {
     if frontier.is_empty() {
         return Err(SearchError::Failure);
@@ -87,7 +90,7 @@ where
 
     let mut new_solution = solution;
     let node = frontier.pop().unwrap();
-
+    
     for child in expand(problem, node.clone()) {
         let s = child.state.clone();
 
@@ -95,8 +98,8 @@ where
             reached.insert(s.clone(), child.clone());
             frontier.push(child.clone());
             if reached_2.contains_key(&s) {
-                let solution_2 = join_nodes(&dir, child, reached_2.get(&s).unwrap());
-                if solution_2.path_cost < new_solution.as_ref().unwrap().path_cost {
+                let solution_2 = join_nodes(&dir, child, reached_2.get(&s).unwrap().clone());
+                if new_solution.is_err() || solution_2.path_cost < new_solution.as_ref().unwrap().path_cost {
                     new_solution = Ok(solution_2);
                 }
             }
@@ -106,16 +109,36 @@ where
     return new_solution;
 }
 
-fn join_nodes<S, A>(dir: &Direction, node: Node<S, A>, reached: &Node<S, A>) -> Node<S, A>
+fn join_nodes<S, A>(dir: &Direction, node: Node<S, A>, reached: Node<S, A>) -> Node<S, A>
 where
     S: Clone,
     A: Clone
 {
-    let sol_node = node;
-    
-    
+    // Move all from other chain into a vector
+    let mut prev: Option<Box<Node<S, A>>> = Some(Box::new(node.clone()));
+    let mut tmp_vec: VecDeque<Box<Node<S, A>>> = VecDeque::from([Box::new(reached.clone())]);
+    let mut n = reached.parent;
 
-    sol_node
+    while n.is_some() {
+        tmp_vec.push_back(n.as_ref().unwrap().clone());
+        n = n.unwrap().parent;
+    }
+
+    tmp_vec.pop_front();
+
+    while let Some(mut current) = tmp_vec.pop_front() {
+          current.parent = prev;
+          prev = Some(current);
+    }
+/*
+    while current.is_some() {
+        next = current.clone().unwrap().parent;
+        current.clone().unwrap().parent = prev;
+        prev = current.clone();
+        current = next;
+    }
+*/
+    *prev.unwrap()
 }
 
 fn terminated<S, A>(solution: &SearchResult<S, A>, frontier_F: &Vec<Node<S, A>>, frontier_B: &Vec<Node<S, A>>) -> bool 
@@ -123,5 +146,9 @@ where
     S: Clone,
     A: Clone
 {
-    true
+    if frontier_F.is_empty() || frontier_B.is_empty() {
+        true
+    } else {
+        false
+    }
 }

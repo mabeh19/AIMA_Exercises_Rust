@@ -712,7 +712,7 @@
 16	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o	array:prelude.external_crates
 17	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o	array:prelude.external_crates
 17	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o	array:prelude.external_crates
-17598535894874457435	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	o	object:outputs
+17598535894874457435	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	o	object:outputs
 17598535894874457435	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	o	object:outputs
 18	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o	array:prelude.external_crates
 18	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o	array:prelude.external_crates
@@ -917,7 +917,7 @@
 20	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o	array:prelude.external_crates
 21	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o	array:prelude.external_crates
 22	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o	array:prelude.external_crates
-2797684049618456168	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	o	object:outputs
+2797684049618456168	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	o	object:outputs
 2797684049618456168	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	o	object:outputs
 3	search/target/debug/.fingerprint/getrandom-41c20cf4968c82ba/lib-getrandom.json	/^{"rustc":14330414595928666026,"features":"[\\"std\\"]","target":13546511942750895132,"profile":1/;"	n	array:deps.0
 3	search/target/debug/.fingerprint/getrandom-41c20cf4968c82ba/lib-getrandom.json	/^{"rustc":14330414595928666026,"features":"[\\"std\\"]","target":13546511942750895132,"profile":1/;"	n	array:deps.1
@@ -1125,7 +1125,7 @@
 8	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o	array:prelude.external_crates
 9	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o	array:prelude.external_crates
 9	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o	array:prelude.external_crates
-931469667778813386	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	o	object:outputs
+931469667778813386	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	o	object:outputs
 931469667778813386	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	o	object:outputs
 Action	search/src/algorithms/problem.rs	/^pub type Action = AradToBucharestAction;$/;"	t
 AradToBucharestAction	search/src/algorithms/problem.rs	/^pub enum AradToBucharestAction {$/;"	g
@@ -1313,9 +1313,9 @@ children	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json
 children	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	a	object:defs.1
 children	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	a	object:defs.0
 children	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	a	object:defs.1
-code	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	n	object:outputs.17598535894874457435
-code	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	n	object:outputs.2797684049618456168
-code	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	n	object:outputs.931469667778813386
+code	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	n	object:outputs.17598535894874457435
+code	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	n	object:outputs.2797684049618456168
+code	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	n	object:outputs.931469667778813386
 code	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	n	object:outputs.17598535894874457435
 code	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	n	object:outputs.2797684049618456168
 code	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	n	object:outputs.5309432699494263626
@@ -2043,7 +2043,7 @@ is_goal	search/src/algorithms/problem.rs	/^    fn is_goal(&self, state: &S) -> b
 is_goal	search/src/algorithms/problem.rs	/^    fn is_goal(&self, state: &State) -> bool {$/;"	P	implementation:AradToBucharestProblem
 iterative_deepening_search	search/src/algorithms/iterative_deepening_search.rs	/^pub fn iterative_deepening_search<P, S, A>(problem: &P) -> SearchResult<S, A> $/;"	f
 iterative_deepening_search	search/src/algorithms/mod.rs	/^pub mod iterative_deepening_search;$/;"	n
-join_nodes	search/src/algorithms/bibf_search.rs	/^fn join_nodes<S, A>(dir: &Direction, node: Node<S, A>, reached: &Node<S, A>) -> Node<S, A>$/;"	f
+join_nodes	search/src/algorithms/bibf_search.rs	/^fn join_nodes<S, A>(dir: &Direction, node: Node<S, A>, reached: Node<S, A>) -> Node<S, A>$/;"	f
 kind	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	s	object:defs.0
 kind	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	s	object:defs.1
 kind	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	s	object:defs.0
@@ -2397,7 +2397,7 @@ output	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/
 output	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	s	object:compilation
 output_file	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	z	object:config
 output_file	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	z	object:config
-outputs	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	o
+outputs	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	o
 outputs	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	o
 parent	search/src/algorithms/node.rs	/^    pub parent: Option<Box<Node<S, A>>>,$/;"	m	struct:Node
 parent	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	z	object:defs.0
@@ -2756,7 +2756,7 @@ rustc	search/target/debug/.fingerprint/syn-e3e7fe0e2805c450/lib-syn.json	/^{"rus
 rustc	search/target/debug/.fingerprint/unicode-ident-5e2bf7216112fbcf/lib-unicode-ident.json	/^{"rustc":14330414595928666026,"features":"[]","target":796776536126189422,"profile":126373187397/;"	n
 rustc	search/target/rls/debug/.fingerprint/search-7592e65291c8491e/test-bin-search.json	/^{"rustc":14330414595928666026,"features":"[]","target":12463159907064279977,"profile":1021633075/;"	n
 rustc	search/target/rls/debug/.fingerprint/search-c0bffd160371d764/bin-search.json	/^{"rustc":14330414595928666026,"features":"[]","target":12463159907064279977,"profile":7309141686/;"	n
-rustc_fingerprint	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	n
+rustc_fingerprint	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	n
 rustc_fingerprint	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	n
 rustflags	search/target/debug/.fingerprint/autocfg-1666e724c4950338/lib-autocfg.json	/^{"rustc":14330414595928666026,"features":"[]","target":10236397793970852656,"profile":1263731873/;"	a
 rustflags	search/target/debug/.fingerprint/autocfg-3aefa914eeb411d0/lib-autocfg.json	/^{"rustc":15069735523673833430,"features":"[]","target":10236397793970852656,"profile":1263731873/;"	a
@@ -2878,36 +2878,36 @@ span	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{
 span	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o	object:defs.1
 span	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o	object:prelude
 state	search/src/algorithms/node.rs	/^    pub state: S,$/;"	m	struct:Node
-status	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	s	object:outputs.17598535894874457435
-status	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	s	object:outputs.2797684049618456168
-status	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	s	object:outputs.931469667778813386
+status	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	s	object:outputs.17598535894874457435
+status	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	s	object:outputs.2797684049618456168
+status	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	s	object:outputs.931469667778813386
 status	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	s	object:outputs.17598535894874457435
 status	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	s	object:outputs.2797684049618456168
 status	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	s	object:outputs.5309432699494263626
 status	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	s	object:outputs.931469667778813386
-stderr	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	s	object:outputs.17598535894874457435
-stderr	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	s	object:outputs.2797684049618456168
-stderr	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	s	object:outputs.931469667778813386
+stderr	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	s	object:outputs.17598535894874457435
+stderr	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	s	object:outputs.2797684049618456168
+stderr	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	s	object:outputs.931469667778813386
 stderr	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	s	object:outputs.17598535894874457435
 stderr	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	s	object:outputs.2797684049618456168
 stderr	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	s	object:outputs.5309432699494263626
 stderr	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	s	object:outputs.931469667778813386
-stdout	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	s	object:outputs.17598535894874457435
-stdout	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	s	object:outputs.2797684049618456168
-stdout	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	s	object:outputs.931469667778813386
+stdout	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	s	object:outputs.17598535894874457435
+stdout	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	s	object:outputs.2797684049618456168
+stdout	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	s	object:outputs.931469667778813386
 stdout	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	s	object:outputs.17598535894874457435
 stdout	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	s	object:outputs.2797684049618456168
 stdout	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	s	object:outputs.5309432699494263626
 stdout	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	s	object:outputs.931469667778813386
 str	search/src/algorithms/problem.rs	/^pub type State = &'static str;$/;"	v
-success	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	b	object:outputs.17598535894874457435
-success	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	b	object:outputs.2797684049618456168
-success	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	b	object:outputs.931469667778813386
+success	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	b	object:outputs.17598535894874457435
+success	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	b	object:outputs.2797684049618456168
+success	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	b	object:outputs.931469667778813386
 success	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	b	object:outputs.17598535894874457435
 success	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	b	object:outputs.2797684049618456168
 success	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	b	object:outputs.5309432699494263626
 success	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	b	object:outputs.931469667778813386
-successes	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	o
+successes	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	o
 successes	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	o
 target	search/target/debug/.fingerprint/autocfg-1666e724c4950338/lib-autocfg.json	/^{"rustc":14330414595928666026,"features":"[]","target":10236397793970852656,"profile":1263731873/;"	n
 target	search/target/debug/.fingerprint/autocfg-3aefa914eeb411d0/lib-autocfg.json	/^{"rustc":15069735523673833430,"features":"[]","target":10236397793970852656,"profile":1263731873/;"	n
