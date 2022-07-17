@@ -17,9 +17,10 @@ where
     fn is_goal(&self, state: &S) -> bool;
     fn actions(&self, state: &S) -> Vec<A>;
     fn result(&self, state: &S, action: &A) -> S;
-    fn action_cost(&self, state: &S, action: &A, new_state: &S) -> i32;
+    fn action_cost(&self, state: &S, action: &A, new_state: &S) -> u32;
     fn get_initial_node(&self) -> Node<S, A>;
     fn get_goal_node(&self) -> Node<S, A>;
+    fn get_heuristic_cost(&self, state: &S) -> u32;
 }
 
 #[derive(Debug, Clone, PartialEq, PartialOrd, Eq, Ord)]
@@ -73,7 +74,7 @@ impl Problem<State, Action> for AradToBucharestProblem {
         *RESULT_STATE.get(&(state, action.clone())).unwrap()
     }
 
-    fn action_cost(&self, state: &State, action: &Action, new_state: &State) -> i32 {
+    fn action_cost(&self, state: &State, action: &Action, new_state: &State) -> u32 {
         *PATH_COST.get(&(state, new_state, action.clone())).unwrap()
     }
 
@@ -82,12 +83,16 @@ impl Problem<State, Action> for AradToBucharestProblem {
     }
 
     fn get_goal_node(&self) -> Node<State, Action> {
-       GOAL_NODE 
+        GOAL_NODE 
+    }
+
+    fn get_heuristic_cost(&self, state: &State) -> u32 {
+        *H_SLD.get(state).unwrap()
     }
 }
 
 lazy_static! {
-    pub static ref PATH_COST: HashMap<(State, State, Action), i32> = [
+    pub static ref PATH_COST: HashMap<(State, State, Action), u32> = [
         (("Arad", "Sibiu", Action::ToSibiu), 140),
         (("Sibiu", "Arad", Action::ToArad), 140),
         (("Arad", "Zerind", Action::ToZerind), 75),
@@ -174,19 +179,44 @@ lazy_static! {
         ("Pitesti", vec![ Action::ToBucharest, Action::ToCraiova, Action::ToRimnicuVilcea ]),
         ("Bucharest", vec![ Action::ToPitesti, Action::ToFagaras ])
     ].iter().cloned().collect();
+
+    pub static ref H_SLD: HashMap<State, u32> = [
+        ("Arad", 366),
+        ("Bucharest", 0),
+        ("Craiova", 160),
+        ("Drobeta", 242),
+        ("Eforie", 161),
+        ("Fagaras", 176),
+        ("Giurgiu", 77),
+        ("Hirsova", 151),
+        ("Iasi", 226),
+        ("Lugoj", 244),
+        ("Mehadia", 241),
+        ("Neamt", 234),
+        ("Oradea", 380),
+        ("Pitesti", 100),
+        ("Rimnicu Vilcea", 193),
+        ("Sibiu", 253),
+        ("Timisoara", 329),
+        ("Urziceni", 80),
+        ("Vaslui", 199),
+        ("Zerind", 374)
+    ].iter().cloned().collect();
 }
 
 pub const INITIAL_NODE: Node<State, Action> = Node::new(
     "Arad",
     None,
     None,
-    0
+    0,
+    366
 );
 
 pub const GOAL_NODE: Node<State, Action> = Node::new(
     "Bucharest",
     None,
     None,
+    0,
     0
 );
 
@@ -207,21 +237,10 @@ where
     for action in problem.actions(s) {
         let s_star = problem.result(s, &action);
         let cost = node.path_cost + problem.action_cost(s, &action, &s_star);
-        nodes.push(Node::new(s_star, Some(Box::new(node.clone())), Some(action), cost));
+
+        nodes.push(Node::new(s_star, Some(Box::new(node.clone())), Some(action), cost, cost));
     }
 
     nodes
 }
 
-
-/*
-#[macro_export]
-macro_rules! bidirectional_actions {
-    ( $node1:expr, $node2:expr, $cost:expr ) => {
-        paste! {
-            ((stringify!($node1), [<Action::To $node2>]), stringify!($node2)),
-            ((stringify!($node2), [<Action::To $node1>]), stringify!($node1))
-        }
-    };
-}
-*/

@@ -8,13 +8,25 @@ pub struct Node<S, A> {
     pub state: S,
     pub parent: Option<Box<Node<S, A>>>,
     pub action: Option<A>,
-    pub path_cost: i32
+    pub path_cost: u32,
+    pub f: u32
 }
+
+impl<S, A> std::fmt::Display for Node<S, A> 
+where
+    S: std::fmt::Display,
+    A: std::fmt::Display
+{
+    fn fmt (&self, fmt: &mut std::fmt::Formatter) -> std::result::Result<(), std::fmt::Error> {
+        write!(fmt, "{{ State: {} Path-Cost: {} f_val: {} }}", self.state, self.path_cost, self.f)
+    }
+}
+
 
 impl<S, A> Node<S, A> {
     
-    pub const fn new(state: S, parent: Option<Box<Node<S, A>>>, action: Option<A>, path_cost: i32) -> Self {
-        Self { state, parent, action, path_cost }
+    pub const fn new(state: S, parent: Option<Box<Node<S, A>>>, action: Option<A>, path_cost: u32, f: u32) -> Self {
+        Self { state, parent, action, path_cost, f }
     }
 }
 
