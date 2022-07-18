@@ -7,6 +7,8 @@
 ///         current <- neighbor
 ///
 
+use std::fmt::Debug;
+
 use crate::algorithms::{
     node::Node,
     problem::*
@@ -15,10 +17,10 @@ use crate::algorithms::{
 pub fn hill_climbing<P, S, A>(problem: &P) -> SearchResult<S, A>
 where
     P: Problem<S, A>,
-    S: Clone,
-    A: Clone
+    S: Clone + Debug,
+    A: Clone + Debug
 {
-    let mut current = problem.get_goal_node();
+    let mut current = problem.get_initial_node();
 
     loop {
         let neighbor = highest_valued_successor(problem, current.clone())?;
@@ -33,15 +35,13 @@ where
 fn highest_valued_successor<P, S, A>(problem: &P, node: Node<S, A>) -> SearchResult<S, A>
 where
     P: Problem<S, A>,
-    S: Clone,
-    A: Clone
+    S: Clone + Debug,
+    A: Clone + Debug
 {
     let mut neighbors = expand(problem, node.clone());
     
     /* Sort descending */
     neighbors.reverse();
-      
-    let retval: Node<S, A> = neighbors.get(0).unwrap().clone();
 
-    return Ok(retval);
+    return Ok(neighbors.get(0).unwrap().clone());
 }

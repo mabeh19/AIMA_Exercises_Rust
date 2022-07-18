@@ -59,7 +59,7 @@ where
     }
     
     loop {
-        println!("{:#?}", successors);           
+        //println!("{:#?}", successors);           
         let mut best = successors.pop().unwrap();
         if best.f >= f_limit {
             return (Err(SearchError::Failure), best.f);

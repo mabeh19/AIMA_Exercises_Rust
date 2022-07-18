@@ -35,7 +35,7 @@ where
     let mut node = Some(Box::new(res));
     println!("[{}] Optimal path from Arad to Bucharest:", name);
     while node.is_some() {
-        println!("      {}", node.as_ref().unwrap().state);
+        println!("      {}, cost: {}", node.as_ref().unwrap().state, node.as_ref().unwrap().path_cost);
         node = node.unwrap().parent;
     }
 }
@@ -50,9 +50,11 @@ where
     let mut node = Some(Box::new(res));
     println!("[{}] Optimal path from Arad to Bucharest:", name);
     while node.is_some() {
-        println!("      {}", node.as_ref().unwrap().state);
+        println!("      {}, cost: {}", node.as_ref().unwrap().state, node.as_ref().unwrap().path_cost);
+
         node = node.unwrap().parent;
     }
+    
 }
 
 fn h<P, S, A>(problem: &P, node: &Node<S, A>) -> u32

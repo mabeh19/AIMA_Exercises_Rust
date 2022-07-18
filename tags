@@ -511,12 +511,72 @@
 0	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o	array:defs
 0	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o	array:defs.0.children
 0	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o	array:prelude.external_crates
+0	search_complex/target/debug/.fingerprint/cfg-if-87828489ba99165a/lib-cfg-if.json	/^{"rustc":15069735523673833430,"features":"[]","target":10094334937643343087,"profile":1263731873/;"	o	array:local
+0	search_complex/target/debug/.fingerprint/cfg-if-dcce77079dd8fe1e/lib-cfg-if.json	/^{"rustc":15069735523673833430,"features":"[]","target":10094334937643343087,"profile":3735503092/;"	o	array:local
+0	search_complex/target/debug/.fingerprint/getrandom-2c1b364a870fe5cc/lib-getrandom.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":13546511942750895132,"profile":1/;"	a	array:deps
+0	search_complex/target/debug/.fingerprint/getrandom-2c1b364a870fe5cc/lib-getrandom.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":13546511942750895132,"profile":1/;"	n	array:deps.0
+0	search_complex/target/debug/.fingerprint/getrandom-2c1b364a870fe5cc/lib-getrandom.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":13546511942750895132,"profile":1/;"	n	array:deps.1
+0	search_complex/target/debug/.fingerprint/getrandom-2c1b364a870fe5cc/lib-getrandom.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":13546511942750895132,"profile":1/;"	o	array:local
+0	search_complex/target/debug/.fingerprint/getrandom-cf1ed9aeb248fba0/lib-getrandom.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":13546511942750895132,"profile":3/;"	a	array:deps
+0	search_complex/target/debug/.fingerprint/getrandom-cf1ed9aeb248fba0/lib-getrandom.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":13546511942750895132,"profile":3/;"	n	array:deps.0
+0	search_complex/target/debug/.fingerprint/getrandom-cf1ed9aeb248fba0/lib-getrandom.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":13546511942750895132,"profile":3/;"	n	array:deps.1
+0	search_complex/target/debug/.fingerprint/getrandom-cf1ed9aeb248fba0/lib-getrandom.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":13546511942750895132,"profile":3/;"	o	array:local
 0	search_complex/target/debug/.fingerprint/lazy_static-1479f2b7adeaa2b6/lib-lazy_static.json	/^{"rustc":15069735523673833430,"features":"[]","target":6139664849541123785,"profile":37355030920/;"	o	array:local
+0	search_complex/target/debug/.fingerprint/lazy_static-7dec60f4d92a7423/lib-lazy_static.json	/^{"rustc":15069735523673833430,"features":"[]","target":6139664849541123785,"profile":12637318739/;"	o	array:local
+0	search_complex/target/debug/.fingerprint/libc-2dde55d3ef7f85bf/lib-libc.json	/^{"rustc":15069735523673833430,"features":"[]","target":15721753382687865320,"profile":3735503092/;"	a	array:deps
+0	search_complex/target/debug/.fingerprint/libc-2dde55d3ef7f85bf/lib-libc.json	/^{"rustc":15069735523673833430,"features":"[]","target":15721753382687865320,"profile":3735503092/;"	n	array:deps.0
+0	search_complex/target/debug/.fingerprint/libc-2dde55d3ef7f85bf/lib-libc.json	/^{"rustc":15069735523673833430,"features":"[]","target":15721753382687865320,"profile":3735503092/;"	o	array:local
+0	search_complex/target/debug/.fingerprint/libc-61894c5cceb2836b/lib-libc.json	/^{"rustc":15069735523673833430,"features":"[]","target":15721753382687865320,"profile":1263731873/;"	a	array:deps
+0	search_complex/target/debug/.fingerprint/libc-61894c5cceb2836b/lib-libc.json	/^{"rustc":15069735523673833430,"features":"[]","target":15721753382687865320,"profile":1263731873/;"	n	array:deps.0
+0	search_complex/target/debug/.fingerprint/libc-61894c5cceb2836b/lib-libc.json	/^{"rustc":15069735523673833430,"features":"[]","target":15721753382687865320,"profile":1263731873/;"	o	array:local
+0	search_complex/target/debug/.fingerprint/libc-aefa386dea193bc6/build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"[]","target":2709041430195671023,"profile":12637318739/;"	o	array:local
+0	search_complex/target/debug/.fingerprint/libc-bca7439595590b1d/run-build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"","target":0,"profile":0,"path":0,"deps":[[13743578918/;"	a	array:deps
+0	search_complex/target/debug/.fingerprint/libc-bca7439595590b1d/run-build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"","target":0,"profile":0,"path":0,"deps":[[13743578918/;"	n	array:deps.0
+0	search_complex/target/debug/.fingerprint/libc-bca7439595590b1d/run-build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"","target":0,"profile":0,"path":0,"deps":[[13743578918/;"	o	array:local
+0	search_complex/target/debug/.fingerprint/libc-bca7439595590b1d/run-build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"","target":0,"profile":0,"path":0,"deps":[[13743578918/;"	s	array:local.0.RerunIfChanged.paths
+0	search_complex/target/debug/.fingerprint/ppv-lite86-3b7ca02da013c4a7/lib-ppv-lite86.json	/^{"rustc":15069735523673833430,"features":"[\\"simd\\", \\"std\\"]","target":731041848731596649,"/;"	o	array:local
+0	search_complex/target/debug/.fingerprint/ppv-lite86-4d5a436bddd9e3c2/lib-ppv-lite86.json	/^{"rustc":15069735523673833430,"features":"[\\"simd\\", \\"std\\"]","target":731041848731596649,"/;"	o	array:local
+0	search_complex/target/debug/.fingerprint/rand-3dc1651f6b62a65b/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	a	array:deps
+0	search_complex/target/debug/.fingerprint/rand-3dc1651f6b62a65b/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	n	array:deps.0
+0	search_complex/target/debug/.fingerprint/rand-3dc1651f6b62a65b/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	n	array:deps.1
+0	search_complex/target/debug/.fingerprint/rand-3dc1651f6b62a65b/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	n	array:deps.2
+0	search_complex/target/debug/.fingerprint/rand-3dc1651f6b62a65b/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	o	array:local
+0	search_complex/target/debug/.fingerprint/rand-fed4d7c05ada4609/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	a	array:deps
+0	search_complex/target/debug/.fingerprint/rand-fed4d7c05ada4609/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	n	array:deps.0
+0	search_complex/target/debug/.fingerprint/rand-fed4d7c05ada4609/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	n	array:deps.1
+0	search_complex/target/debug/.fingerprint/rand-fed4d7c05ada4609/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	n	array:deps.2
+0	search_complex/target/debug/.fingerprint/rand-fed4d7c05ada4609/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	o	array:local
+0	search_complex/target/debug/.fingerprint/rand_chacha-13decd5a074faa7e/lib-rand_chacha.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":10091652985973831551,"profile":3/;"	a	array:deps
+0	search_complex/target/debug/.fingerprint/rand_chacha-13decd5a074faa7e/lib-rand_chacha.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":10091652985973831551,"profile":3/;"	n	array:deps.0
+0	search_complex/target/debug/.fingerprint/rand_chacha-13decd5a074faa7e/lib-rand_chacha.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":10091652985973831551,"profile":3/;"	n	array:deps.1
+0	search_complex/target/debug/.fingerprint/rand_chacha-13decd5a074faa7e/lib-rand_chacha.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":10091652985973831551,"profile":3/;"	o	array:local
+0	search_complex/target/debug/.fingerprint/rand_chacha-a2443a6fcabe66dd/lib-rand_chacha.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":10091652985973831551,"profile":1/;"	a	array:deps
+0	search_complex/target/debug/.fingerprint/rand_chacha-a2443a6fcabe66dd/lib-rand_chacha.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":10091652985973831551,"profile":1/;"	n	array:deps.0
+0	search_complex/target/debug/.fingerprint/rand_chacha-a2443a6fcabe66dd/lib-rand_chacha.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":10091652985973831551,"profile":1/;"	n	array:deps.1
+0	search_complex/target/debug/.fingerprint/rand_chacha-a2443a6fcabe66dd/lib-rand_chacha.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":10091652985973831551,"profile":1/;"	o	array:local
+0	search_complex/target/debug/.fingerprint/rand_core-17d36794f0e589a5/lib-rand_core.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"getrandom\\", \\"std\\"]","target":14/;"	a	array:deps
+0	search_complex/target/debug/.fingerprint/rand_core-17d36794f0e589a5/lib-rand_core.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"getrandom\\", \\"std\\"]","target":14/;"	n	array:deps.0
+0	search_complex/target/debug/.fingerprint/rand_core-17d36794f0e589a5/lib-rand_core.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"getrandom\\", \\"std\\"]","target":14/;"	o	array:local
+0	search_complex/target/debug/.fingerprint/rand_core-38899a68ce737f03/lib-rand_core.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"getrandom\\", \\"std\\"]","target":14/;"	a	array:deps
+0	search_complex/target/debug/.fingerprint/rand_core-38899a68ce737f03/lib-rand_core.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"getrandom\\", \\"std\\"]","target":14/;"	n	array:deps.0
+0	search_complex/target/debug/.fingerprint/rand_core-38899a68ce737f03/lib-rand_core.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"getrandom\\", \\"std\\"]","target":14/;"	o	array:local
 0	search_complex/target/debug/.fingerprint/search_complex-04af69a9965794cf/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	o	array:local
+0	search_complex/target/debug/.fingerprint/search_complex-29c5b45b5d0c951a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":92510136562/;"	a	array:deps
+0	search_complex/target/debug/.fingerprint/search_complex-29c5b45b5d0c951a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":92510136562/;"	n	array:deps.0
+0	search_complex/target/debug/.fingerprint/search_complex-29c5b45b5d0c951a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":92510136562/;"	n	array:deps.1
+0	search_complex/target/debug/.fingerprint/search_complex-29c5b45b5d0c951a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":92510136562/;"	o	array:local
 0	search_complex/target/debug/.fingerprint/search_complex-3d75875083a28903/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	o	array:local
+0	search_complex/target/debug/.fingerprint/search_complex-a6db32349bfcf013/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	a	array:deps
+0	search_complex/target/debug/.fingerprint/search_complex-a6db32349bfcf013/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	n	array:deps.0
+0	search_complex/target/debug/.fingerprint/search_complex-a6db32349bfcf013/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	n	array:deps.1
+0	search_complex/target/debug/.fingerprint/search_complex-a6db32349bfcf013/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	o	array:local
 0	search_complex/target/debug/.fingerprint/search_complex-c3e0c78a14395e7a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	a	array:deps
 0	search_complex/target/debug/.fingerprint/search_complex-c3e0c78a14395e7a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	n	array:deps.0
 0	search_complex/target/debug/.fingerprint/search_complex-c3e0c78a14395e7a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	o	array:local
+0	search_complex/target/debug/.fingerprint/search_complex-e7b5a594b3b0a62a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	a	array:deps
+0	search_complex/target/debug/.fingerprint/search_complex-e7b5a594b3b0a62a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	n	array:deps.0
+0	search_complex/target/debug/.fingerprint/search_complex-e7b5a594b3b0a62a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	n	array:deps.1
+0	search_complex/target/debug/.fingerprint/search_complex-e7b5a594b3b0a62a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	o	array:local
 0	search_complex/target/debug/.fingerprint/search_complex-f19572bc3a587007/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	a	array:deps
 0	search_complex/target/debug/.fingerprint/search_complex-f19572bc3a587007/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	n	array:deps.0
 0	search_complex/target/debug/.fingerprint/search_complex-f19572bc3a587007/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	o	array:local
@@ -821,7 +881,41 @@
 1	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o	array:defs
 1	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o	array:defs.0.children
 1	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o	array:prelude.external_crates
+1	search_complex/target/debug/.fingerprint/getrandom-2c1b364a870fe5cc/lib-getrandom.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":13546511942750895132,"profile":1/;"	a	array:deps
+1	search_complex/target/debug/.fingerprint/getrandom-2c1b364a870fe5cc/lib-getrandom.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":13546511942750895132,"profile":1/;"	s	array:deps.0
+1	search_complex/target/debug/.fingerprint/getrandom-2c1b364a870fe5cc/lib-getrandom.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":13546511942750895132,"profile":1/;"	s	array:deps.1
+1	search_complex/target/debug/.fingerprint/getrandom-cf1ed9aeb248fba0/lib-getrandom.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":13546511942750895132,"profile":3/;"	a	array:deps
+1	search_complex/target/debug/.fingerprint/getrandom-cf1ed9aeb248fba0/lib-getrandom.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":13546511942750895132,"profile":3/;"	s	array:deps.0
+1	search_complex/target/debug/.fingerprint/getrandom-cf1ed9aeb248fba0/lib-getrandom.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":13546511942750895132,"profile":3/;"	s	array:deps.1
+1	search_complex/target/debug/.fingerprint/libc-2dde55d3ef7f85bf/lib-libc.json	/^{"rustc":15069735523673833430,"features":"[]","target":15721753382687865320,"profile":3735503092/;"	s	array:deps.0
+1	search_complex/target/debug/.fingerprint/libc-61894c5cceb2836b/lib-libc.json	/^{"rustc":15069735523673833430,"features":"[]","target":15721753382687865320,"profile":1263731873/;"	s	array:deps.0
+1	search_complex/target/debug/.fingerprint/libc-bca7439595590b1d/run-build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"","target":0,"profile":0,"path":0,"deps":[[13743578918/;"	s	array:deps.0
+1	search_complex/target/debug/.fingerprint/rand-3dc1651f6b62a65b/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	a	array:deps
+1	search_complex/target/debug/.fingerprint/rand-3dc1651f6b62a65b/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	s	array:deps.0
+1	search_complex/target/debug/.fingerprint/rand-3dc1651f6b62a65b/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	s	array:deps.1
+1	search_complex/target/debug/.fingerprint/rand-3dc1651f6b62a65b/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	s	array:deps.2
+1	search_complex/target/debug/.fingerprint/rand-fed4d7c05ada4609/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	a	array:deps
+1	search_complex/target/debug/.fingerprint/rand-fed4d7c05ada4609/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	s	array:deps.0
+1	search_complex/target/debug/.fingerprint/rand-fed4d7c05ada4609/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	s	array:deps.1
+1	search_complex/target/debug/.fingerprint/rand-fed4d7c05ada4609/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	s	array:deps.2
+1	search_complex/target/debug/.fingerprint/rand_chacha-13decd5a074faa7e/lib-rand_chacha.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":10091652985973831551,"profile":3/;"	a	array:deps
+1	search_complex/target/debug/.fingerprint/rand_chacha-13decd5a074faa7e/lib-rand_chacha.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":10091652985973831551,"profile":3/;"	s	array:deps.0
+1	search_complex/target/debug/.fingerprint/rand_chacha-13decd5a074faa7e/lib-rand_chacha.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":10091652985973831551,"profile":3/;"	s	array:deps.1
+1	search_complex/target/debug/.fingerprint/rand_chacha-a2443a6fcabe66dd/lib-rand_chacha.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":10091652985973831551,"profile":1/;"	a	array:deps
+1	search_complex/target/debug/.fingerprint/rand_chacha-a2443a6fcabe66dd/lib-rand_chacha.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":10091652985973831551,"profile":1/;"	s	array:deps.0
+1	search_complex/target/debug/.fingerprint/rand_chacha-a2443a6fcabe66dd/lib-rand_chacha.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":10091652985973831551,"profile":1/;"	s	array:deps.1
+1	search_complex/target/debug/.fingerprint/rand_core-17d36794f0e589a5/lib-rand_core.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"getrandom\\", \\"std\\"]","target":14/;"	s	array:deps.0
+1	search_complex/target/debug/.fingerprint/rand_core-38899a68ce737f03/lib-rand_core.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"getrandom\\", \\"std\\"]","target":14/;"	s	array:deps.0
+1	search_complex/target/debug/.fingerprint/search_complex-29c5b45b5d0c951a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":92510136562/;"	a	array:deps
+1	search_complex/target/debug/.fingerprint/search_complex-29c5b45b5d0c951a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":92510136562/;"	s	array:deps.0
+1	search_complex/target/debug/.fingerprint/search_complex-29c5b45b5d0c951a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":92510136562/;"	s	array:deps.1
+1	search_complex/target/debug/.fingerprint/search_complex-a6db32349bfcf013/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	a	array:deps
+1	search_complex/target/debug/.fingerprint/search_complex-a6db32349bfcf013/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	s	array:deps.0
+1	search_complex/target/debug/.fingerprint/search_complex-a6db32349bfcf013/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	s	array:deps.1
 1	search_complex/target/debug/.fingerprint/search_complex-c3e0c78a14395e7a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	s	array:deps.0
+1	search_complex/target/debug/.fingerprint/search_complex-e7b5a594b3b0a62a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	a	array:deps
+1	search_complex/target/debug/.fingerprint/search_complex-e7b5a594b3b0a62a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	s	array:deps.0
+1	search_complex/target/debug/.fingerprint/search_complex-e7b5a594b3b0a62a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	s	array:deps.1
 1	search_complex/target/debug/.fingerprint/search_complex-f19572bc3a587007/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	s	array:deps.0
 10	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o	array:prelude.external_crates
 10	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o	array:prelude.external_crates
@@ -841,7 +935,7 @@
 17	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o	array:prelude.external_crates
 17598535894874457435	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	o	object:outputs
 17598535894874457435	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	o	object:outputs
-17598535894874457435	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	o	object:outputs
+17598535894874457435	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	o	object:outputs
 18	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o	array:prelude.external_crates
 18	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o	array:prelude.external_crates
 19	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o	array:prelude.external_crates
@@ -1080,14 +1174,41 @@
 2	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o	array:prelude.external_crates
 2	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o	array:defs.0.children
 2	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o	array:prelude.external_crates
+2	search_complex/target/debug/.fingerprint/getrandom-2c1b364a870fe5cc/lib-getrandom.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":13546511942750895132,"profile":1/;"	b	array:deps.0
+2	search_complex/target/debug/.fingerprint/getrandom-2c1b364a870fe5cc/lib-getrandom.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":13546511942750895132,"profile":1/;"	b	array:deps.1
+2	search_complex/target/debug/.fingerprint/getrandom-cf1ed9aeb248fba0/lib-getrandom.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":13546511942750895132,"profile":3/;"	b	array:deps.0
+2	search_complex/target/debug/.fingerprint/getrandom-cf1ed9aeb248fba0/lib-getrandom.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":13546511942750895132,"profile":3/;"	b	array:deps.1
+2	search_complex/target/debug/.fingerprint/libc-2dde55d3ef7f85bf/lib-libc.json	/^{"rustc":15069735523673833430,"features":"[]","target":15721753382687865320,"profile":3735503092/;"	b	array:deps.0
+2	search_complex/target/debug/.fingerprint/libc-61894c5cceb2836b/lib-libc.json	/^{"rustc":15069735523673833430,"features":"[]","target":15721753382687865320,"profile":1263731873/;"	b	array:deps.0
+2	search_complex/target/debug/.fingerprint/libc-bca7439595590b1d/run-build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"","target":0,"profile":0,"path":0,"deps":[[13743578918/;"	b	array:deps.0
+2	search_complex/target/debug/.fingerprint/rand-3dc1651f6b62a65b/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	a	array:deps
+2	search_complex/target/debug/.fingerprint/rand-3dc1651f6b62a65b/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	b	array:deps.0
+2	search_complex/target/debug/.fingerprint/rand-3dc1651f6b62a65b/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	b	array:deps.1
+2	search_complex/target/debug/.fingerprint/rand-3dc1651f6b62a65b/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	b	array:deps.2
+2	search_complex/target/debug/.fingerprint/rand-fed4d7c05ada4609/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	a	array:deps
+2	search_complex/target/debug/.fingerprint/rand-fed4d7c05ada4609/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	b	array:deps.0
+2	search_complex/target/debug/.fingerprint/rand-fed4d7c05ada4609/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	b	array:deps.1
+2	search_complex/target/debug/.fingerprint/rand-fed4d7c05ada4609/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	b	array:deps.2
+2	search_complex/target/debug/.fingerprint/rand_chacha-13decd5a074faa7e/lib-rand_chacha.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":10091652985973831551,"profile":3/;"	b	array:deps.0
+2	search_complex/target/debug/.fingerprint/rand_chacha-13decd5a074faa7e/lib-rand_chacha.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":10091652985973831551,"profile":3/;"	b	array:deps.1
+2	search_complex/target/debug/.fingerprint/rand_chacha-a2443a6fcabe66dd/lib-rand_chacha.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":10091652985973831551,"profile":1/;"	b	array:deps.0
+2	search_complex/target/debug/.fingerprint/rand_chacha-a2443a6fcabe66dd/lib-rand_chacha.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":10091652985973831551,"profile":1/;"	b	array:deps.1
+2	search_complex/target/debug/.fingerprint/rand_core-17d36794f0e589a5/lib-rand_core.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"getrandom\\", \\"std\\"]","target":14/;"	b	array:deps.0
+2	search_complex/target/debug/.fingerprint/rand_core-38899a68ce737f03/lib-rand_core.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"getrandom\\", \\"std\\"]","target":14/;"	b	array:deps.0
+2	search_complex/target/debug/.fingerprint/search_complex-29c5b45b5d0c951a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":92510136562/;"	b	array:deps.0
+2	search_complex/target/debug/.fingerprint/search_complex-29c5b45b5d0c951a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":92510136562/;"	b	array:deps.1
+2	search_complex/target/debug/.fingerprint/search_complex-a6db32349bfcf013/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	b	array:deps.0
+2	search_complex/target/debug/.fingerprint/search_complex-a6db32349bfcf013/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	b	array:deps.1
 2	search_complex/target/debug/.fingerprint/search_complex-c3e0c78a14395e7a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	b	array:deps.0
+2	search_complex/target/debug/.fingerprint/search_complex-e7b5a594b3b0a62a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	b	array:deps.0
+2	search_complex/target/debug/.fingerprint/search_complex-e7b5a594b3b0a62a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	b	array:deps.1
 2	search_complex/target/debug/.fingerprint/search_complex-f19572bc3a587007/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	b	array:deps.0
 20	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o	array:prelude.external_crates
 21	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o	array:prelude.external_crates
 22	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o	array:prelude.external_crates
 2797684049618456168	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	o	object:outputs
 2797684049618456168	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	o	object:outputs
-2797684049618456168	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	o	object:outputs
+2797684049618456168	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	o	object:outputs
 3	search/target/debug/.fingerprint/getrandom-41c20cf4968c82ba/lib-getrandom.json	/^{"rustc":14330414595928666026,"features":"[\\"std\\"]","target":13546511942750895132,"profile":1/;"	n	array:deps.0
 3	search/target/debug/.fingerprint/getrandom-41c20cf4968c82ba/lib-getrandom.json	/^{"rustc":14330414595928666026,"features":"[\\"std\\"]","target":13546511942750895132,"profile":1/;"	n	array:deps.1
 3	search/target/debug/.fingerprint/libc-afc331dcea82d9a5/run-build-script-build-script-build.json	/^{"rustc":14330414595928666026,"features":"","target":0,"profile":0,"path":0,"deps":[[13743578918/;"	n	array:deps.0
@@ -1306,7 +1427,32 @@
 3	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o	array:defs.0.children
 3	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o	array:prelude.external_crates
 3	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o	array:prelude.external_crates
+3	search_complex/target/debug/.fingerprint/getrandom-2c1b364a870fe5cc/lib-getrandom.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":13546511942750895132,"profile":1/;"	n	array:deps.0
+3	search_complex/target/debug/.fingerprint/getrandom-2c1b364a870fe5cc/lib-getrandom.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":13546511942750895132,"profile":1/;"	n	array:deps.1
+3	search_complex/target/debug/.fingerprint/getrandom-cf1ed9aeb248fba0/lib-getrandom.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":13546511942750895132,"profile":3/;"	n	array:deps.0
+3	search_complex/target/debug/.fingerprint/getrandom-cf1ed9aeb248fba0/lib-getrandom.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":13546511942750895132,"profile":3/;"	n	array:deps.1
+3	search_complex/target/debug/.fingerprint/libc-2dde55d3ef7f85bf/lib-libc.json	/^{"rustc":15069735523673833430,"features":"[]","target":15721753382687865320,"profile":3735503092/;"	n	array:deps.0
+3	search_complex/target/debug/.fingerprint/libc-61894c5cceb2836b/lib-libc.json	/^{"rustc":15069735523673833430,"features":"[]","target":15721753382687865320,"profile":1263731873/;"	n	array:deps.0
+3	search_complex/target/debug/.fingerprint/libc-bca7439595590b1d/run-build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"","target":0,"profile":0,"path":0,"deps":[[13743578918/;"	n	array:deps.0
+3	search_complex/target/debug/.fingerprint/rand-3dc1651f6b62a65b/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	n	array:deps.0
+3	search_complex/target/debug/.fingerprint/rand-3dc1651f6b62a65b/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	n	array:deps.1
+3	search_complex/target/debug/.fingerprint/rand-3dc1651f6b62a65b/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	n	array:deps.2
+3	search_complex/target/debug/.fingerprint/rand-fed4d7c05ada4609/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	n	array:deps.0
+3	search_complex/target/debug/.fingerprint/rand-fed4d7c05ada4609/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	n	array:deps.1
+3	search_complex/target/debug/.fingerprint/rand-fed4d7c05ada4609/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	n	array:deps.2
+3	search_complex/target/debug/.fingerprint/rand_chacha-13decd5a074faa7e/lib-rand_chacha.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":10091652985973831551,"profile":3/;"	n	array:deps.0
+3	search_complex/target/debug/.fingerprint/rand_chacha-13decd5a074faa7e/lib-rand_chacha.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":10091652985973831551,"profile":3/;"	n	array:deps.1
+3	search_complex/target/debug/.fingerprint/rand_chacha-a2443a6fcabe66dd/lib-rand_chacha.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":10091652985973831551,"profile":1/;"	n	array:deps.0
+3	search_complex/target/debug/.fingerprint/rand_chacha-a2443a6fcabe66dd/lib-rand_chacha.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":10091652985973831551,"profile":1/;"	n	array:deps.1
+3	search_complex/target/debug/.fingerprint/rand_core-17d36794f0e589a5/lib-rand_core.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"getrandom\\", \\"std\\"]","target":14/;"	n	array:deps.0
+3	search_complex/target/debug/.fingerprint/rand_core-38899a68ce737f03/lib-rand_core.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"getrandom\\", \\"std\\"]","target":14/;"	n	array:deps.0
+3	search_complex/target/debug/.fingerprint/search_complex-29c5b45b5d0c951a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":92510136562/;"	n	array:deps.0
+3	search_complex/target/debug/.fingerprint/search_complex-29c5b45b5d0c951a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":92510136562/;"	n	array:deps.1
+3	search_complex/target/debug/.fingerprint/search_complex-a6db32349bfcf013/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	n	array:deps.0
+3	search_complex/target/debug/.fingerprint/search_complex-a6db32349bfcf013/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	n	array:deps.1
 3	search_complex/target/debug/.fingerprint/search_complex-c3e0c78a14395e7a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	n	array:deps.0
+3	search_complex/target/debug/.fingerprint/search_complex-e7b5a594b3b0a62a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	n	array:deps.0
+3	search_complex/target/debug/.fingerprint/search_complex-e7b5a594b3b0a62a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	n	array:deps.1
 3	search_complex/target/debug/.fingerprint/search_complex-f19572bc3a587007/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	n	array:deps.0
 4	search/target/debug/.fingerprint/num-b0ed1e5c8224451b/lib-num.json	/^{"rustc":14330414595928666026,"features":"[\\"default\\", \\"num-bigint\\", \\"std\\"]","target"/;"	a	array:deps
 4	search/target/debug/.fingerprint/num-c38e43b7dbc05555/lib-num.json	/^{"rustc":14330414595928666026,"features":"[\\"default\\", \\"num-bigint\\", \\"std\\"]","target"/;"	a	array:deps
@@ -1335,7 +1481,7 @@
 9	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o	array:prelude.external_crates
 931469667778813386	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	o	object:outputs
 931469667778813386	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	o	object:outputs
-931469667778813386	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	o	object:outputs
+931469667778813386	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	o	object:outputs
 Action	search/src/algorithms/problem.rs	/^pub type Action = AradToBucharestAction;$/;"	t
 Action	search_complex/src/algorithms/problem.rs	/^pub type Action = AradToBucharestAction;$/;"	t
 AradToBucharestAction	search/src/algorithms/problem.rs	/^pub enum AradToBucharestAction {$/;"	g
@@ -1461,10 +1607,29 @@ CheckDepInfo	search/target/release/.fingerprint/paste-3aea5a6ebcae4308/lib-paste
 CheckDepInfo	search/target/release/.fingerprint/search-439eed3229b6a3fc/bin-search.json	/^{"rustc":15069735523673833430,"features":"[]","target":12463159907064279977,"profile":6269190295/;"	o	object:local.0
 CheckDepInfo	search/target/rls/debug/.fingerprint/search-7592e65291c8491e/test-bin-search.json	/^{"rustc":14330414595928666026,"features":"[]","target":12463159907064279977,"profile":1021633075/;"	o	object:local.0
 CheckDepInfo	search/target/rls/debug/.fingerprint/search-c0bffd160371d764/bin-search.json	/^{"rustc":14330414595928666026,"features":"[]","target":12463159907064279977,"profile":7309141686/;"	o	object:local.0
+CheckDepInfo	search_complex/target/debug/.fingerprint/cfg-if-87828489ba99165a/lib-cfg-if.json	/^{"rustc":15069735523673833430,"features":"[]","target":10094334937643343087,"profile":1263731873/;"	o	object:local.0
+CheckDepInfo	search_complex/target/debug/.fingerprint/cfg-if-dcce77079dd8fe1e/lib-cfg-if.json	/^{"rustc":15069735523673833430,"features":"[]","target":10094334937643343087,"profile":3735503092/;"	o	object:local.0
+CheckDepInfo	search_complex/target/debug/.fingerprint/getrandom-2c1b364a870fe5cc/lib-getrandom.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":13546511942750895132,"profile":1/;"	o	object:local.0
+CheckDepInfo	search_complex/target/debug/.fingerprint/getrandom-cf1ed9aeb248fba0/lib-getrandom.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":13546511942750895132,"profile":3/;"	o	object:local.0
 CheckDepInfo	search_complex/target/debug/.fingerprint/lazy_static-1479f2b7adeaa2b6/lib-lazy_static.json	/^{"rustc":15069735523673833430,"features":"[]","target":6139664849541123785,"profile":37355030920/;"	o	object:local.0
+CheckDepInfo	search_complex/target/debug/.fingerprint/lazy_static-7dec60f4d92a7423/lib-lazy_static.json	/^{"rustc":15069735523673833430,"features":"[]","target":6139664849541123785,"profile":12637318739/;"	o	object:local.0
+CheckDepInfo	search_complex/target/debug/.fingerprint/libc-2dde55d3ef7f85bf/lib-libc.json	/^{"rustc":15069735523673833430,"features":"[]","target":15721753382687865320,"profile":3735503092/;"	o	object:local.0
+CheckDepInfo	search_complex/target/debug/.fingerprint/libc-61894c5cceb2836b/lib-libc.json	/^{"rustc":15069735523673833430,"features":"[]","target":15721753382687865320,"profile":1263731873/;"	o	object:local.0
+CheckDepInfo	search_complex/target/debug/.fingerprint/libc-aefa386dea193bc6/build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"[]","target":2709041430195671023,"profile":12637318739/;"	o	object:local.0
+CheckDepInfo	search_complex/target/debug/.fingerprint/ppv-lite86-3b7ca02da013c4a7/lib-ppv-lite86.json	/^{"rustc":15069735523673833430,"features":"[\\"simd\\", \\"std\\"]","target":731041848731596649,"/;"	o	object:local.0
+CheckDepInfo	search_complex/target/debug/.fingerprint/ppv-lite86-4d5a436bddd9e3c2/lib-ppv-lite86.json	/^{"rustc":15069735523673833430,"features":"[\\"simd\\", \\"std\\"]","target":731041848731596649,"/;"	o	object:local.0
+CheckDepInfo	search_complex/target/debug/.fingerprint/rand-3dc1651f6b62a65b/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	o	object:local.0
+CheckDepInfo	search_complex/target/debug/.fingerprint/rand-fed4d7c05ada4609/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	o	object:local.0
+CheckDepInfo	search_complex/target/debug/.fingerprint/rand_chacha-13decd5a074faa7e/lib-rand_chacha.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":10091652985973831551,"profile":3/;"	o	object:local.0
+CheckDepInfo	search_complex/target/debug/.fingerprint/rand_chacha-a2443a6fcabe66dd/lib-rand_chacha.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":10091652985973831551,"profile":1/;"	o	object:local.0
+CheckDepInfo	search_complex/target/debug/.fingerprint/rand_core-17d36794f0e589a5/lib-rand_core.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"getrandom\\", \\"std\\"]","target":14/;"	o	object:local.0
+CheckDepInfo	search_complex/target/debug/.fingerprint/rand_core-38899a68ce737f03/lib-rand_core.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"getrandom\\", \\"std\\"]","target":14/;"	o	object:local.0
 CheckDepInfo	search_complex/target/debug/.fingerprint/search_complex-04af69a9965794cf/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	o	object:local.0
+CheckDepInfo	search_complex/target/debug/.fingerprint/search_complex-29c5b45b5d0c951a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":92510136562/;"	o	object:local.0
 CheckDepInfo	search_complex/target/debug/.fingerprint/search_complex-3d75875083a28903/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	o	object:local.0
+CheckDepInfo	search_complex/target/debug/.fingerprint/search_complex-a6db32349bfcf013/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	o	object:local.0
 CheckDepInfo	search_complex/target/debug/.fingerprint/search_complex-c3e0c78a14395e7a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	o	object:local.0
+CheckDepInfo	search_complex/target/debug/.fingerprint/search_complex-e7b5a594b3b0a62a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	o	object:local.0
 CheckDepInfo	search_complex/target/debug/.fingerprint/search_complex-f19572bc3a587007/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	o	object:local.0
 CutOffReached	search/src/algorithms/problem.rs	/^    CutOffReached,$/;"	e	enum:SearchError
 CutOffReached	search_complex/src/algorithms/problem.rs	/^    CutOffReached,$/;"	e	enum:SearchError
@@ -1472,6 +1637,13 @@ Direction	search/src/algorithms/bibf_search.rs	/^enum Direction {$/;"	g
 Failure	search/src/algorithms/problem.rs	/^    Failure,$/;"	e	enum:SearchError
 Failure	search_complex/src/algorithms/problem.rs	/^    Failure,$/;"	e	enum:SearchError
 Forward	search/src/algorithms/bibf_search.rs	/^    Forward,$/;"	e	enum:Direction
+GenericComplexProblem	search_complex/src/algorithms/problem.rs	/^pub struct GenericComplexProblem<S, A> {$/;"	s
+GeneticWeights	search_complex/src/algorithms/genetic_algorithm.rs	/^type GeneticWeights = Vec<f64>;$/;"	t
+GraphAction	search_complex/src/algorithms/problem.rs	/^type GraphAction = f64;$/;"	t
+GraphProblem	search_complex/src/algorithms/problem.rs	/^impl Problem<GraphState, GraphAction> for GraphProblem {$/;"	c
+GraphProblem	search_complex/src/algorithms/problem.rs	/^pub struct GraphProblem {$/;"	s
+GraphState	search_complex/src/algorithms/problem.rs	/^type GraphState = f64;$/;"	t
+Individual	search_complex/src/algorithms/genetic_algorithm.rs	/^type Individual<A> = Node<String, A>;$/;"	t
 Node	search/src/algorithms/node.rs	/^impl<S, A> Node<S, A> {$/;"	c
 Node	search/src/algorithms/node.rs	/^impl<S, A> std::fmt::Display for Node<S, A> $/;"	c
 Node	search/src/algorithms/node.rs	/^pub struct Node<S, A> {$/;"	s
@@ -1500,8 +1672,11 @@ RerunIfChanged	search/target/release/.fingerprint/num-integer-3f4a5307098ad7ba/r
 RerunIfChanged	search/target/release/.fingerprint/num-iter-dfdb95d7309cc61d/run-build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"","target":0,"profile":0,"path":0,"deps":[[17104864861/;"	o	object:local.0
 RerunIfChanged	search/target/release/.fingerprint/num-rational-9f8f3ad103dcafcf/run-build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"","target":0,"profile":0,"path":0,"deps":[[12116750734/;"	o	object:local.0
 RerunIfChanged	search/target/release/.fingerprint/num-traits-0ba7a1052bdb690b/run-build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"","target":0,"profile":0,"path":0,"deps":[[81216356945/;"	o	object:local.0
+RerunIfChanged	search_complex/target/debug/.fingerprint/libc-bca7439595590b1d/run-build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"","target":0,"profile":0,"path":0,"deps":[[13743578918/;"	o	object:local.0
 SearchAlgorithm	search/src/main.rs	/^type SearchAlgorithm<P, S, A> = fn(&P) -> SearchResult<S, A>;$/;"	t
+SearchAlgorithm	search_complex/src/main.rs	/^type SearchAlgorithm<P, S, A> = fn(&P) -> SearchResult<S, A>;$/;"	t
 SearchAlgorithmHeuristic	search/src/main.rs	/^type SearchAlgorithmHeuristic<P, S, A> = fn(&P, fn(&P, &Node<S, A>) -> u32) -> SearchResult<S, A/;"	t
+SearchAlgorithmHeuristic	search_complex/src/main.rs	/^type SearchAlgorithmHeuristic<P, S, A> = fn(&P, fn(&P, &Node<S, A>) -> f64) -> SearchResult<S, A/;"	t
 SearchError	search/src/algorithms/problem.rs	/^pub enum SearchError {$/;"	g
 SearchError	search_complex/src/algorithms/problem.rs	/^pub enum SearchError {$/;"	g
 SearchResult	search/src/algorithms/problem.rs	/^pub type SearchResult<S, A> = Result<Node<S, A>, SearchError>;$/;"	t
@@ -1552,10 +1727,12 @@ action	search/src/algorithms/node.rs	/^    pub action: Option<A>,$/;"	m	struct:N
 action	search_complex/src/algorithms/node.rs	/^    pub action: Option<A>,$/;"	m	struct:Node
 action_cost	search/src/algorithms/problem.rs	/^    fn action_cost(&self, state: &S, action: &A, new_state: &S) -> u32;$/;"	P	interface:Problem
 action_cost	search/src/algorithms/problem.rs	/^    fn action_cost(&self, state: &State, action: &Action, new_state: &State) -> u32 {$/;"	P	implementation:AradToBucharestProblem
-action_cost	search_complex/src/algorithms/problem.rs	/^    fn action_cost(&self, state: &S, action: &A, new_state: &S) -> u32;$/;"	P	interface:Problem
-action_cost	search_complex/src/algorithms/problem.rs	/^    fn action_cost(&self, state: &State, action: &Action, new_state: &State) -> u32 {$/;"	P	implementation:AradToBucharestProblem
+action_cost	search_complex/src/algorithms/problem.rs	/^    fn action_cost(&self, state: &GraphState, action: &GraphAction, new_state: &GraphState) -> f/;"	P	implementation:GraphProblem
+action_cost	search_complex/src/algorithms/problem.rs	/^    fn action_cost(&self, state: &S, action: &A, new_state: &S) -> f64;$/;"	P	interface:Problem
+action_cost	search_complex/src/algorithms/problem.rs	/^    fn action_cost(&self, state: &State, action: &Action, new_state: &State) -> f64 {$/;"	P	implementation:AradToBucharestProblem
 actions	search/src/algorithms/problem.rs	/^    fn actions(&self, state: &S) -> Vec<A>;$/;"	P	interface:Problem
 actions	search/src/algorithms/problem.rs	/^    fn actions(&self, state: &State) -> Vec<Action> {$/;"	P	implementation:AradToBucharestProblem
+actions	search_complex/src/algorithms/problem.rs	/^    fn actions(&self, state: &GraphState) -> Vec<GraphAction> {$/;"	P	implementation:GraphProblem
 actions	search_complex/src/algorithms/problem.rs	/^    fn actions(&self, state: &S) -> Vec<A>;$/;"	P	interface:Problem
 actions	search_complex/src/algorithms/problem.rs	/^    fn actions(&self, state: &State) -> Vec<Action> {$/;"	P	implementation:AradToBucharestProblem
 algorithms	search/src/main.rs	/^mod algorithms;$/;"	n
@@ -1592,6 +1769,7 @@ children	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json
 children	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	a	object:defs.1
 children	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	a	object:defs.0
 children	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	a	object:defs.1
+cmp_f64	search_complex/src/algorithms/genetic_algorithm.rs	/^fn cmp_f64<S, A>(a: &Node<S, A>, b: &Node<S, A>) -> Ordering {$/;"	f
 code	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	n	object:outputs.17598535894874457435
 code	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	n	object:outputs.2797684049618456168
 code	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	n	object:outputs.931469667778813386
@@ -1599,9 +1777,9 @@ code	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":32202256822821391
 code	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	n	object:outputs.2797684049618456168
 code	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	n	object:outputs.5309432699494263626
 code	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	n	object:outputs.931469667778813386
-code	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	n	object:outputs.17598535894874457435
-code	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	n	object:outputs.2797684049618456168
-code	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	n	object:outputs.931469667778813386
+code	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	n	object:outputs.17598535894874457435
+code	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	n	object:outputs.2797684049618456168
+code	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	n	object:outputs.931469667778813386
 column_end	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	n	object:defs.0.span
 column_end	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	n	object:defs.1.attributes.0.span
 column_end	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	n	object:defs.1.span
@@ -1745,10 +1923,30 @@ compile_kind	search/target/release/.fingerprint/paste-3aea5a6ebcae4308/lib-paste
 compile_kind	search/target/release/.fingerprint/search-439eed3229b6a3fc/bin-search.json	/^{"rustc":15069735523673833430,"features":"[]","target":12463159907064279977,"profile":6269190295/;"	n
 compile_kind	search/target/rls/debug/.fingerprint/search-7592e65291c8491e/test-bin-search.json	/^{"rustc":14330414595928666026,"features":"[]","target":12463159907064279977,"profile":1021633075/;"	n
 compile_kind	search/target/rls/debug/.fingerprint/search-c0bffd160371d764/bin-search.json	/^{"rustc":14330414595928666026,"features":"[]","target":12463159907064279977,"profile":7309141686/;"	n
+compile_kind	search_complex/target/debug/.fingerprint/cfg-if-87828489ba99165a/lib-cfg-if.json	/^{"rustc":15069735523673833430,"features":"[]","target":10094334937643343087,"profile":1263731873/;"	n
+compile_kind	search_complex/target/debug/.fingerprint/cfg-if-dcce77079dd8fe1e/lib-cfg-if.json	/^{"rustc":15069735523673833430,"features":"[]","target":10094334937643343087,"profile":3735503092/;"	n
+compile_kind	search_complex/target/debug/.fingerprint/getrandom-2c1b364a870fe5cc/lib-getrandom.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":13546511942750895132,"profile":1/;"	n
+compile_kind	search_complex/target/debug/.fingerprint/getrandom-cf1ed9aeb248fba0/lib-getrandom.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":13546511942750895132,"profile":3/;"	n
 compile_kind	search_complex/target/debug/.fingerprint/lazy_static-1479f2b7adeaa2b6/lib-lazy_static.json	/^{"rustc":15069735523673833430,"features":"[]","target":6139664849541123785,"profile":37355030920/;"	n
+compile_kind	search_complex/target/debug/.fingerprint/lazy_static-7dec60f4d92a7423/lib-lazy_static.json	/^{"rustc":15069735523673833430,"features":"[]","target":6139664849541123785,"profile":12637318739/;"	n
+compile_kind	search_complex/target/debug/.fingerprint/libc-2dde55d3ef7f85bf/lib-libc.json	/^{"rustc":15069735523673833430,"features":"[]","target":15721753382687865320,"profile":3735503092/;"	n
+compile_kind	search_complex/target/debug/.fingerprint/libc-61894c5cceb2836b/lib-libc.json	/^{"rustc":15069735523673833430,"features":"[]","target":15721753382687865320,"profile":1263731873/;"	n
+compile_kind	search_complex/target/debug/.fingerprint/libc-aefa386dea193bc6/build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"[]","target":2709041430195671023,"profile":12637318739/;"	n
+compile_kind	search_complex/target/debug/.fingerprint/libc-bca7439595590b1d/run-build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"","target":0,"profile":0,"path":0,"deps":[[13743578918/;"	n
+compile_kind	search_complex/target/debug/.fingerprint/ppv-lite86-3b7ca02da013c4a7/lib-ppv-lite86.json	/^{"rustc":15069735523673833430,"features":"[\\"simd\\", \\"std\\"]","target":731041848731596649,"/;"	n
+compile_kind	search_complex/target/debug/.fingerprint/ppv-lite86-4d5a436bddd9e3c2/lib-ppv-lite86.json	/^{"rustc":15069735523673833430,"features":"[\\"simd\\", \\"std\\"]","target":731041848731596649,"/;"	n
+compile_kind	search_complex/target/debug/.fingerprint/rand-3dc1651f6b62a65b/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	n
+compile_kind	search_complex/target/debug/.fingerprint/rand-fed4d7c05ada4609/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	n
+compile_kind	search_complex/target/debug/.fingerprint/rand_chacha-13decd5a074faa7e/lib-rand_chacha.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":10091652985973831551,"profile":3/;"	n
+compile_kind	search_complex/target/debug/.fingerprint/rand_chacha-a2443a6fcabe66dd/lib-rand_chacha.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":10091652985973831551,"profile":1/;"	n
+compile_kind	search_complex/target/debug/.fingerprint/rand_core-17d36794f0e589a5/lib-rand_core.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"getrandom\\", \\"std\\"]","target":14/;"	n
+compile_kind	search_complex/target/debug/.fingerprint/rand_core-38899a68ce737f03/lib-rand_core.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"getrandom\\", \\"std\\"]","target":14/;"	n
 compile_kind	search_complex/target/debug/.fingerprint/search_complex-04af69a9965794cf/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	n
+compile_kind	search_complex/target/debug/.fingerprint/search_complex-29c5b45b5d0c951a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":92510136562/;"	n
 compile_kind	search_complex/target/debug/.fingerprint/search_complex-3d75875083a28903/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	n
+compile_kind	search_complex/target/debug/.fingerprint/search_complex-a6db32349bfcf013/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	n
 compile_kind	search_complex/target/debug/.fingerprint/search_complex-c3e0c78a14395e7a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	n
+compile_kind	search_complex/target/debug/.fingerprint/search_complex-e7b5a594b3b0a62a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	n
 compile_kind	search_complex/target/debug/.fingerprint/search_complex-f19572bc3a587007/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	n
 config	search/target/debug/.fingerprint/autocfg-1666e724c4950338/lib-autocfg.json	/^{"rustc":14330414595928666026,"features":"[]","target":10236397793970852656,"profile":1263731873/;"	n
 config	search/target/debug/.fingerprint/autocfg-3aefa914eeb411d0/lib-autocfg.json	/^{"rustc":15069735523673833430,"features":"[]","target":10236397793970852656,"profile":1263731873/;"	n
@@ -1879,10 +2077,30 @@ config	search/target/rls/debug/.fingerprint/search-7592e65291c8491e/test-bin-sea
 config	search/target/rls/debug/.fingerprint/search-c0bffd160371d764/bin-search.json	/^{"rustc":14330414595928666026,"features":"[]","target":12463159907064279977,"profile":7309141686/;"	n
 config	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o
 config	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o
+config	search_complex/target/debug/.fingerprint/cfg-if-87828489ba99165a/lib-cfg-if.json	/^{"rustc":15069735523673833430,"features":"[]","target":10094334937643343087,"profile":1263731873/;"	n
+config	search_complex/target/debug/.fingerprint/cfg-if-dcce77079dd8fe1e/lib-cfg-if.json	/^{"rustc":15069735523673833430,"features":"[]","target":10094334937643343087,"profile":3735503092/;"	n
+config	search_complex/target/debug/.fingerprint/getrandom-2c1b364a870fe5cc/lib-getrandom.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":13546511942750895132,"profile":1/;"	n
+config	search_complex/target/debug/.fingerprint/getrandom-cf1ed9aeb248fba0/lib-getrandom.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":13546511942750895132,"profile":3/;"	n
 config	search_complex/target/debug/.fingerprint/lazy_static-1479f2b7adeaa2b6/lib-lazy_static.json	/^{"rustc":15069735523673833430,"features":"[]","target":6139664849541123785,"profile":37355030920/;"	n
+config	search_complex/target/debug/.fingerprint/lazy_static-7dec60f4d92a7423/lib-lazy_static.json	/^{"rustc":15069735523673833430,"features":"[]","target":6139664849541123785,"profile":12637318739/;"	n
+config	search_complex/target/debug/.fingerprint/libc-2dde55d3ef7f85bf/lib-libc.json	/^{"rustc":15069735523673833430,"features":"[]","target":15721753382687865320,"profile":3735503092/;"	n
+config	search_complex/target/debug/.fingerprint/libc-61894c5cceb2836b/lib-libc.json	/^{"rustc":15069735523673833430,"features":"[]","target":15721753382687865320,"profile":1263731873/;"	n
+config	search_complex/target/debug/.fingerprint/libc-aefa386dea193bc6/build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"[]","target":2709041430195671023,"profile":12637318739/;"	n
+config	search_complex/target/debug/.fingerprint/libc-bca7439595590b1d/run-build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"","target":0,"profile":0,"path":0,"deps":[[13743578918/;"	n
+config	search_complex/target/debug/.fingerprint/ppv-lite86-3b7ca02da013c4a7/lib-ppv-lite86.json	/^{"rustc":15069735523673833430,"features":"[\\"simd\\", \\"std\\"]","target":731041848731596649,"/;"	n
+config	search_complex/target/debug/.fingerprint/ppv-lite86-4d5a436bddd9e3c2/lib-ppv-lite86.json	/^{"rustc":15069735523673833430,"features":"[\\"simd\\", \\"std\\"]","target":731041848731596649,"/;"	n
+config	search_complex/target/debug/.fingerprint/rand-3dc1651f6b62a65b/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	n
+config	search_complex/target/debug/.fingerprint/rand-fed4d7c05ada4609/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	n
+config	search_complex/target/debug/.fingerprint/rand_chacha-13decd5a074faa7e/lib-rand_chacha.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":10091652985973831551,"profile":3/;"	n
+config	search_complex/target/debug/.fingerprint/rand_chacha-a2443a6fcabe66dd/lib-rand_chacha.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":10091652985973831551,"profile":1/;"	n
+config	search_complex/target/debug/.fingerprint/rand_core-17d36794f0e589a5/lib-rand_core.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"getrandom\\", \\"std\\"]","target":14/;"	n
+config	search_complex/target/debug/.fingerprint/rand_core-38899a68ce737f03/lib-rand_core.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"getrandom\\", \\"std\\"]","target":14/;"	n
 config	search_complex/target/debug/.fingerprint/search_complex-04af69a9965794cf/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	n
+config	search_complex/target/debug/.fingerprint/search_complex-29c5b45b5d0c951a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":92510136562/;"	n
 config	search_complex/target/debug/.fingerprint/search_complex-3d75875083a28903/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	n
+config	search_complex/target/debug/.fingerprint/search_complex-a6db32349bfcf013/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	n
 config	search_complex/target/debug/.fingerprint/search_complex-c3e0c78a14395e7a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	n
+config	search_complex/target/debug/.fingerprint/search_complex-e7b5a594b3b0a62a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	n
 config	search_complex/target/debug/.fingerprint/search_complex-f19572bc3a587007/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	n
 crate_id	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o	object:prelude
 crate_id	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o	object:prelude
@@ -2001,10 +2219,29 @@ dep_info	search/target/release/.fingerprint/paste-3aea5a6ebcae4308/lib-paste.jso
 dep_info	search/target/release/.fingerprint/search-439eed3229b6a3fc/bin-search.json	/^{"rustc":15069735523673833430,"features":"[]","target":12463159907064279977,"profile":6269190295/;"	s	object:local.0.CheckDepInfo
 dep_info	search/target/rls/debug/.fingerprint/search-7592e65291c8491e/test-bin-search.json	/^{"rustc":14330414595928666026,"features":"[]","target":12463159907064279977,"profile":1021633075/;"	s	object:local.0.CheckDepInfo
 dep_info	search/target/rls/debug/.fingerprint/search-c0bffd160371d764/bin-search.json	/^{"rustc":14330414595928666026,"features":"[]","target":12463159907064279977,"profile":7309141686/;"	s	object:local.0.CheckDepInfo
+dep_info	search_complex/target/debug/.fingerprint/cfg-if-87828489ba99165a/lib-cfg-if.json	/^{"rustc":15069735523673833430,"features":"[]","target":10094334937643343087,"profile":1263731873/;"	s	object:local.0.CheckDepInfo
+dep_info	search_complex/target/debug/.fingerprint/cfg-if-dcce77079dd8fe1e/lib-cfg-if.json	/^{"rustc":15069735523673833430,"features":"[]","target":10094334937643343087,"profile":3735503092/;"	s	object:local.0.CheckDepInfo
+dep_info	search_complex/target/debug/.fingerprint/getrandom-2c1b364a870fe5cc/lib-getrandom.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":13546511942750895132,"profile":1/;"	s	object:local.0.CheckDepInfo
+dep_info	search_complex/target/debug/.fingerprint/getrandom-cf1ed9aeb248fba0/lib-getrandom.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":13546511942750895132,"profile":3/;"	s	object:local.0.CheckDepInfo
 dep_info	search_complex/target/debug/.fingerprint/lazy_static-1479f2b7adeaa2b6/lib-lazy_static.json	/^{"rustc":15069735523673833430,"features":"[]","target":6139664849541123785,"profile":37355030920/;"	s	object:local.0.CheckDepInfo
+dep_info	search_complex/target/debug/.fingerprint/lazy_static-7dec60f4d92a7423/lib-lazy_static.json	/^{"rustc":15069735523673833430,"features":"[]","target":6139664849541123785,"profile":12637318739/;"	s	object:local.0.CheckDepInfo
+dep_info	search_complex/target/debug/.fingerprint/libc-2dde55d3ef7f85bf/lib-libc.json	/^{"rustc":15069735523673833430,"features":"[]","target":15721753382687865320,"profile":3735503092/;"	s	object:local.0.CheckDepInfo
+dep_info	search_complex/target/debug/.fingerprint/libc-61894c5cceb2836b/lib-libc.json	/^{"rustc":15069735523673833430,"features":"[]","target":15721753382687865320,"profile":1263731873/;"	s	object:local.0.CheckDepInfo
+dep_info	search_complex/target/debug/.fingerprint/libc-aefa386dea193bc6/build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"[]","target":2709041430195671023,"profile":12637318739/;"	s	object:local.0.CheckDepInfo
+dep_info	search_complex/target/debug/.fingerprint/ppv-lite86-3b7ca02da013c4a7/lib-ppv-lite86.json	/^{"rustc":15069735523673833430,"features":"[\\"simd\\", \\"std\\"]","target":731041848731596649,"/;"	s	object:local.0.CheckDepInfo
+dep_info	search_complex/target/debug/.fingerprint/ppv-lite86-4d5a436bddd9e3c2/lib-ppv-lite86.json	/^{"rustc":15069735523673833430,"features":"[\\"simd\\", \\"std\\"]","target":731041848731596649,"/;"	s	object:local.0.CheckDepInfo
+dep_info	search_complex/target/debug/.fingerprint/rand-3dc1651f6b62a65b/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	s	object:local.0.CheckDepInfo
+dep_info	search_complex/target/debug/.fingerprint/rand-fed4d7c05ada4609/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	s	object:local.0.CheckDepInfo
+dep_info	search_complex/target/debug/.fingerprint/rand_chacha-13decd5a074faa7e/lib-rand_chacha.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":10091652985973831551,"profile":3/;"	s	object:local.0.CheckDepInfo
+dep_info	search_complex/target/debug/.fingerprint/rand_chacha-a2443a6fcabe66dd/lib-rand_chacha.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":10091652985973831551,"profile":1/;"	s	object:local.0.CheckDepInfo
+dep_info	search_complex/target/debug/.fingerprint/rand_core-17d36794f0e589a5/lib-rand_core.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"getrandom\\", \\"std\\"]","target":14/;"	s	object:local.0.CheckDepInfo
+dep_info	search_complex/target/debug/.fingerprint/rand_core-38899a68ce737f03/lib-rand_core.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"getrandom\\", \\"std\\"]","target":14/;"	s	object:local.0.CheckDepInfo
 dep_info	search_complex/target/debug/.fingerprint/search_complex-04af69a9965794cf/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	s	object:local.0.CheckDepInfo
+dep_info	search_complex/target/debug/.fingerprint/search_complex-29c5b45b5d0c951a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":92510136562/;"	s	object:local.0.CheckDepInfo
 dep_info	search_complex/target/debug/.fingerprint/search_complex-3d75875083a28903/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	s	object:local.0.CheckDepInfo
+dep_info	search_complex/target/debug/.fingerprint/search_complex-a6db32349bfcf013/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	s	object:local.0.CheckDepInfo
 dep_info	search_complex/target/debug/.fingerprint/search_complex-c3e0c78a14395e7a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	s	object:local.0.CheckDepInfo
+dep_info	search_complex/target/debug/.fingerprint/search_complex-e7b5a594b3b0a62a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	s	object:local.0.CheckDepInfo
 dep_info	search_complex/target/debug/.fingerprint/search_complex-f19572bc3a587007/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	s	object:local.0.CheckDepInfo
 deps	search/target/debug/.fingerprint/autocfg-1666e724c4950338/lib-autocfg.json	/^{"rustc":14330414595928666026,"features":"[]","target":10236397793970852656,"profile":1263731873/;"	a
 deps	search/target/debug/.fingerprint/autocfg-3aefa914eeb411d0/lib-autocfg.json	/^{"rustc":15069735523673833430,"features":"[]","target":10236397793970852656,"profile":1263731873/;"	a
@@ -2133,10 +2370,30 @@ deps	search/target/release/.fingerprint/paste-3aea5a6ebcae4308/lib-paste.json	/^
 deps	search/target/release/.fingerprint/search-439eed3229b6a3fc/bin-search.json	/^{"rustc":15069735523673833430,"features":"[]","target":12463159907064279977,"profile":6269190295/;"	a
 deps	search/target/rls/debug/.fingerprint/search-7592e65291c8491e/test-bin-search.json	/^{"rustc":14330414595928666026,"features":"[]","target":12463159907064279977,"profile":1021633075/;"	a
 deps	search/target/rls/debug/.fingerprint/search-c0bffd160371d764/bin-search.json	/^{"rustc":14330414595928666026,"features":"[]","target":12463159907064279977,"profile":7309141686/;"	a
+deps	search_complex/target/debug/.fingerprint/cfg-if-87828489ba99165a/lib-cfg-if.json	/^{"rustc":15069735523673833430,"features":"[]","target":10094334937643343087,"profile":1263731873/;"	a
+deps	search_complex/target/debug/.fingerprint/cfg-if-dcce77079dd8fe1e/lib-cfg-if.json	/^{"rustc":15069735523673833430,"features":"[]","target":10094334937643343087,"profile":3735503092/;"	a
+deps	search_complex/target/debug/.fingerprint/getrandom-2c1b364a870fe5cc/lib-getrandom.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":13546511942750895132,"profile":1/;"	a
+deps	search_complex/target/debug/.fingerprint/getrandom-cf1ed9aeb248fba0/lib-getrandom.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":13546511942750895132,"profile":3/;"	a
 deps	search_complex/target/debug/.fingerprint/lazy_static-1479f2b7adeaa2b6/lib-lazy_static.json	/^{"rustc":15069735523673833430,"features":"[]","target":6139664849541123785,"profile":37355030920/;"	a
+deps	search_complex/target/debug/.fingerprint/lazy_static-7dec60f4d92a7423/lib-lazy_static.json	/^{"rustc":15069735523673833430,"features":"[]","target":6139664849541123785,"profile":12637318739/;"	a
+deps	search_complex/target/debug/.fingerprint/libc-2dde55d3ef7f85bf/lib-libc.json	/^{"rustc":15069735523673833430,"features":"[]","target":15721753382687865320,"profile":3735503092/;"	a
+deps	search_complex/target/debug/.fingerprint/libc-61894c5cceb2836b/lib-libc.json	/^{"rustc":15069735523673833430,"features":"[]","target":15721753382687865320,"profile":1263731873/;"	a
+deps	search_complex/target/debug/.fingerprint/libc-aefa386dea193bc6/build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"[]","target":2709041430195671023,"profile":12637318739/;"	a
+deps	search_complex/target/debug/.fingerprint/libc-bca7439595590b1d/run-build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"","target":0,"profile":0,"path":0,"deps":[[13743578918/;"	a
+deps	search_complex/target/debug/.fingerprint/ppv-lite86-3b7ca02da013c4a7/lib-ppv-lite86.json	/^{"rustc":15069735523673833430,"features":"[\\"simd\\", \\"std\\"]","target":731041848731596649,"/;"	a
+deps	search_complex/target/debug/.fingerprint/ppv-lite86-4d5a436bddd9e3c2/lib-ppv-lite86.json	/^{"rustc":15069735523673833430,"features":"[\\"simd\\", \\"std\\"]","target":731041848731596649,"/;"	a
+deps	search_complex/target/debug/.fingerprint/rand-3dc1651f6b62a65b/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	a
+deps	search_complex/target/debug/.fingerprint/rand-fed4d7c05ada4609/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	a
+deps	search_complex/target/debug/.fingerprint/rand_chacha-13decd5a074faa7e/lib-rand_chacha.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":10091652985973831551,"profile":3/;"	a
+deps	search_complex/target/debug/.fingerprint/rand_chacha-a2443a6fcabe66dd/lib-rand_chacha.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":10091652985973831551,"profile":1/;"	a
+deps	search_complex/target/debug/.fingerprint/rand_core-17d36794f0e589a5/lib-rand_core.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"getrandom\\", \\"std\\"]","target":14/;"	a
+deps	search_complex/target/debug/.fingerprint/rand_core-38899a68ce737f03/lib-rand_core.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"getrandom\\", \\"std\\"]","target":14/;"	a
 deps	search_complex/target/debug/.fingerprint/search_complex-04af69a9965794cf/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	a
+deps	search_complex/target/debug/.fingerprint/search_complex-29c5b45b5d0c951a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":92510136562/;"	a
 deps	search_complex/target/debug/.fingerprint/search_complex-3d75875083a28903/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	a
+deps	search_complex/target/debug/.fingerprint/search_complex-a6db32349bfcf013/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	a
 deps	search_complex/target/debug/.fingerprint/search_complex-c3e0c78a14395e7a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	a
+deps	search_complex/target/debug/.fingerprint/search_complex-e7b5a594b3b0a62a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	a
 deps	search_complex/target/debug/.fingerprint/search_complex-f19572bc3a587007/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	a
 depth	search/src/algorithms/node.rs	/^pub fn depth<S, A>(start_node: Node<S, A>) -> usize $/;"	f
 depth	search_complex/src/algorithms/node.rs	/^pub fn depth<S, A>(start_node: Node<S, A>) -> usize $/;"	f
@@ -2198,7 +2455,7 @@ expand	search_complex/src/algorithms/problem.rs	/^pub fn expand<'a, P, S, A>(pro
 external_crates	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	a	object:prelude
 external_crates	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	a	object:prelude
 f	search/src/algorithms/node.rs	/^    pub f: u32$/;"	m	struct:Node
-f	search_complex/src/algorithms/node.rs	/^    pub f: u32$/;"	m	struct:Node
+f	search_complex/src/algorithms/node.rs	/^    pub f: f64$/;"	m	struct:Node
 features	search/target/debug/.fingerprint/autocfg-1666e724c4950338/lib-autocfg.json	/^{"rustc":14330414595928666026,"features":"[]","target":10236397793970852656,"profile":1263731873/;"	s
 features	search/target/debug/.fingerprint/autocfg-3aefa914eeb411d0/lib-autocfg.json	/^{"rustc":15069735523673833430,"features":"[]","target":10236397793970852656,"profile":1263731873/;"	s
 features	search/target/debug/.fingerprint/cfg-if-0a04e74fc4f21d18/lib-cfg-if.json	/^{"rustc":14330414595928666026,"features":"[]","target":10094334937643343087,"profile":1263731873/;"	s
@@ -2326,10 +2583,30 @@ features	search/target/release/.fingerprint/paste-3aea5a6ebcae4308/lib-paste.jso
 features	search/target/release/.fingerprint/search-439eed3229b6a3fc/bin-search.json	/^{"rustc":15069735523673833430,"features":"[]","target":12463159907064279977,"profile":6269190295/;"	s
 features	search/target/rls/debug/.fingerprint/search-7592e65291c8491e/test-bin-search.json	/^{"rustc":14330414595928666026,"features":"[]","target":12463159907064279977,"profile":1021633075/;"	s
 features	search/target/rls/debug/.fingerprint/search-c0bffd160371d764/bin-search.json	/^{"rustc":14330414595928666026,"features":"[]","target":12463159907064279977,"profile":7309141686/;"	s
+features	search_complex/target/debug/.fingerprint/cfg-if-87828489ba99165a/lib-cfg-if.json	/^{"rustc":15069735523673833430,"features":"[]","target":10094334937643343087,"profile":1263731873/;"	s
+features	search_complex/target/debug/.fingerprint/cfg-if-dcce77079dd8fe1e/lib-cfg-if.json	/^{"rustc":15069735523673833430,"features":"[]","target":10094334937643343087,"profile":3735503092/;"	s
+features	search_complex/target/debug/.fingerprint/getrandom-2c1b364a870fe5cc/lib-getrandom.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":13546511942750895132,"profile":1/;"	s
+features	search_complex/target/debug/.fingerprint/getrandom-cf1ed9aeb248fba0/lib-getrandom.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":13546511942750895132,"profile":3/;"	s
 features	search_complex/target/debug/.fingerprint/lazy_static-1479f2b7adeaa2b6/lib-lazy_static.json	/^{"rustc":15069735523673833430,"features":"[]","target":6139664849541123785,"profile":37355030920/;"	s
+features	search_complex/target/debug/.fingerprint/lazy_static-7dec60f4d92a7423/lib-lazy_static.json	/^{"rustc":15069735523673833430,"features":"[]","target":6139664849541123785,"profile":12637318739/;"	s
+features	search_complex/target/debug/.fingerprint/libc-2dde55d3ef7f85bf/lib-libc.json	/^{"rustc":15069735523673833430,"features":"[]","target":15721753382687865320,"profile":3735503092/;"	s
+features	search_complex/target/debug/.fingerprint/libc-61894c5cceb2836b/lib-libc.json	/^{"rustc":15069735523673833430,"features":"[]","target":15721753382687865320,"profile":1263731873/;"	s
+features	search_complex/target/debug/.fingerprint/libc-aefa386dea193bc6/build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"[]","target":2709041430195671023,"profile":12637318739/;"	s
+features	search_complex/target/debug/.fingerprint/libc-bca7439595590b1d/run-build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"","target":0,"profile":0,"path":0,"deps":[[13743578918/;"	s
+features	search_complex/target/debug/.fingerprint/ppv-lite86-3b7ca02da013c4a7/lib-ppv-lite86.json	/^{"rustc":15069735523673833430,"features":"[\\"simd\\", \\"std\\"]","target":731041848731596649,"/;"	s
+features	search_complex/target/debug/.fingerprint/ppv-lite86-4d5a436bddd9e3c2/lib-ppv-lite86.json	/^{"rustc":15069735523673833430,"features":"[\\"simd\\", \\"std\\"]","target":731041848731596649,"/;"	s
+features	search_complex/target/debug/.fingerprint/rand-3dc1651f6b62a65b/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	s
+features	search_complex/target/debug/.fingerprint/rand-fed4d7c05ada4609/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	s
+features	search_complex/target/debug/.fingerprint/rand_chacha-13decd5a074faa7e/lib-rand_chacha.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":10091652985973831551,"profile":3/;"	s
+features	search_complex/target/debug/.fingerprint/rand_chacha-a2443a6fcabe66dd/lib-rand_chacha.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":10091652985973831551,"profile":1/;"	s
+features	search_complex/target/debug/.fingerprint/rand_core-17d36794f0e589a5/lib-rand_core.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"getrandom\\", \\"std\\"]","target":14/;"	s
+features	search_complex/target/debug/.fingerprint/rand_core-38899a68ce737f03/lib-rand_core.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"getrandom\\", \\"std\\"]","target":14/;"	s
 features	search_complex/target/debug/.fingerprint/search_complex-04af69a9965794cf/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	s
+features	search_complex/target/debug/.fingerprint/search_complex-29c5b45b5d0c951a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":92510136562/;"	s
 features	search_complex/target/debug/.fingerprint/search_complex-3d75875083a28903/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	s
+features	search_complex/target/debug/.fingerprint/search_complex-a6db32349bfcf013/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	s
 features	search_complex/target/debug/.fingerprint/search_complex-c3e0c78a14395e7a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	s
+features	search_complex/target/debug/.fingerprint/search_complex-e7b5a594b3b0a62a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	s
 features	search_complex/target/debug/.fingerprint/search_complex-f19572bc3a587007/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	s
 file_name	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	s	object:defs.0.span
 file_name	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	s	object:defs.1.attributes.0.span
@@ -2384,22 +2661,31 @@ fmt	search/src/algorithms/node.rs	/^    fn fmt (&self, fmt: &mut std::fmt::Forma
 fmt	search_complex/src/algorithms/node.rs	/^    fn fmt (&self, fmt: &mut std::fmt::Formatter) -> std::result::Result<(), std::fmt::Error> {$/;"	f
 full_docs	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	b	object:config
 full_docs	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	b	object:config
+genetic_algorithm	search_complex/src/algorithms/genetic_algorithm.rs	/^pub fn genetic_algorithm<P, A>(problem: &P) -> SearchResult<String, A> $/;"	f
 genetic_algorithm	search_complex/src/algorithms/mod.rs	/^pub mod genetic_algorithm;$/;"	n
+genetic_fitness	search_complex/src/algorithms/genetic_algorithm.rs	/^fn genetic_fitness<P, A>(problem: &P, individual: &Individual<A>) -> GeneticWeights $/;"	f
 get_goal_node	search/src/algorithms/problem.rs	/^    fn get_goal_node(&self) -> Node<S, A>;$/;"	P	interface:Problem
 get_goal_node	search/src/algorithms/problem.rs	/^    fn get_goal_node(&self) -> Node<State, Action> {$/;"	P	implementation:AradToBucharestProblem
+get_goal_node	search_complex/src/algorithms/problem.rs	/^    fn get_goal_node(&self) -> Node<GraphState, GraphAction> {$/;"	P	implementation:GraphProblem
 get_goal_node	search_complex/src/algorithms/problem.rs	/^    fn get_goal_node(&self) -> Node<S, A>;$/;"	P	interface:Problem
 get_goal_node	search_complex/src/algorithms/problem.rs	/^    fn get_goal_node(&self) -> Node<State, Action> {$/;"	P	implementation:AradToBucharestProblem
 get_heuristic_cost	search/src/algorithms/problem.rs	/^    fn get_heuristic_cost(&self, state: &S) -> u32;$/;"	P	interface:Problem
 get_heuristic_cost	search/src/algorithms/problem.rs	/^    fn get_heuristic_cost(&self, state: &State) -> u32 {$/;"	P	implementation:AradToBucharestProblem
-get_heuristic_cost	search_complex/src/algorithms/problem.rs	/^    fn get_heuristic_cost(&self, state: &S) -> u32;$/;"	P	interface:Problem
-get_heuristic_cost	search_complex/src/algorithms/problem.rs	/^    fn get_heuristic_cost(&self, state: &State) -> u32 {$/;"	P	implementation:AradToBucharestProblem
+get_heuristic_cost	search_complex/src/algorithms/problem.rs	/^    fn get_heuristic_cost(&self, state: &GraphState) -> f64 {$/;"	P	implementation:GraphProblem
+get_heuristic_cost	search_complex/src/algorithms/problem.rs	/^    fn get_heuristic_cost(&self, state: &S) -> f64;$/;"	P	interface:Problem
+get_heuristic_cost	search_complex/src/algorithms/problem.rs	/^    fn get_heuristic_cost(&self, state: &State) -> f64 {$/;"	P	implementation:AradToBucharestProblem
 get_initial_node	search/src/algorithms/problem.rs	/^    fn get_initial_node(&self) -> Node<S, A>;$/;"	P	interface:Problem
 get_initial_node	search/src/algorithms/problem.rs	/^    fn get_initial_node(&self) -> Node<State, Action> {$/;"	P	implementation:AradToBucharestProblem
+get_initial_node	search_complex/src/algorithms/problem.rs	/^    fn get_initial_node(&self) -> Node<GraphState, GraphAction> {$/;"	P	implementation:GraphProblem
 get_initial_node	search_complex/src/algorithms/problem.rs	/^    fn get_initial_node(&self) -> Node<S, A>;$/;"	P	interface:Problem
 get_initial_node	search_complex/src/algorithms/problem.rs	/^    fn get_initial_node(&self) -> Node<State, Action> {$/;"	P	implementation:AradToBucharestProblem
 goal_state	search/src/algorithms/problem.rs	/^    goal_state: State$/;"	m	struct:AradToBucharestProblem
 goal_state	search_complex/src/algorithms/problem.rs	/^    goal_state: State$/;"	m	struct:AradToBucharestProblem
+graph_actions	search_complex/src/algorithms/problem.rs	/^fn graph_actions(state: GraphState) -> Vec<GraphAction> {$/;"	f
+graph_dfn	search_complex/src/algorithms/problem.rs	/^    graph_dfn: fn(f64) -> f64$/;"	m	struct:GraphProblem
+graph_fn	search_complex/src/algorithms/problem.rs	/^    graph_fn: fn(f64) -> f64,$/;"	m	struct:GraphProblem
 h	search/src/main.rs	/^fn h<P, S, A>(problem: &P, node: &Node<S, A>) -> u32$/;"	f
+h	search_complex/src/main.rs	/^fn h<P, S, A>(problem: &P, node: &Node<S, A>) -> f64$/;"	f
 highest_valued_successor	search_complex/src/algorithms/hill_climbing.rs	/^fn highest_valued_successor<P, S, A>(problem: &P, node: Node<S, A>) -> SearchResult<S, A>$/;"	f
 hill_climbing	search_complex/src/algorithms/hill_climbing.rs	/^pub fn hill_climbing<P, S, A>(problem: &P) -> SearchResult<S, A>$/;"	f
 hill_climbing	search_complex/src/algorithms/mod.rs	/^pub mod hill_climbing;$/;"	n
@@ -2464,12 +2750,16 @@ index	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^
 index	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	n	object:defs.0.children.2
 index	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	n	object:defs.0.id
 index	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	n	object:defs.1.id
+initial_node	search_complex/src/algorithms/problem.rs	/^    initial_node: Node<GraphState, GraphAction>,$/;"	m	struct:GraphProblem
+initial_node	search_complex/src/algorithms/problem.rs	/^    initial_node: Node<S, A>$/;"	m	struct:GenericComplexProblem
 initial_state	search/src/algorithms/problem.rs	/^    initial_state: State,$/;"	m	struct:AradToBucharestProblem
 initial_state	search_complex/src/algorithms/problem.rs	/^    initial_state: State,$/;"	m	struct:AradToBucharestProblem
 is_cycle	search/src/algorithms/node.rs	/^pub fn is_cycle<S, A>(node: Node<S, A>) -> bool $/;"	f
 is_cycle	search_complex/src/algorithms/node.rs	/^pub fn is_cycle<S, A>(node: Node<S, A>) -> bool $/;"	f
+is_fit_enough	search_complex/src/algorithms/genetic_algorithm.rs	/^fn is_fit_enough<P, A>(problem: &P, individual: &Individual<A>) -> bool $/;"	f
 is_goal	search/src/algorithms/problem.rs	/^    fn is_goal(&self, state: &S) -> bool;$/;"	P	interface:Problem
 is_goal	search/src/algorithms/problem.rs	/^    fn is_goal(&self, state: &State) -> bool {$/;"	P	implementation:AradToBucharestProblem
+is_goal	search_complex/src/algorithms/problem.rs	/^    fn is_goal(&self, state: &GraphState) -> bool {$/;"	P	implementation:GraphProblem
 is_goal	search_complex/src/algorithms/problem.rs	/^    fn is_goal(&self, state: &S) -> bool;$/;"	P	interface:Problem
 is_goal	search_complex/src/algorithms/problem.rs	/^    fn is_goal(&self, state: &State) -> bool {$/;"	P	implementation:AradToBucharestProblem
 iterative_deepening_search	search/src/algorithms/iterative_deepening_search.rs	/^pub fn iterative_deepening_search<P, S, A>(problem: &P) -> SearchResult<S, A> $/;"	f
@@ -2631,10 +2921,30 @@ local	search/target/release/.fingerprint/paste-3aea5a6ebcae4308/lib-paste.json	/
 local	search/target/release/.fingerprint/search-439eed3229b6a3fc/bin-search.json	/^{"rustc":15069735523673833430,"features":"[]","target":12463159907064279977,"profile":6269190295/;"	a
 local	search/target/rls/debug/.fingerprint/search-7592e65291c8491e/test-bin-search.json	/^{"rustc":14330414595928666026,"features":"[]","target":12463159907064279977,"profile":1021633075/;"	a
 local	search/target/rls/debug/.fingerprint/search-c0bffd160371d764/bin-search.json	/^{"rustc":14330414595928666026,"features":"[]","target":12463159907064279977,"profile":7309141686/;"	a
+local	search_complex/target/debug/.fingerprint/cfg-if-87828489ba99165a/lib-cfg-if.json	/^{"rustc":15069735523673833430,"features":"[]","target":10094334937643343087,"profile":1263731873/;"	a
+local	search_complex/target/debug/.fingerprint/cfg-if-dcce77079dd8fe1e/lib-cfg-if.json	/^{"rustc":15069735523673833430,"features":"[]","target":10094334937643343087,"profile":3735503092/;"	a
+local	search_complex/target/debug/.fingerprint/getrandom-2c1b364a870fe5cc/lib-getrandom.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":13546511942750895132,"profile":1/;"	a
+local	search_complex/target/debug/.fingerprint/getrandom-cf1ed9aeb248fba0/lib-getrandom.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":13546511942750895132,"profile":3/;"	a
 local	search_complex/target/debug/.fingerprint/lazy_static-1479f2b7adeaa2b6/lib-lazy_static.json	/^{"rustc":15069735523673833430,"features":"[]","target":6139664849541123785,"profile":37355030920/;"	a
+local	search_complex/target/debug/.fingerprint/lazy_static-7dec60f4d92a7423/lib-lazy_static.json	/^{"rustc":15069735523673833430,"features":"[]","target":6139664849541123785,"profile":12637318739/;"	a
+local	search_complex/target/debug/.fingerprint/libc-2dde55d3ef7f85bf/lib-libc.json	/^{"rustc":15069735523673833430,"features":"[]","target":15721753382687865320,"profile":3735503092/;"	a
+local	search_complex/target/debug/.fingerprint/libc-61894c5cceb2836b/lib-libc.json	/^{"rustc":15069735523673833430,"features":"[]","target":15721753382687865320,"profile":1263731873/;"	a
+local	search_complex/target/debug/.fingerprint/libc-aefa386dea193bc6/build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"[]","target":2709041430195671023,"profile":12637318739/;"	a
+local	search_complex/target/debug/.fingerprint/libc-bca7439595590b1d/run-build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"","target":0,"profile":0,"path":0,"deps":[[13743578918/;"	a
+local	search_complex/target/debug/.fingerprint/ppv-lite86-3b7ca02da013c4a7/lib-ppv-lite86.json	/^{"rustc":15069735523673833430,"features":"[\\"simd\\", \\"std\\"]","target":731041848731596649,"/;"	a
+local	search_complex/target/debug/.fingerprint/ppv-lite86-4d5a436bddd9e3c2/lib-ppv-lite86.json	/^{"rustc":15069735523673833430,"features":"[\\"simd\\", \\"std\\"]","target":731041848731596649,"/;"	a
+local	search_complex/target/debug/.fingerprint/rand-3dc1651f6b62a65b/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	a
+local	search_complex/target/debug/.fingerprint/rand-fed4d7c05ada4609/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	a
+local	search_complex/target/debug/.fingerprint/rand_chacha-13decd5a074faa7e/lib-rand_chacha.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":10091652985973831551,"profile":3/;"	a
+local	search_complex/target/debug/.fingerprint/rand_chacha-a2443a6fcabe66dd/lib-rand_chacha.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":10091652985973831551,"profile":1/;"	a
+local	search_complex/target/debug/.fingerprint/rand_core-17d36794f0e589a5/lib-rand_core.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"getrandom\\", \\"std\\"]","target":14/;"	a
+local	search_complex/target/debug/.fingerprint/rand_core-38899a68ce737f03/lib-rand_core.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"getrandom\\", \\"std\\"]","target":14/;"	a
 local	search_complex/target/debug/.fingerprint/search_complex-04af69a9965794cf/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	a
+local	search_complex/target/debug/.fingerprint/search_complex-29c5b45b5d0c951a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":92510136562/;"	a
 local	search_complex/target/debug/.fingerprint/search_complex-3d75875083a28903/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	a
+local	search_complex/target/debug/.fingerprint/search_complex-a6db32349bfcf013/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	a
 local	search_complex/target/debug/.fingerprint/search_complex-c3e0c78a14395e7a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	a
+local	search_complex/target/debug/.fingerprint/search_complex-e7b5a594b3b0a62a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	a
 local	search_complex/target/debug/.fingerprint/search_complex-f19572bc3a587007/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	a
 lrta_agent	search_complex/src/algorithms/mod.rs	/^pub mod lrta_agent;$/;"	n
 macro_refs	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	a
@@ -2768,11 +3078,32 @@ metadata	search/target/release/.fingerprint/paste-3aea5a6ebcae4308/lib-paste.jso
 metadata	search/target/release/.fingerprint/search-439eed3229b6a3fc/bin-search.json	/^{"rustc":15069735523673833430,"features":"[]","target":12463159907064279977,"profile":6269190295/;"	n
 metadata	search/target/rls/debug/.fingerprint/search-7592e65291c8491e/test-bin-search.json	/^{"rustc":14330414595928666026,"features":"[]","target":12463159907064279977,"profile":1021633075/;"	n
 metadata	search/target/rls/debug/.fingerprint/search-c0bffd160371d764/bin-search.json	/^{"rustc":14330414595928666026,"features":"[]","target":12463159907064279977,"profile":7309141686/;"	n
+metadata	search_complex/target/debug/.fingerprint/cfg-if-87828489ba99165a/lib-cfg-if.json	/^{"rustc":15069735523673833430,"features":"[]","target":10094334937643343087,"profile":1263731873/;"	n
+metadata	search_complex/target/debug/.fingerprint/cfg-if-dcce77079dd8fe1e/lib-cfg-if.json	/^{"rustc":15069735523673833430,"features":"[]","target":10094334937643343087,"profile":3735503092/;"	n
+metadata	search_complex/target/debug/.fingerprint/getrandom-2c1b364a870fe5cc/lib-getrandom.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":13546511942750895132,"profile":1/;"	n
+metadata	search_complex/target/debug/.fingerprint/getrandom-cf1ed9aeb248fba0/lib-getrandom.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":13546511942750895132,"profile":3/;"	n
 metadata	search_complex/target/debug/.fingerprint/lazy_static-1479f2b7adeaa2b6/lib-lazy_static.json	/^{"rustc":15069735523673833430,"features":"[]","target":6139664849541123785,"profile":37355030920/;"	n
+metadata	search_complex/target/debug/.fingerprint/lazy_static-7dec60f4d92a7423/lib-lazy_static.json	/^{"rustc":15069735523673833430,"features":"[]","target":6139664849541123785,"profile":12637318739/;"	n
+metadata	search_complex/target/debug/.fingerprint/libc-2dde55d3ef7f85bf/lib-libc.json	/^{"rustc":15069735523673833430,"features":"[]","target":15721753382687865320,"profile":3735503092/;"	n
+metadata	search_complex/target/debug/.fingerprint/libc-61894c5cceb2836b/lib-libc.json	/^{"rustc":15069735523673833430,"features":"[]","target":15721753382687865320,"profile":1263731873/;"	n
+metadata	search_complex/target/debug/.fingerprint/libc-aefa386dea193bc6/build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"[]","target":2709041430195671023,"profile":12637318739/;"	n
+metadata	search_complex/target/debug/.fingerprint/libc-bca7439595590b1d/run-build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"","target":0,"profile":0,"path":0,"deps":[[13743578918/;"	n
+metadata	search_complex/target/debug/.fingerprint/ppv-lite86-3b7ca02da013c4a7/lib-ppv-lite86.json	/^{"rustc":15069735523673833430,"features":"[\\"simd\\", \\"std\\"]","target":731041848731596649,"/;"	n
+metadata	search_complex/target/debug/.fingerprint/ppv-lite86-4d5a436bddd9e3c2/lib-ppv-lite86.json	/^{"rustc":15069735523673833430,"features":"[\\"simd\\", \\"std\\"]","target":731041848731596649,"/;"	n
+metadata	search_complex/target/debug/.fingerprint/rand-3dc1651f6b62a65b/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	n
+metadata	search_complex/target/debug/.fingerprint/rand-fed4d7c05ada4609/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	n
+metadata	search_complex/target/debug/.fingerprint/rand_chacha-13decd5a074faa7e/lib-rand_chacha.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":10091652985973831551,"profile":3/;"	n
+metadata	search_complex/target/debug/.fingerprint/rand_chacha-a2443a6fcabe66dd/lib-rand_chacha.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":10091652985973831551,"profile":1/;"	n
+metadata	search_complex/target/debug/.fingerprint/rand_core-17d36794f0e589a5/lib-rand_core.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"getrandom\\", \\"std\\"]","target":14/;"	n
+metadata	search_complex/target/debug/.fingerprint/rand_core-38899a68ce737f03/lib-rand_core.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"getrandom\\", \\"std\\"]","target":14/;"	n
 metadata	search_complex/target/debug/.fingerprint/search_complex-04af69a9965794cf/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	n
+metadata	search_complex/target/debug/.fingerprint/search_complex-29c5b45b5d0c951a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":92510136562/;"	n
 metadata	search_complex/target/debug/.fingerprint/search_complex-3d75875083a28903/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	n
+metadata	search_complex/target/debug/.fingerprint/search_complex-a6db32349bfcf013/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	n
 metadata	search_complex/target/debug/.fingerprint/search_complex-c3e0c78a14395e7a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	n
+metadata	search_complex/target/debug/.fingerprint/search_complex-e7b5a594b3b0a62a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	n
 metadata	search_complex/target/debug/.fingerprint/search_complex-f19572bc3a587007/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	n
+mutate	search_complex/src/algorithms/genetic_algorithm.rs	/^fn mutate<P, A>(problem: &P, child: &Individual<A>) -> Individual<A>$/;"	f
 name	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	s	object:defs.0
 name	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	s	object:defs.1
 name	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	s	object:prelude.crate_id
@@ -2822,9 +3153,11 @@ name	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{
 name	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	s	object:prelude.external_crates.8.id
 name	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	s	object:prelude.external_crates.9.id
 new	search/src/algorithms/node.rs	/^    pub const fn new(state: S, parent: Option<Box<Node<S, A>>>, action: Option<A>, path_cost: u3/;"	P	implementation:Node
-new	search_complex/src/algorithms/node.rs	/^    pub const fn new(state: S, parent: Option<Box<Node<S, A>>>, action: Option<A>, path_cost: u3/;"	P	implementation:Node
+new	search_complex/src/algorithms/node.rs	/^    pub const fn new(state: S, parent: Option<Box<Node<S, A>>>, action: Option<A>, path_cost: f6/;"	P	implementation:Node
 node	search/src/algorithms/mod.rs	/^pub mod node;$/;"	n
 node	search_complex/src/algorithms/mod.rs	/^pub mod node;$/;"	n
+noise_dfn	search_complex/src/algorithms/problem.rs	/^fn noise_dfn(x : f64) -> f64 {$/;"	f
+noise_fn	search_complex/src/algorithms/problem.rs	/^fn noise_fn(x: f64) -> f64 {$/;"	f
 num	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	n	object:prelude.external_crates.0
 num	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	n	object:prelude.external_crates.1
 num	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	n	object:prelude.external_crates.10
@@ -2889,11 +3222,12 @@ output	search/target/release/.fingerprint/num-rational-9f8f3ad103dcafcf/run-buil
 output	search/target/release/.fingerprint/num-traits-0ba7a1052bdb690b/run-build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"","target":0,"profile":0,"path":0,"deps":[[81216356945/;"	s	object:local.0.RerunIfChanged
 output	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	s	object:compilation
 output	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	s	object:compilation
+output	search_complex/target/debug/.fingerprint/libc-bca7439595590b1d/run-build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"","target":0,"profile":0,"path":0,"deps":[[13743578918/;"	s	object:local.0.RerunIfChanged
 output_file	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	z	object:config
 output_file	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	z	object:config
 outputs	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	o
 outputs	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	o
-outputs	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	o
+outputs	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	o
 parent	search/src/algorithms/node.rs	/^    pub parent: Option<Box<Node<S, A>>>,$/;"	m	struct:Node
 parent	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	z	object:defs.0
 parent	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	z	object:defs.1
@@ -3027,13 +3361,33 @@ path	search/target/release/.fingerprint/paste-3aea5a6ebcae4308/lib-paste.json	/^
 path	search/target/release/.fingerprint/search-439eed3229b6a3fc/bin-search.json	/^{"rustc":15069735523673833430,"features":"[]","target":12463159907064279977,"profile":6269190295/;"	n
 path	search/target/rls/debug/.fingerprint/search-7592e65291c8491e/test-bin-search.json	/^{"rustc":14330414595928666026,"features":"[]","target":12463159907064279977,"profile":1021633075/;"	n
 path	search/target/rls/debug/.fingerprint/search-c0bffd160371d764/bin-search.json	/^{"rustc":14330414595928666026,"features":"[]","target":12463159907064279977,"profile":7309141686/;"	n
+path	search_complex/target/debug/.fingerprint/cfg-if-87828489ba99165a/lib-cfg-if.json	/^{"rustc":15069735523673833430,"features":"[]","target":10094334937643343087,"profile":1263731873/;"	n
+path	search_complex/target/debug/.fingerprint/cfg-if-dcce77079dd8fe1e/lib-cfg-if.json	/^{"rustc":15069735523673833430,"features":"[]","target":10094334937643343087,"profile":3735503092/;"	n
+path	search_complex/target/debug/.fingerprint/getrandom-2c1b364a870fe5cc/lib-getrandom.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":13546511942750895132,"profile":1/;"	n
+path	search_complex/target/debug/.fingerprint/getrandom-cf1ed9aeb248fba0/lib-getrandom.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":13546511942750895132,"profile":3/;"	n
 path	search_complex/target/debug/.fingerprint/lazy_static-1479f2b7adeaa2b6/lib-lazy_static.json	/^{"rustc":15069735523673833430,"features":"[]","target":6139664849541123785,"profile":37355030920/;"	n
+path	search_complex/target/debug/.fingerprint/lazy_static-7dec60f4d92a7423/lib-lazy_static.json	/^{"rustc":15069735523673833430,"features":"[]","target":6139664849541123785,"profile":12637318739/;"	n
+path	search_complex/target/debug/.fingerprint/libc-2dde55d3ef7f85bf/lib-libc.json	/^{"rustc":15069735523673833430,"features":"[]","target":15721753382687865320,"profile":3735503092/;"	n
+path	search_complex/target/debug/.fingerprint/libc-61894c5cceb2836b/lib-libc.json	/^{"rustc":15069735523673833430,"features":"[]","target":15721753382687865320,"profile":1263731873/;"	n
+path	search_complex/target/debug/.fingerprint/libc-aefa386dea193bc6/build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"[]","target":2709041430195671023,"profile":12637318739/;"	n
+path	search_complex/target/debug/.fingerprint/libc-bca7439595590b1d/run-build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"","target":0,"profile":0,"path":0,"deps":[[13743578918/;"	n
+path	search_complex/target/debug/.fingerprint/ppv-lite86-3b7ca02da013c4a7/lib-ppv-lite86.json	/^{"rustc":15069735523673833430,"features":"[\\"simd\\", \\"std\\"]","target":731041848731596649,"/;"	n
+path	search_complex/target/debug/.fingerprint/ppv-lite86-4d5a436bddd9e3c2/lib-ppv-lite86.json	/^{"rustc":15069735523673833430,"features":"[\\"simd\\", \\"std\\"]","target":731041848731596649,"/;"	n
+path	search_complex/target/debug/.fingerprint/rand-3dc1651f6b62a65b/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	n
+path	search_complex/target/debug/.fingerprint/rand-fed4d7c05ada4609/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	n
+path	search_complex/target/debug/.fingerprint/rand_chacha-13decd5a074faa7e/lib-rand_chacha.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":10091652985973831551,"profile":3/;"	n
+path	search_complex/target/debug/.fingerprint/rand_chacha-a2443a6fcabe66dd/lib-rand_chacha.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":10091652985973831551,"profile":1/;"	n
+path	search_complex/target/debug/.fingerprint/rand_core-17d36794f0e589a5/lib-rand_core.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"getrandom\\", \\"std\\"]","target":14/;"	n
+path	search_complex/target/debug/.fingerprint/rand_core-38899a68ce737f03/lib-rand_core.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"getrandom\\", \\"std\\"]","target":14/;"	n
 path	search_complex/target/debug/.fingerprint/search_complex-04af69a9965794cf/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	n
+path	search_complex/target/debug/.fingerprint/search_complex-29c5b45b5d0c951a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":92510136562/;"	n
 path	search_complex/target/debug/.fingerprint/search_complex-3d75875083a28903/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	n
+path	search_complex/target/debug/.fingerprint/search_complex-a6db32349bfcf013/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	n
 path	search_complex/target/debug/.fingerprint/search_complex-c3e0c78a14395e7a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	n
+path	search_complex/target/debug/.fingerprint/search_complex-e7b5a594b3b0a62a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	n
 path	search_complex/target/debug/.fingerprint/search_complex-f19572bc3a587007/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	n
 path_cost	search/src/algorithms/node.rs	/^    pub path_cost: u32,$/;"	m	struct:Node
-path_cost	search_complex/src/algorithms/node.rs	/^    pub path_cost: u32,$/;"	m	struct:Node
+path_cost	search_complex/src/algorithms/node.rs	/^    pub path_cost: f64,$/;"	m	struct:Node
 paths	search/target/debug/.fingerprint/libc-afc331dcea82d9a5/run-build-script-build-script-build.json	/^{"rustc":14330414595928666026,"features":"","target":0,"profile":0,"path":0,"deps":[[13743578918/;"	a	object:local.0.RerunIfChanged
 paths	search/target/debug/.fingerprint/num-bigint-13957ab7ea253800/run-build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"","target":0,"profile":0,"path":0,"deps":[[11048371280/;"	a	object:local.0.RerunIfChanged
 paths	search/target/debug/.fingerprint/num-bigint-6ea2015ca34fd581/run-build-script-build-script-build.json	/^{"rustc":14330414595928666026,"features":"","target":0,"profile":0,"path":0,"deps":[[11048371280/;"	a	object:local.0.RerunIfChanged
@@ -3052,6 +3406,7 @@ paths	search/target/release/.fingerprint/num-integer-3f4a5307098ad7ba/run-build-
 paths	search/target/release/.fingerprint/num-iter-dfdb95d7309cc61d/run-build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"","target":0,"profile":0,"path":0,"deps":[[17104864861/;"	a	object:local.0.RerunIfChanged
 paths	search/target/release/.fingerprint/num-rational-9f8f3ad103dcafcf/run-build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"","target":0,"profile":0,"path":0,"deps":[[12116750734/;"	a	object:local.0.RerunIfChanged
 paths	search/target/release/.fingerprint/num-traits-0ba7a1052bdb690b/run-build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"","target":0,"profile":0,"path":0,"deps":[[81216356945/;"	a	object:local.0.RerunIfChanged
+paths	search_complex/target/debug/.fingerprint/libc-bca7439595590b1d/run-build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"","target":0,"profile":0,"path":0,"deps":[[13743578918/;"	a	object:local.0.RerunIfChanged
 prelude	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o
 prelude	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o
 problem	search/src/algorithms/mod.rs	/^pub mod problem;$/;"	n
@@ -3184,10 +3539,30 @@ profile	search/target/release/.fingerprint/paste-3aea5a6ebcae4308/lib-paste.json
 profile	search/target/release/.fingerprint/search-439eed3229b6a3fc/bin-search.json	/^{"rustc":15069735523673833430,"features":"[]","target":12463159907064279977,"profile":6269190295/;"	n
 profile	search/target/rls/debug/.fingerprint/search-7592e65291c8491e/test-bin-search.json	/^{"rustc":14330414595928666026,"features":"[]","target":12463159907064279977,"profile":1021633075/;"	n
 profile	search/target/rls/debug/.fingerprint/search-c0bffd160371d764/bin-search.json	/^{"rustc":14330414595928666026,"features":"[]","target":12463159907064279977,"profile":7309141686/;"	n
+profile	search_complex/target/debug/.fingerprint/cfg-if-87828489ba99165a/lib-cfg-if.json	/^{"rustc":15069735523673833430,"features":"[]","target":10094334937643343087,"profile":1263731873/;"	n
+profile	search_complex/target/debug/.fingerprint/cfg-if-dcce77079dd8fe1e/lib-cfg-if.json	/^{"rustc":15069735523673833430,"features":"[]","target":10094334937643343087,"profile":3735503092/;"	n
+profile	search_complex/target/debug/.fingerprint/getrandom-2c1b364a870fe5cc/lib-getrandom.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":13546511942750895132,"profile":1/;"	n
+profile	search_complex/target/debug/.fingerprint/getrandom-cf1ed9aeb248fba0/lib-getrandom.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":13546511942750895132,"profile":3/;"	n
 profile	search_complex/target/debug/.fingerprint/lazy_static-1479f2b7adeaa2b6/lib-lazy_static.json	/^{"rustc":15069735523673833430,"features":"[]","target":6139664849541123785,"profile":37355030920/;"	n
+profile	search_complex/target/debug/.fingerprint/lazy_static-7dec60f4d92a7423/lib-lazy_static.json	/^{"rustc":15069735523673833430,"features":"[]","target":6139664849541123785,"profile":12637318739/;"	n
+profile	search_complex/target/debug/.fingerprint/libc-2dde55d3ef7f85bf/lib-libc.json	/^{"rustc":15069735523673833430,"features":"[]","target":15721753382687865320,"profile":3735503092/;"	n
+profile	search_complex/target/debug/.fingerprint/libc-61894c5cceb2836b/lib-libc.json	/^{"rustc":15069735523673833430,"features":"[]","target":15721753382687865320,"profile":1263731873/;"	n
+profile	search_complex/target/debug/.fingerprint/libc-aefa386dea193bc6/build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"[]","target":2709041430195671023,"profile":12637318739/;"	n
+profile	search_complex/target/debug/.fingerprint/libc-bca7439595590b1d/run-build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"","target":0,"profile":0,"path":0,"deps":[[13743578918/;"	n
+profile	search_complex/target/debug/.fingerprint/ppv-lite86-3b7ca02da013c4a7/lib-ppv-lite86.json	/^{"rustc":15069735523673833430,"features":"[\\"simd\\", \\"std\\"]","target":731041848731596649,"/;"	n
+profile	search_complex/target/debug/.fingerprint/ppv-lite86-4d5a436bddd9e3c2/lib-ppv-lite86.json	/^{"rustc":15069735523673833430,"features":"[\\"simd\\", \\"std\\"]","target":731041848731596649,"/;"	n
+profile	search_complex/target/debug/.fingerprint/rand-3dc1651f6b62a65b/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	n
+profile	search_complex/target/debug/.fingerprint/rand-fed4d7c05ada4609/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	n
+profile	search_complex/target/debug/.fingerprint/rand_chacha-13decd5a074faa7e/lib-rand_chacha.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":10091652985973831551,"profile":3/;"	n
+profile	search_complex/target/debug/.fingerprint/rand_chacha-a2443a6fcabe66dd/lib-rand_chacha.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":10091652985973831551,"profile":1/;"	n
+profile	search_complex/target/debug/.fingerprint/rand_core-17d36794f0e589a5/lib-rand_core.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"getrandom\\", \\"std\\"]","target":14/;"	n
+profile	search_complex/target/debug/.fingerprint/rand_core-38899a68ce737f03/lib-rand_core.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"getrandom\\", \\"std\\"]","target":14/;"	n
 profile	search_complex/target/debug/.fingerprint/search_complex-04af69a9965794cf/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	n
+profile	search_complex/target/debug/.fingerprint/search_complex-29c5b45b5d0c951a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":92510136562/;"	n
 profile	search_complex/target/debug/.fingerprint/search_complex-3d75875083a28903/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	n
+profile	search_complex/target/debug/.fingerprint/search_complex-a6db32349bfcf013/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	n
 profile	search_complex/target/debug/.fingerprint/search_complex-c3e0c78a14395e7a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	n
+profile	search_complex/target/debug/.fingerprint/search_complex-e7b5a594b3b0a62a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	n
 profile	search_complex/target/debug/.fingerprint/search_complex-f19572bc3a587007/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	n
 program	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	s	object:compilation
 program	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	s	object:compilation
@@ -3197,6 +3572,7 @@ qualname	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json
 qualname	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	s	object:defs.1
 qualname	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	s	object:defs.0
 qualname	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	s	object:defs.1
+random_successor	search_complex/src/algorithms/simulated_annealing.rs	/^fn random_successor<P, S, A>(problem: &P, node: &Node<S, A>) -> Node<S, A>$/;"	f
 rbfs	search/src/algorithms/mod.rs	/^pub mod rbfs;$/;"	n
 rbfs	search/src/algorithms/rbfs.rs	/^fn rbfs<P, S, A>(problem: &P, h: fn(&P, &Node<S, A>) -> u32, node: Node<S, A>, f_limit: u32) -> /;"	f
 reachable_only	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	b	object:config
@@ -3206,8 +3582,10 @@ refs	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{
 refs	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	a
 relations	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	a
 relations	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	a
+reproduce	search_complex/src/algorithms/genetic_algorithm.rs	/^fn reproduce<P, A>(problem: &P, parent1: &Node<String, A>, parent2: &Node<String, A>) -> Node<St/;"	f
 result	search/src/algorithms/problem.rs	/^    fn result(&self, state: &S, action: &A) -> S;$/;"	P	interface:Problem
 result	search/src/algorithms/problem.rs	/^    fn result(&self, state: &State, action: &Action) -> State {$/;"	P	implementation:AradToBucharestProblem
+result	search_complex/src/algorithms/problem.rs	/^    fn result(&self, state: &GraphState, action: &GraphAction) -> GraphState {$/;"	P	implementation:GraphProblem
 result	search_complex/src/algorithms/problem.rs	/^    fn result(&self, state: &S, action: &A) -> S;$/;"	P	interface:Problem
 result	search_complex/src/algorithms/problem.rs	/^    fn result(&self, state: &State, action: &Action) -> State {$/;"	P	implementation:AradToBucharestProblem
 rustc	search/target/debug/.fingerprint/autocfg-1666e724c4950338/lib-autocfg.json	/^{"rustc":14330414595928666026,"features":"[]","target":10236397793970852656,"profile":1263731873/;"	n
@@ -3337,14 +3715,34 @@ rustc	search/target/release/.fingerprint/paste-3aea5a6ebcae4308/lib-paste.json	/
 rustc	search/target/release/.fingerprint/search-439eed3229b6a3fc/bin-search.json	/^{"rustc":15069735523673833430,"features":"[]","target":12463159907064279977,"profile":6269190295/;"	n
 rustc	search/target/rls/debug/.fingerprint/search-7592e65291c8491e/test-bin-search.json	/^{"rustc":14330414595928666026,"features":"[]","target":12463159907064279977,"profile":1021633075/;"	n
 rustc	search/target/rls/debug/.fingerprint/search-c0bffd160371d764/bin-search.json	/^{"rustc":14330414595928666026,"features":"[]","target":12463159907064279977,"profile":7309141686/;"	n
+rustc	search_complex/target/debug/.fingerprint/cfg-if-87828489ba99165a/lib-cfg-if.json	/^{"rustc":15069735523673833430,"features":"[]","target":10094334937643343087,"profile":1263731873/;"	n
+rustc	search_complex/target/debug/.fingerprint/cfg-if-dcce77079dd8fe1e/lib-cfg-if.json	/^{"rustc":15069735523673833430,"features":"[]","target":10094334937643343087,"profile":3735503092/;"	n
+rustc	search_complex/target/debug/.fingerprint/getrandom-2c1b364a870fe5cc/lib-getrandom.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":13546511942750895132,"profile":1/;"	n
+rustc	search_complex/target/debug/.fingerprint/getrandom-cf1ed9aeb248fba0/lib-getrandom.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":13546511942750895132,"profile":3/;"	n
 rustc	search_complex/target/debug/.fingerprint/lazy_static-1479f2b7adeaa2b6/lib-lazy_static.json	/^{"rustc":15069735523673833430,"features":"[]","target":6139664849541123785,"profile":37355030920/;"	n
+rustc	search_complex/target/debug/.fingerprint/lazy_static-7dec60f4d92a7423/lib-lazy_static.json	/^{"rustc":15069735523673833430,"features":"[]","target":6139664849541123785,"profile":12637318739/;"	n
+rustc	search_complex/target/debug/.fingerprint/libc-2dde55d3ef7f85bf/lib-libc.json	/^{"rustc":15069735523673833430,"features":"[]","target":15721753382687865320,"profile":3735503092/;"	n
+rustc	search_complex/target/debug/.fingerprint/libc-61894c5cceb2836b/lib-libc.json	/^{"rustc":15069735523673833430,"features":"[]","target":15721753382687865320,"profile":1263731873/;"	n
+rustc	search_complex/target/debug/.fingerprint/libc-aefa386dea193bc6/build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"[]","target":2709041430195671023,"profile":12637318739/;"	n
+rustc	search_complex/target/debug/.fingerprint/libc-bca7439595590b1d/run-build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"","target":0,"profile":0,"path":0,"deps":[[13743578918/;"	n
+rustc	search_complex/target/debug/.fingerprint/ppv-lite86-3b7ca02da013c4a7/lib-ppv-lite86.json	/^{"rustc":15069735523673833430,"features":"[\\"simd\\", \\"std\\"]","target":731041848731596649,"/;"	n
+rustc	search_complex/target/debug/.fingerprint/ppv-lite86-4d5a436bddd9e3c2/lib-ppv-lite86.json	/^{"rustc":15069735523673833430,"features":"[\\"simd\\", \\"std\\"]","target":731041848731596649,"/;"	n
+rustc	search_complex/target/debug/.fingerprint/rand-3dc1651f6b62a65b/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	n
+rustc	search_complex/target/debug/.fingerprint/rand-fed4d7c05ada4609/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	n
+rustc	search_complex/target/debug/.fingerprint/rand_chacha-13decd5a074faa7e/lib-rand_chacha.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":10091652985973831551,"profile":3/;"	n
+rustc	search_complex/target/debug/.fingerprint/rand_chacha-a2443a6fcabe66dd/lib-rand_chacha.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":10091652985973831551,"profile":1/;"	n
+rustc	search_complex/target/debug/.fingerprint/rand_core-17d36794f0e589a5/lib-rand_core.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"getrandom\\", \\"std\\"]","target":14/;"	n
+rustc	search_complex/target/debug/.fingerprint/rand_core-38899a68ce737f03/lib-rand_core.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"getrandom\\", \\"std\\"]","target":14/;"	n
 rustc	search_complex/target/debug/.fingerprint/search_complex-04af69a9965794cf/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	n
+rustc	search_complex/target/debug/.fingerprint/search_complex-29c5b45b5d0c951a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":92510136562/;"	n
 rustc	search_complex/target/debug/.fingerprint/search_complex-3d75875083a28903/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	n
+rustc	search_complex/target/debug/.fingerprint/search_complex-a6db32349bfcf013/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	n
 rustc	search_complex/target/debug/.fingerprint/search_complex-c3e0c78a14395e7a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	n
+rustc	search_complex/target/debug/.fingerprint/search_complex-e7b5a594b3b0a62a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	n
 rustc	search_complex/target/debug/.fingerprint/search_complex-f19572bc3a587007/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	n
 rustc_fingerprint	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	n
 rustc_fingerprint	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	n
-rustc_fingerprint	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	n
+rustc_fingerprint	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	n
 rustflags	search/target/debug/.fingerprint/autocfg-1666e724c4950338/lib-autocfg.json	/^{"rustc":14330414595928666026,"features":"[]","target":10236397793970852656,"profile":1263731873/;"	a
 rustflags	search/target/debug/.fingerprint/autocfg-3aefa914eeb411d0/lib-autocfg.json	/^{"rustc":15069735523673833430,"features":"[]","target":10236397793970852656,"profile":1263731873/;"	a
 rustflags	search/target/debug/.fingerprint/cfg-if-0a04e74fc4f21d18/lib-cfg-if.json	/^{"rustc":14330414595928666026,"features":"[]","target":10094334937643343087,"profile":1263731873/;"	a
@@ -3472,11 +3870,32 @@ rustflags	search/target/release/.fingerprint/paste-3aea5a6ebcae4308/lib-paste.js
 rustflags	search/target/release/.fingerprint/search-439eed3229b6a3fc/bin-search.json	/^{"rustc":15069735523673833430,"features":"[]","target":12463159907064279977,"profile":6269190295/;"	a
 rustflags	search/target/rls/debug/.fingerprint/search-7592e65291c8491e/test-bin-search.json	/^{"rustc":14330414595928666026,"features":"[]","target":12463159907064279977,"profile":1021633075/;"	a
 rustflags	search/target/rls/debug/.fingerprint/search-c0bffd160371d764/bin-search.json	/^{"rustc":14330414595928666026,"features":"[]","target":12463159907064279977,"profile":7309141686/;"	a
+rustflags	search_complex/target/debug/.fingerprint/cfg-if-87828489ba99165a/lib-cfg-if.json	/^{"rustc":15069735523673833430,"features":"[]","target":10094334937643343087,"profile":1263731873/;"	a
+rustflags	search_complex/target/debug/.fingerprint/cfg-if-dcce77079dd8fe1e/lib-cfg-if.json	/^{"rustc":15069735523673833430,"features":"[]","target":10094334937643343087,"profile":3735503092/;"	a
+rustflags	search_complex/target/debug/.fingerprint/getrandom-2c1b364a870fe5cc/lib-getrandom.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":13546511942750895132,"profile":1/;"	a
+rustflags	search_complex/target/debug/.fingerprint/getrandom-cf1ed9aeb248fba0/lib-getrandom.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":13546511942750895132,"profile":3/;"	a
 rustflags	search_complex/target/debug/.fingerprint/lazy_static-1479f2b7adeaa2b6/lib-lazy_static.json	/^{"rustc":15069735523673833430,"features":"[]","target":6139664849541123785,"profile":37355030920/;"	a
+rustflags	search_complex/target/debug/.fingerprint/lazy_static-7dec60f4d92a7423/lib-lazy_static.json	/^{"rustc":15069735523673833430,"features":"[]","target":6139664849541123785,"profile":12637318739/;"	a
+rustflags	search_complex/target/debug/.fingerprint/libc-2dde55d3ef7f85bf/lib-libc.json	/^{"rustc":15069735523673833430,"features":"[]","target":15721753382687865320,"profile":3735503092/;"	a
+rustflags	search_complex/target/debug/.fingerprint/libc-61894c5cceb2836b/lib-libc.json	/^{"rustc":15069735523673833430,"features":"[]","target":15721753382687865320,"profile":1263731873/;"	a
+rustflags	search_complex/target/debug/.fingerprint/libc-aefa386dea193bc6/build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"[]","target":2709041430195671023,"profile":12637318739/;"	a
+rustflags	search_complex/target/debug/.fingerprint/libc-bca7439595590b1d/run-build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"","target":0,"profile":0,"path":0,"deps":[[13743578918/;"	a
+rustflags	search_complex/target/debug/.fingerprint/ppv-lite86-3b7ca02da013c4a7/lib-ppv-lite86.json	/^{"rustc":15069735523673833430,"features":"[\\"simd\\", \\"std\\"]","target":731041848731596649,"/;"	a
+rustflags	search_complex/target/debug/.fingerprint/ppv-lite86-4d5a436bddd9e3c2/lib-ppv-lite86.json	/^{"rustc":15069735523673833430,"features":"[\\"simd\\", \\"std\\"]","target":731041848731596649,"/;"	a
+rustflags	search_complex/target/debug/.fingerprint/rand-3dc1651f6b62a65b/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	a
+rustflags	search_complex/target/debug/.fingerprint/rand-fed4d7c05ada4609/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	a
+rustflags	search_complex/target/debug/.fingerprint/rand_chacha-13decd5a074faa7e/lib-rand_chacha.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":10091652985973831551,"profile":3/;"	a
+rustflags	search_complex/target/debug/.fingerprint/rand_chacha-a2443a6fcabe66dd/lib-rand_chacha.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":10091652985973831551,"profile":1/;"	a
+rustflags	search_complex/target/debug/.fingerprint/rand_core-17d36794f0e589a5/lib-rand_core.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"getrandom\\", \\"std\\"]","target":14/;"	a
+rustflags	search_complex/target/debug/.fingerprint/rand_core-38899a68ce737f03/lib-rand_core.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"getrandom\\", \\"std\\"]","target":14/;"	a
 rustflags	search_complex/target/debug/.fingerprint/search_complex-04af69a9965794cf/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	a
+rustflags	search_complex/target/debug/.fingerprint/search_complex-29c5b45b5d0c951a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":92510136562/;"	a
 rustflags	search_complex/target/debug/.fingerprint/search_complex-3d75875083a28903/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	a
+rustflags	search_complex/target/debug/.fingerprint/search_complex-a6db32349bfcf013/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	a
 rustflags	search_complex/target/debug/.fingerprint/search_complex-c3e0c78a14395e7a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	a
+rustflags	search_complex/target/debug/.fingerprint/search_complex-e7b5a594b3b0a62a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	a
 rustflags	search_complex/target/debug/.fingerprint/search_complex-f19572bc3a587007/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	a
+schedule	search_complex/src/algorithms/simulated_annealing.rs	/^fn schedule(t: usize) -> f64 {$/;"	f
 sig	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	z	object:defs.0
 sig	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	z	object:defs.1
 sig	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	z	object:defs.0
@@ -3501,9 +3920,9 @@ status	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":322022568228213
 status	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	s	object:outputs.2797684049618456168
 status	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	s	object:outputs.5309432699494263626
 status	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	s	object:outputs.931469667778813386
-status	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	s	object:outputs.17598535894874457435
-status	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	s	object:outputs.2797684049618456168
-status	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	s	object:outputs.931469667778813386
+status	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	s	object:outputs.17598535894874457435
+status	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	s	object:outputs.2797684049618456168
+status	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	s	object:outputs.931469667778813386
 stderr	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	s	object:outputs.17598535894874457435
 stderr	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	s	object:outputs.2797684049618456168
 stderr	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	s	object:outputs.931469667778813386
@@ -3511,9 +3930,9 @@ stderr	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":322022568228213
 stderr	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	s	object:outputs.2797684049618456168
 stderr	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	s	object:outputs.5309432699494263626
 stderr	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	s	object:outputs.931469667778813386
-stderr	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	s	object:outputs.17598535894874457435
-stderr	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	s	object:outputs.2797684049618456168
-stderr	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	s	object:outputs.931469667778813386
+stderr	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	s	object:outputs.17598535894874457435
+stderr	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	s	object:outputs.2797684049618456168
+stderr	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	s	object:outputs.931469667778813386
 stdout	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	s	object:outputs.17598535894874457435
 stdout	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	s	object:outputs.2797684049618456168
 stdout	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	s	object:outputs.931469667778813386
@@ -3521,10 +3940,11 @@ stdout	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":322022568228213
 stdout	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	s	object:outputs.2797684049618456168
 stdout	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	s	object:outputs.5309432699494263626
 stdout	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	s	object:outputs.931469667778813386
-stdout	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	s	object:outputs.17598535894874457435
-stdout	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	s	object:outputs.2797684049618456168
-stdout	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	s	object:outputs.931469667778813386
+stdout	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	s	object:outputs.17598535894874457435
+stdout	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	s	object:outputs.2797684049618456168
+stdout	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	s	object:outputs.931469667778813386
 str	search/src/algorithms/problem.rs	/^pub type State = &'static str;$/;"	v
+str	search_complex/src/algorithms/genetic_algorithm.rs	/^const STATES: [&'static str; 20] = [$/;"	v
 str	search_complex/src/algorithms/problem.rs	/^pub type State = &'static str;$/;"	v
 success	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	b	object:outputs.17598535894874457435
 success	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	b	object:outputs.2797684049618456168
@@ -3533,12 +3953,12 @@ success	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":32202256822821
 success	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	b	object:outputs.2797684049618456168
 success	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	b	object:outputs.5309432699494263626
 success	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	b	object:outputs.931469667778813386
-success	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	b	object:outputs.17598535894874457435
-success	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	b	object:outputs.2797684049618456168
-success	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	b	object:outputs.931469667778813386
+success	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	b	object:outputs.17598535894874457435
+success	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	b	object:outputs.2797684049618456168
+success	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	b	object:outputs.931469667778813386
 successes	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	o
 successes	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	o
-successes	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	o
+successes	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	o
 target	search/target/debug/.fingerprint/autocfg-1666e724c4950338/lib-autocfg.json	/^{"rustc":14330414595928666026,"features":"[]","target":10236397793970852656,"profile":1263731873/;"	n
 target	search/target/debug/.fingerprint/autocfg-3aefa914eeb411d0/lib-autocfg.json	/^{"rustc":15069735523673833430,"features":"[]","target":10236397793970852656,"profile":1263731873/;"	n
 target	search/target/debug/.fingerprint/cfg-if-0a04e74fc4f21d18/lib-cfg-if.json	/^{"rustc":14330414595928666026,"features":"[]","target":10094334937643343087,"profile":1263731873/;"	n
@@ -3666,19 +4086,44 @@ target	search/target/release/.fingerprint/paste-3aea5a6ebcae4308/lib-paste.json	
 target	search/target/release/.fingerprint/search-439eed3229b6a3fc/bin-search.json	/^{"rustc":15069735523673833430,"features":"[]","target":12463159907064279977,"profile":6269190295/;"	n
 target	search/target/rls/debug/.fingerprint/search-7592e65291c8491e/test-bin-search.json	/^{"rustc":14330414595928666026,"features":"[]","target":12463159907064279977,"profile":1021633075/;"	n
 target	search/target/rls/debug/.fingerprint/search-c0bffd160371d764/bin-search.json	/^{"rustc":14330414595928666026,"features":"[]","target":12463159907064279977,"profile":7309141686/;"	n
+target	search_complex/target/debug/.fingerprint/cfg-if-87828489ba99165a/lib-cfg-if.json	/^{"rustc":15069735523673833430,"features":"[]","target":10094334937643343087,"profile":1263731873/;"	n
+target	search_complex/target/debug/.fingerprint/cfg-if-dcce77079dd8fe1e/lib-cfg-if.json	/^{"rustc":15069735523673833430,"features":"[]","target":10094334937643343087,"profile":3735503092/;"	n
+target	search_complex/target/debug/.fingerprint/getrandom-2c1b364a870fe5cc/lib-getrandom.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":13546511942750895132,"profile":1/;"	n
+target	search_complex/target/debug/.fingerprint/getrandom-cf1ed9aeb248fba0/lib-getrandom.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":13546511942750895132,"profile":3/;"	n
 target	search_complex/target/debug/.fingerprint/lazy_static-1479f2b7adeaa2b6/lib-lazy_static.json	/^{"rustc":15069735523673833430,"features":"[]","target":6139664849541123785,"profile":37355030920/;"	n
+target	search_complex/target/debug/.fingerprint/lazy_static-7dec60f4d92a7423/lib-lazy_static.json	/^{"rustc":15069735523673833430,"features":"[]","target":6139664849541123785,"profile":12637318739/;"	n
+target	search_complex/target/debug/.fingerprint/libc-2dde55d3ef7f85bf/lib-libc.json	/^{"rustc":15069735523673833430,"features":"[]","target":15721753382687865320,"profile":3735503092/;"	n
+target	search_complex/target/debug/.fingerprint/libc-61894c5cceb2836b/lib-libc.json	/^{"rustc":15069735523673833430,"features":"[]","target":15721753382687865320,"profile":1263731873/;"	n
+target	search_complex/target/debug/.fingerprint/libc-aefa386dea193bc6/build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"[]","target":2709041430195671023,"profile":12637318739/;"	n
+target	search_complex/target/debug/.fingerprint/libc-bca7439595590b1d/run-build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"","target":0,"profile":0,"path":0,"deps":[[13743578918/;"	n
+target	search_complex/target/debug/.fingerprint/ppv-lite86-3b7ca02da013c4a7/lib-ppv-lite86.json	/^{"rustc":15069735523673833430,"features":"[\\"simd\\", \\"std\\"]","target":731041848731596649,"/;"	n
+target	search_complex/target/debug/.fingerprint/ppv-lite86-4d5a436bddd9e3c2/lib-ppv-lite86.json	/^{"rustc":15069735523673833430,"features":"[\\"simd\\", \\"std\\"]","target":731041848731596649,"/;"	n
+target	search_complex/target/debug/.fingerprint/rand-3dc1651f6b62a65b/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	n
+target	search_complex/target/debug/.fingerprint/rand-fed4d7c05ada4609/lib-rand.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"default\\", \\"getrandom\\", \\"libc\\/;"	n
+target	search_complex/target/debug/.fingerprint/rand_chacha-13decd5a074faa7e/lib-rand_chacha.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":10091652985973831551,"profile":3/;"	n
+target	search_complex/target/debug/.fingerprint/rand_chacha-a2443a6fcabe66dd/lib-rand_chacha.json	/^{"rustc":15069735523673833430,"features":"[\\"std\\"]","target":10091652985973831551,"profile":1/;"	n
+target	search_complex/target/debug/.fingerprint/rand_core-17d36794f0e589a5/lib-rand_core.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"getrandom\\", \\"std\\"]","target":14/;"	n
+target	search_complex/target/debug/.fingerprint/rand_core-38899a68ce737f03/lib-rand_core.json	/^{"rustc":15069735523673833430,"features":"[\\"alloc\\", \\"getrandom\\", \\"std\\"]","target":14/;"	n
 target	search_complex/target/debug/.fingerprint/search_complex-04af69a9965794cf/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	n
+target	search_complex/target/debug/.fingerprint/search_complex-29c5b45b5d0c951a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":92510136562/;"	n
 target	search_complex/target/debug/.fingerprint/search_complex-3d75875083a28903/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	n
+target	search_complex/target/debug/.fingerprint/search_complex-a6db32349bfcf013/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	n
 target	search_complex/target/debug/.fingerprint/search_complex-c3e0c78a14395e7a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	n
+target	search_complex/target/debug/.fingerprint/search_complex-e7b5a594b3b0a62a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	n
 target	search_complex/target/debug/.fingerprint/search_complex-f19572bc3a587007/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	n
 terminated	search/src/algorithms/bibf_search.rs	/^fn terminated<S, A>(solution: &SearchResult<S, A>, frontier_F: &Vec<Node<S, A>>, frontier_B: &Ve/;"	f
 try_algorithm	search/src/main.rs	/^fn try_algorithm<P, S, A>(problem: &P, name: &str, algorithm: SearchAlgorithm<P, S, A>) $/;"	f
+try_algorithm	search_complex/src/main.rs	/^fn try_algorithm<P, S, A>(problem: &P, name: &str, algorithm: SearchAlgorithm<P, S, A>) $/;"	f
 try_heuristic	search/src/main.rs	/^fn try_heuristic<P, S, A>(problem: &P, name: &str, algorithm: SearchAlgorithmHeuristic<P, S, A>,/;"	f
+try_heuristic	search_complex/src/main.rs	/^fn try_heuristic<P, S, A>(problem: &P, name: &str, algorithm: SearchAlgorithmHeuristic<P, S, A>,/;"	f
 uniform_cost_search	search/src/algorithms/breadth_first_search.rs	/^pub fn uniform_cost_search<P, S, A>(problem: &P) -> SearchResult<S, A> $/;"	f
 value	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	s	object:defs.0
 value	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	s	object:defs.1
 value	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	s	object:defs.1.attributes.0
 value	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	s	object:defs.0
 value	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	s	object:defs.1
+value	search_complex/src/algorithms/simulated_annealing.rs	/^fn value<P, S, A>(problem: &P, node: &Node<S, A>) -> f64$/;"	f
 version	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	s
 version	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	s
+weighted_by	search_complex/src/algorithms/genetic_algorithm.rs	/^fn weighted_by<P, A>(problem: &P, population: &Vec<Node<String, A>>, fitness: fn(&P, &Individual/;"	f
+weighted_random_choices	search_complex/src/algorithms/genetic_algorithm.rs	/^fn weighted_random_choices<P, A>(problem: &P, population: &Vec<Individual<A>>, weights: &Vec<Gen/;"	f

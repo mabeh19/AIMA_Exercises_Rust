@@ -17,10 +17,10 @@ where
     fn is_goal(&self, state: &S) -> bool;
     fn actions(&self, state: &S) -> Vec<A>;
     fn result(&self, state: &S, action: &A) -> S;
-    fn action_cost(&self, state: &S, action: &A, new_state: &S) -> u32;
+    fn action_cost(&self, state: &S, action: &A, new_state: &S) -> f64;
     fn get_initial_node(&self) -> Node<S, A>;
     fn get_goal_node(&self) -> Node<S, A>;
-    fn get_heuristic_cost(&self, state: &S) -> u32;
+    fn get_heuristic_cost(&self, state: &S) -> f64;
 }
 
 #[derive(Debug, Clone, PartialEq, PartialOrd, Eq, Ord)]
@@ -74,7 +74,7 @@ impl Problem<State, Action> for AradToBucharestProblem {
         *RESULT_STATE.get(&(state, action.clone())).unwrap()
     }
 
-    fn action_cost(&self, state: &State, action: &Action, new_state: &State) -> u32 {
+    fn action_cost(&self, state: &State, action: &Action, new_state: &State) -> f64 {
         *PATH_COST.get(&(state, new_state, action.clone())).unwrap()
     }
 
@@ -86,47 +86,47 @@ impl Problem<State, Action> for AradToBucharestProblem {
         GOAL_NODE 
     }
 
-    fn get_heuristic_cost(&self, state: &State) -> u32 {
+    fn get_heuristic_cost(&self, state: &State) -> f64 {
         *H_SLD.get(state).unwrap()
     }
 }
 
 lazy_static! {
-    pub static ref PATH_COST: HashMap<(State, State, Action), u32> = [
-        (("Arad", "Sibiu", Action::ToSibiu), 140),
-        (("Sibiu", "Arad", Action::ToArad), 140),
-        (("Arad", "Zerind", Action::ToZerind), 75),
-        (("Zerind", "Arad", Action::ToArad), 75),
-        (("Arad", "Timisoara", Action::ToTimisoara), 118),
-        (("Timisoara", "Arad", Action::ToArad), 118),
-        (("Zerind", "Oradea", Action::ToOradea), 71),
-        (("Oradea", "Zerind", Action::ToZerind), 71),
-        (("Timisoara", "Lugoj", Action::ToLugoj), 111),
-        (("Lugoj", "Timisoara", Action::ToTimisoara), 111),
-        (("Lugoj", "Mehadia", Action::ToMehadia), 70),
-        (("Mehadia", "Lugoj", Action::ToLugoj), 70),
-        (("Mehadia", "Drobeta", Action::ToDrobeta), 75),
-        (("Drobeta", "Mehadia", Action::ToMehadia), 75),
-        (("Drobeta", "Craiova", Action::ToCraiova), 120),
-        (("Craiova", "Drobeta", Action::ToDrobeta), 120),
-        (("Oradea", "Sibiu", Action::ToSibiu), 151),
-        (("Sibiu", "Oradea", Action::ToOradea), 151),
-        (("Sibiu", "Fagaras", Action::ToFagaras), 99),
-        (("Fagaras", "Sibiu", Action::ToSibiu), 99),
-        (("Sibiu", "Rimnicu Vilcea", Action::ToRimnicuVilcea), 80),
-        (("Rimnicu Vilcea", "Sibiu", Action::ToSibiu), 80),
-        (("Craiova", "Rimnicu Vilcea", Action::ToRimnicuVilcea), 146),
-        (("Rimnicu Vilcea", "Craiova", Action::ToCraiova), 146),
-        (("Craiova", "Pitesti", Action::ToPitesti), 138),
-        (("Pitesti", "Craiova", Action::ToCraiova), 138),
-        (("Rimnicu Vilcea", "Craiova", Action::ToCraiova), 146),
-        (("Craiova", "Rimnicu Vilcea", Action::ToRimnicuVilcea), 146),
-        (("Rimnicu Vilcea", "Pitesti", Action::ToPitesti), 97),
-        (("Pitesti", "Rimnicu Vilcea", Action::ToRimnicuVilcea), 97),
-        (("Fagaras", "Bucharest", Action::ToBucharest), 211),
-        (("Bucharest", "Fagaras", Action::ToFagaras), 211),
-        (("Pitesti", "Bucharest", Action::ToBucharest), 101),
-        (("Bucharest", "Pitesti", Action::ToPitesti), 101),
+    pub static ref PATH_COST: HashMap<(State, State, Action), f64> = [
+        (("Arad", "Sibiu", Action::ToSibiu), 140.),
+        (("Sibiu", "Arad", Action::ToArad), 140.),
+        (("Arad", "Zerind", Action::ToZerind), 75.),
+        (("Zerind", "Arad", Action::ToArad), 75.),
+        (("Arad", "Timisoara", Action::ToTimisoara), 118.),
+        (("Timisoara", "Arad", Action::ToArad), 118.),
+        (("Zerind", "Oradea", Action::ToOradea), 71.),
+        (("Oradea", "Zerind", Action::ToZerind), 71.),
+        (("Timisoara", "Lugoj", Action::ToLugoj), 111.),
+        (("Lugoj", "Timisoara", Action::ToTimisoara), 111.),
+        (("Lugoj", "Mehadia", Action::ToMehadia), 70.),
+        (("Mehadia", "Lugoj", Action::ToLugoj), 70.),
+        (("Mehadia", "Drobeta", Action::ToDrobeta), 75.),
+        (("Drobeta", "Mehadia", Action::ToMehadia), 75.),
+        (("Drobeta", "Craiova", Action::ToCraiova), 120.),
+        (("Craiova", "Drobeta", Action::ToDrobeta), 120.),
+        (("Oradea", "Sibiu", Action::ToSibiu), 151.),
+        (("Sibiu", "Oradea", Action::ToOradea), 151.),
+        (("Sibiu", "Fagaras", Action::ToFagaras), 99.),
+        (("Fagaras", "Sibiu", Action::ToSibiu), 99.),
+        (("Sibiu", "Rimnicu Vilcea", Action::ToRimnicuVilcea), 80.),
+        (("Rimnicu Vilcea", "Sibiu", Action::ToSibiu), 80.),
+        (("Craiova", "Rimnicu Vilcea", Action::ToRimnicuVilcea), 146.),
+        (("Rimnicu Vilcea", "Craiova", Action::ToCraiova), 146.),
+        (("Craiova", "Pitesti", Action::ToPitesti), 138.),
+        (("Pitesti", "Craiova", Action::ToCraiova), 138.),
+        (("Rimnicu Vilcea", "Craiova", Action::ToCraiova), 146.),
+        (("Craiova", "Rimnicu Vilcea", Action::ToRimnicuVilcea), 146.),
+        (("Rimnicu Vilcea", "Pitesti", Action::ToPitesti), 97.),
+        (("Pitesti", "Rimnicu Vilcea", Action::ToRimnicuVilcea), 97.),
+        (("Fagaras", "Bucharest", Action::ToBucharest), 211.),
+        (("Bucharest", "Fagaras", Action::ToFagaras), 211.),
+        (("Pitesti", "Bucharest", Action::ToBucharest), 101.),
+        (("Bucharest", "Pitesti", Action::ToPitesti), 101.),
     ].iter().cloned().collect();
 
     pub static ref RESULT_STATE: HashMap<(State, Action), State> = [
@@ -180,27 +180,27 @@ lazy_static! {
         ("Bucharest", vec![ Action::ToPitesti, Action::ToFagaras ])
     ].iter().cloned().collect();
 
-    pub static ref H_SLD: HashMap<State, u32> = [
-        ("Arad", 366),
-        ("Bucharest", 0),
-        ("Craiova", 160),
-        ("Drobeta", 242),
-        ("Eforie", 161),
-        ("Fagaras", 176),
-        ("Giurgiu", 77),
-        ("Hirsova", 151),
-        ("Iasi", 226),
-        ("Lugoj", 244),
-        ("Mehadia", 241),
-        ("Neamt", 234),
-        ("Oradea", 380),
-        ("Pitesti", 100),
-        ("Rimnicu Vilcea", 193),
-        ("Sibiu", 253),
-        ("Timisoara", 329),
-        ("Urziceni", 80),
-        ("Vaslui", 199),
-        ("Zerind", 374)
+    pub static ref H_SLD: HashMap<State, f64> = [
+        ("Arad", 366.),
+        ("Bucharest", 0.),
+        ("Craiova", 160.),
+        ("Drobeta", 242.),
+        ("Eforie", 161.),
+        ("Fagaras", 176.),
+        ("Giurgiu", 77.),
+        ("Hirsova", 151.),
+        ("Iasi", 226.),
+        ("Lugoj", 244.),
+        ("Mehadia", 241.),
+        ("Neamt", 234.),
+        ("Oradea", 380.),
+        ("Pitesti", 100.),
+        ("Rimnicu Vilcea", 193.),
+        ("Sibiu", 253.),
+        ("Timisoara", 329.),
+        ("Urziceni", 80.),
+        ("Vaslui", 199.),
+        ("Zerind", 374.)
     ].iter().cloned().collect();
 }
 
@@ -208,16 +208,16 @@ pub const INITIAL_NODE: Node<State, Action> = Node::new(
     "Arad",
     None,
     None,
-    0,
-    366
+    0.,
+    366.
 );
 
 pub const GOAL_NODE: Node<State, Action> = Node::new(
     "Bucharest",
     None,
     None,
-    0,
-    0
+    0.,
+    0.
 );
 
 pub const ARAD_TO_BUCHAREST_PROBLEM: AradToBucharestProblem = AradToBucharestProblem {
@@ -236,11 +236,97 @@ where
     let mut nodes: Vec<Node<S, A>> = Vec::new();
     for action in problem.actions(s) {
         let s_star = problem.result(s, &action);
-        let cost = node.path_cost + problem.action_cost(s, &action, &s_star);
-
+        //let cost = node.path_cost + problem.action_cost(s, &action, &s_star);
+        let cost = problem.action_cost(s, &action, &s_star);
         nodes.push(Node::new(s_star, Some(Box::new(node.clone())), Some(action), cost, cost));
     }
 
     nodes
 }
 
+pub struct GenericComplexProblem<S, A> {
+    initial_node: Node<S, A>
+}
+
+pub struct GraphProblem {
+    initial_node: Node<GraphState, GraphAction>,
+    graph_fn: fn(f64) -> f64,
+    graph_dfn: fn(f64) -> f64
+}
+
+pub const GRAPH_PROBLEM: GraphProblem = GraphProblem {
+    initial_node: Node {
+        state: 0.,
+        parent: None,
+        action: None,
+        path_cost: 0.,
+        f: 0.
+    },
+    // cos(2x * sin(x)) * 5sin(4x)+cos(3x)+sin(4x)
+    graph_fn: noise_fn,
+    graph_dfn: noise_dfn
+};
+
+fn noise_fn(x: f64) -> f64 {
+    10. * (0.2 * x + 2.).cos()
+    //(2. * x * x.sin()).cos() * 5. * (4. * x).sin() + (3. * x).cos() + (4. * x).sin()
+}
+
+fn noise_dfn(x : f64) -> f64 {
+    -2. * (0.2 * x + 2.).sin()
+}
+
+fn graph_actions(state: GraphState) -> Vec<GraphAction> {
+    //
+    // Functions as a stepper function, can be updated to be more fancy
+    //
+    vec![0.1, -0.1]
+}
+
+type GraphState = f64;
+type GraphAction = f64;
+
+impl Problem<GraphState, GraphAction> for GraphProblem {
+    
+    fn is_goal(&self, state: &GraphState) -> bool {
+        (self.graph_dfn)(*state) == 0.
+    }
+
+    fn actions(&self, state: &GraphState) -> Vec<GraphAction> {
+        graph_actions(*state)
+    }
+
+    fn result(&self, state: &GraphState, action: &GraphAction) -> GraphState {
+        state + action
+    }
+
+    fn action_cost(&self, state: &GraphState, action: &GraphAction, new_state: &GraphState) -> f64 {
+        (self.graph_fn)(*state + action)
+    }
+
+    fn get_initial_node(&self) -> Node<GraphState, GraphAction> {
+        Node {
+            state: 0.,
+            parent: None,
+            action: None,
+            path_cost: (self.graph_fn)(0.),
+            f: (self.graph_dfn)(0.)
+        }
+    }
+
+    fn get_goal_node(&self) -> Node<GraphState, GraphAction> {
+        //
+        // Can't know final point, just that it should have derivative of 0
+        Node {
+            state: 0.,
+            parent: None,
+            action: None,
+            path_cost: 0.,
+            f: 0.
+        }
+    }
+
+    fn get_heuristic_cost(&self, state: &GraphState) -> f64 {
+        (self.graph_fn)(*state)
+    }
+}

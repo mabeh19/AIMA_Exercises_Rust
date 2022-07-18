@@ -3,13 +3,13 @@
 ///
 
 
-#[derive(Clone, PartialOrd, PartialEq, Eq, Debug, Ord)]
+#[derive(Clone, PartialOrd, PartialEq, Debug)]
 pub struct Node<S, A> {
     pub state: S,
     pub parent: Option<Box<Node<S, A>>>,
     pub action: Option<A>,
-    pub path_cost: u32,
-    pub f: u32
+    pub path_cost: f64,
+    pub f: f64
 }
 
 impl<S, A> std::fmt::Display for Node<S, A> 
@@ -25,7 +25,7 @@ where
 
 impl<S, A> Node<S, A> {
     
-    pub const fn new(state: S, parent: Option<Box<Node<S, A>>>, action: Option<A>, path_cost: u32, f: u32) -> Self {
+    pub const fn new(state: S, parent: Option<Box<Node<S, A>>>, action: Option<A>, path_cost: f64, f: f64) -> Self {
         Self { state, parent, action, path_cost, f }
     }
 }
