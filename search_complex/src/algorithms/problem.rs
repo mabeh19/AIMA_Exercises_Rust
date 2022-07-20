@@ -17,6 +17,7 @@ where
     fn is_goal(&self, state: &S) -> bool;
     fn actions(&self, state: &S) -> Vec<A>;
     fn result(&self, state: &S, action: &A) -> S;
+    fn results(&self, state: &S) -> Vec<S>;
     fn action_cost(&self, state: &S, action: &A, new_state: &S) -> f64;
     fn get_initial_node(&self) -> Node<S, A>;
     fn get_goal_node(&self) -> Node<S, A>;
@@ -72,6 +73,15 @@ impl Problem<State, Action> for AradToBucharestProblem {
 
     fn result(&self, state: &State, action: &Action) -> State {
         *RESULT_STATE.get(&(state, action.clone())).unwrap()
+    }
+
+    fn results(&self, state: &State) -> Vec<State> {
+        let mut states: Vec<State> = Vec::new();
+        for a in self.actions(state) {
+            states.push(self.result(state, &a));
+        }
+
+        states
     }
 
     fn action_cost(&self, state: &State, action: &Action, new_state: &State) -> f64 {
@@ -298,6 +308,14 @@ impl Problem<GraphState, GraphAction> for GraphProblem {
 
     fn result(&self, state: &GraphState, action: &GraphAction) -> GraphState {
         state + action
+    }
+
+    fn results(&self, state: &GraphState) -> Vec<GraphState> {
+        let mut states: Vec<GraphState> = Vec::new();
+        for a in self.actions(state) {
+            states.push(self.result(state, &a));
+        }
+        states
     }
 
     fn action_cost(&self, state: &GraphState, action: &GraphAction, new_state: &GraphState) -> f64 {

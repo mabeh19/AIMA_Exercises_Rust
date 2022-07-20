@@ -10,8 +10,6 @@
 ///         else current <- next only with probability e^(-del_E/T)
 ///
 
-use std::fmt::{Debug, Display};
-
 use rand::prelude::*;
 
 use crate::algorithms::{
@@ -23,8 +21,8 @@ use crate::algorithms::{
 pub fn simulated_annealing<P, S, A>(problem: &P) -> SearchResult<S, A>
 where
     P: Problem<S, A>,
-    S: Clone + Debug,
-    A: Clone + Debug
+    S: Clone,
+    A: Clone
 {
     let mut rng = rand::thread_rng();
     let mut current = problem.get_initial_node();
@@ -57,13 +55,13 @@ fn schedule(t: usize) -> f64 {
 fn random_successor<P, S, A>(problem: &P, node: &Node<S, A>) -> Node<S, A>
 where
     P: Problem<S, A>,
-    S: Clone + Debug,
-    A: Clone + Debug
+    S: Clone,
+    A: Clone
 {
     let mut rng = rand::thread_rng();
     
     let candidates = expand(problem, node.clone());
-    //println!("candidates: {}", candidates.len());
+
     let successor = candidates.get(rng.gen_range(0..candidates.len())).unwrap().clone();
     return successor;
 }

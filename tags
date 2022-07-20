@@ -935,7 +935,7 @@
 17	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o	array:prelude.external_crates
 17598535894874457435	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	o	object:outputs
 17598535894874457435	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	o	object:outputs
-17598535894874457435	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	o	object:outputs
+17598535894874457435	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	o	object:outputs
 18	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o	array:prelude.external_crates
 18	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o	array:prelude.external_crates
 19	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o	array:prelude.external_crates
@@ -1208,7 +1208,7 @@
 22	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o	array:prelude.external_crates
 2797684049618456168	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	o	object:outputs
 2797684049618456168	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	o	object:outputs
-2797684049618456168	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	o	object:outputs
+2797684049618456168	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	o	object:outputs
 3	search/target/debug/.fingerprint/getrandom-41c20cf4968c82ba/lib-getrandom.json	/^{"rustc":14330414595928666026,"features":"[\\"std\\"]","target":13546511942750895132,"profile":1/;"	n	array:deps.0
 3	search/target/debug/.fingerprint/getrandom-41c20cf4968c82ba/lib-getrandom.json	/^{"rustc":14330414595928666026,"features":"[\\"std\\"]","target":13546511942750895132,"profile":1/;"	n	array:deps.1
 3	search/target/debug/.fingerprint/libc-afc331dcea82d9a5/run-build-script-build-script-build.json	/^{"rustc":14330414595928666026,"features":"","target":0,"profile":0,"path":0,"deps":[[13743578918/;"	n	array:deps.0
@@ -1481,7 +1481,7 @@
 9	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o	array:prelude.external_crates
 931469667778813386	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	o	object:outputs
 931469667778813386	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	o	object:outputs
-931469667778813386	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	o	object:outputs
+931469667778813386	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	o	object:outputs
 Action	search/src/algorithms/problem.rs	/^pub type Action = AradToBucharestAction;$/;"	t
 Action	search_complex/src/algorithms/problem.rs	/^pub type Action = AradToBucharestAction;$/;"	t
 AradToBucharestAction	search/src/algorithms/problem.rs	/^pub enum AradToBucharestAction {$/;"	g
@@ -1650,6 +1650,7 @@ Node	search/src/algorithms/node.rs	/^pub struct Node<S, A> {$/;"	s
 Node	search_complex/src/algorithms/node.rs	/^impl<S, A> Node<S, A> {$/;"	c
 Node	search_complex/src/algorithms/node.rs	/^impl<S, A> std::fmt::Display for Node<S, A> $/;"	c
 Node	search_complex/src/algorithms/node.rs	/^pub struct Node<S, A> {$/;"	s
+Plan	search_complex/src/algorithms/or_search.rs	/^pub type Plan<A> = Result<Vec<A>, SearchError>;$/;"	t
 Precalculated	search/target/debug/.fingerprint/proc-macro-hack-484fdd2e1dfb22f4/run-build-script-build-script-build.json	/^{"rustc":14330414595928666026,"features":"","target":0,"profile":0,"path":0,"deps":[[46094553452/;"	s	object:local.0
 Precalculated	search/target/debug/.fingerprint/syn-b89cc2f2c4d559cc/run-build-script-build-script-build.json	/^{"rustc":14330414595928666026,"features":"","target":0,"profile":0,"path":0,"deps":[[24042438933/;"	s	object:local.0
 Problem	search/src/algorithms/problem.rs	/^pub trait Problem<S, A> $/;"	i
@@ -1737,6 +1738,8 @@ actions	search_complex/src/algorithms/problem.rs	/^    fn actions(&self, state: 
 actions	search_complex/src/algorithms/problem.rs	/^    fn actions(&self, state: &State) -> Vec<Action> {$/;"	P	implementation:AradToBucharestProblem
 algorithms	search/src/main.rs	/^mod algorithms;$/;"	n
 algorithms	search_complex/src/main.rs	/^mod algorithms;$/;"	n
+and_or_search	search_complex/src/algorithms/or_search.rs	/^pub fn and_or_search<P, S, A>(problem: &P) -> Plan<A>$/;"	f
+and_search	search_complex/src/algorithms/or_search.rs	/^fn and_search<P, S, A>(problem: &P, states: &Vec<S>, path: &mut Vec<S>) -> Plan<A> $/;"	f
 arguments	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	a	object:compilation
 arguments	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	a	object:compilation
 attributes	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	a	object:defs.0
@@ -1777,9 +1780,9 @@ code	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":32202256822821391
 code	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	n	object:outputs.2797684049618456168
 code	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	n	object:outputs.5309432699494263626
 code	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	n	object:outputs.931469667778813386
-code	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	n	object:outputs.17598535894874457435
-code	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	n	object:outputs.2797684049618456168
-code	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	n	object:outputs.931469667778813386
+code	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	n	object:outputs.17598535894874457435
+code	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	n	object:outputs.2797684049618456168
+code	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	n	object:outputs.931469667778813386
 column_end	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	n	object:defs.0.span
 column_end	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	n	object:defs.1.attributes.0.span
 column_end	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	n	object:defs.1.span
@@ -2679,6 +2682,7 @@ get_initial_node	search/src/algorithms/problem.rs	/^    fn get_initial_node(&sel
 get_initial_node	search_complex/src/algorithms/problem.rs	/^    fn get_initial_node(&self) -> Node<GraphState, GraphAction> {$/;"	P	implementation:GraphProblem
 get_initial_node	search_complex/src/algorithms/problem.rs	/^    fn get_initial_node(&self) -> Node<S, A>;$/;"	P	interface:Problem
 get_initial_node	search_complex/src/algorithms/problem.rs	/^    fn get_initial_node(&self) -> Node<State, Action> {$/;"	P	implementation:AradToBucharestProblem
+get_path_cost	search_complex/src/algorithms/genetic_algorithm.rs	/^fn get_path_cost<P, A>(problem: &P, individual: &Individual<A>) -> f64 $/;"	f
 goal_state	search/src/algorithms/problem.rs	/^    goal_state: State$/;"	m	struct:AradToBucharestProblem
 goal_state	search_complex/src/algorithms/problem.rs	/^    goal_state: State$/;"	m	struct:AradToBucharestProblem
 graph_actions	search_complex/src/algorithms/problem.rs	/^fn graph_actions(state: GraphState) -> Vec<GraphAction> {$/;"	f
@@ -2754,6 +2758,7 @@ initial_node	search_complex/src/algorithms/problem.rs	/^    initial_node: Node<G
 initial_node	search_complex/src/algorithms/problem.rs	/^    initial_node: Node<S, A>$/;"	m	struct:GenericComplexProblem
 initial_state	search/src/algorithms/problem.rs	/^    initial_state: State,$/;"	m	struct:AradToBucharestProblem
 initial_state	search_complex/src/algorithms/problem.rs	/^    initial_state: State,$/;"	m	struct:AradToBucharestProblem
+instantiate_population	search_complex/src/algorithms/genetic_algorithm.rs	/^fn instantiate_population<P, A>(problem: &P, size: usize) -> Vec<Individual<A>>$/;"	f
 is_cycle	search/src/algorithms/node.rs	/^pub fn is_cycle<S, A>(node: Node<S, A>) -> bool $/;"	f
 is_cycle	search_complex/src/algorithms/node.rs	/^pub fn is_cycle<S, A>(node: Node<S, A>) -> bool $/;"	f
 is_fit_enough	search_complex/src/algorithms/genetic_algorithm.rs	/^fn is_fit_enough<P, A>(problem: &P, individual: &Individual<A>) -> bool $/;"	f
@@ -3202,6 +3207,7 @@ num	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"
 num	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	n	object:prelude.external_crates.9
 online_dfs_agent	search_complex/src/algorithms/mod.rs	/^pub mod online_dfs_agent;$/;"	n
 or_search	search_complex/src/algorithms/mod.rs	/^pub mod or_search;$/;"	n
+or_search	search_complex/src/algorithms/or_search.rs	/^fn or_search<P, S, A>(problem: &P, state: S, path: &mut Vec<S>) -> Plan<A>$/;"	f
 output	search/target/debug/.fingerprint/libc-afc331dcea82d9a5/run-build-script-build-script-build.json	/^{"rustc":14330414595928666026,"features":"","target":0,"profile":0,"path":0,"deps":[[13743578918/;"	s	object:local.0.RerunIfChanged
 output	search/target/debug/.fingerprint/num-bigint-13957ab7ea253800/run-build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"","target":0,"profile":0,"path":0,"deps":[[11048371280/;"	s	object:local.0.RerunIfChanged
 output	search/target/debug/.fingerprint/num-bigint-6ea2015ca34fd581/run-build-script-build-script-build.json	/^{"rustc":14330414595928666026,"features":"","target":0,"profile":0,"path":0,"deps":[[11048371280/;"	s	object:local.0.RerunIfChanged
@@ -3227,7 +3233,7 @@ output_file	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.j
 output_file	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	z	object:config
 outputs	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	o
 outputs	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	o
-outputs	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	o
+outputs	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	o
 parent	search/src/algorithms/node.rs	/^    pub parent: Option<Box<Node<S, A>>>,$/;"	m	struct:Node
 parent	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	z	object:defs.0
 parent	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	z	object:defs.1
@@ -3572,6 +3578,7 @@ qualname	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json
 qualname	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	s	object:defs.1
 qualname	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	s	object:defs.0
 qualname	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	s	object:defs.1
+rand_individual	search_complex/src/algorithms/genetic_algorithm.rs	/^fn rand_individual<P, A>(problem: &P) -> Individual<A>$/;"	f
 random_successor	search_complex/src/algorithms/simulated_annealing.rs	/^fn random_successor<P, S, A>(problem: &P, node: &Node<S, A>) -> Node<S, A>$/;"	f
 rbfs	search/src/algorithms/mod.rs	/^pub mod rbfs;$/;"	n
 rbfs	search/src/algorithms/rbfs.rs	/^fn rbfs<P, S, A>(problem: &P, h: fn(&P, &Node<S, A>) -> u32, node: Node<S, A>, f_limit: u32) -> /;"	f
@@ -3588,6 +3595,9 @@ result	search/src/algorithms/problem.rs	/^    fn result(&self, state: &State, ac
 result	search_complex/src/algorithms/problem.rs	/^    fn result(&self, state: &GraphState, action: &GraphAction) -> GraphState {$/;"	P	implementation:GraphProblem
 result	search_complex/src/algorithms/problem.rs	/^    fn result(&self, state: &S, action: &A) -> S;$/;"	P	interface:Problem
 result	search_complex/src/algorithms/problem.rs	/^    fn result(&self, state: &State, action: &Action) -> State {$/;"	P	implementation:AradToBucharestProblem
+results	search_complex/src/algorithms/problem.rs	/^    fn results(&self, state: &GraphState) -> Vec<GraphState> {$/;"	P	implementation:GraphProblem
+results	search_complex/src/algorithms/problem.rs	/^    fn results(&self, state: &S) -> Vec<S>;$/;"	P	interface:Problem
+results	search_complex/src/algorithms/problem.rs	/^    fn results(&self, state: &State) -> Vec<State> {$/;"	P	implementation:AradToBucharestProblem
 rustc	search/target/debug/.fingerprint/autocfg-1666e724c4950338/lib-autocfg.json	/^{"rustc":14330414595928666026,"features":"[]","target":10236397793970852656,"profile":1263731873/;"	n
 rustc	search/target/debug/.fingerprint/autocfg-3aefa914eeb411d0/lib-autocfg.json	/^{"rustc":15069735523673833430,"features":"[]","target":10236397793970852656,"profile":1263731873/;"	n
 rustc	search/target/debug/.fingerprint/cfg-if-0a04e74fc4f21d18/lib-cfg-if.json	/^{"rustc":14330414595928666026,"features":"[]","target":10094334937643343087,"profile":1263731873/;"	n
@@ -3742,7 +3752,7 @@ rustc	search_complex/target/debug/.fingerprint/search_complex-e7b5a594b3b0a62a/b
 rustc	search_complex/target/debug/.fingerprint/search_complex-f19572bc3a587007/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	n
 rustc_fingerprint	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	n
 rustc_fingerprint	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	n
-rustc_fingerprint	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	n
+rustc_fingerprint	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	n
 rustflags	search/target/debug/.fingerprint/autocfg-1666e724c4950338/lib-autocfg.json	/^{"rustc":14330414595928666026,"features":"[]","target":10236397793970852656,"profile":1263731873/;"	a
 rustflags	search/target/debug/.fingerprint/autocfg-3aefa914eeb411d0/lib-autocfg.json	/^{"rustc":15069735523673833430,"features":"[]","target":10236397793970852656,"profile":1263731873/;"	a
 rustflags	search/target/debug/.fingerprint/cfg-if-0a04e74fc4f21d18/lib-cfg-if.json	/^{"rustc":14330414595928666026,"features":"[]","target":10094334937643343087,"profile":1263731873/;"	a
@@ -3920,9 +3930,9 @@ status	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":322022568228213
 status	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	s	object:outputs.2797684049618456168
 status	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	s	object:outputs.5309432699494263626
 status	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	s	object:outputs.931469667778813386
-status	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	s	object:outputs.17598535894874457435
-status	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	s	object:outputs.2797684049618456168
-status	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	s	object:outputs.931469667778813386
+status	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	s	object:outputs.17598535894874457435
+status	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	s	object:outputs.2797684049618456168
+status	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	s	object:outputs.931469667778813386
 stderr	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	s	object:outputs.17598535894874457435
 stderr	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	s	object:outputs.2797684049618456168
 stderr	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	s	object:outputs.931469667778813386
@@ -3930,9 +3940,9 @@ stderr	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":322022568228213
 stderr	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	s	object:outputs.2797684049618456168
 stderr	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	s	object:outputs.5309432699494263626
 stderr	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	s	object:outputs.931469667778813386
-stderr	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	s	object:outputs.17598535894874457435
-stderr	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	s	object:outputs.2797684049618456168
-stderr	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	s	object:outputs.931469667778813386
+stderr	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	s	object:outputs.17598535894874457435
+stderr	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	s	object:outputs.2797684049618456168
+stderr	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	s	object:outputs.931469667778813386
 stdout	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	s	object:outputs.17598535894874457435
 stdout	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	s	object:outputs.2797684049618456168
 stdout	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	s	object:outputs.931469667778813386
@@ -3940,11 +3950,10 @@ stdout	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":322022568228213
 stdout	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	s	object:outputs.2797684049618456168
 stdout	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	s	object:outputs.5309432699494263626
 stdout	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	s	object:outputs.931469667778813386
-stdout	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	s	object:outputs.17598535894874457435
-stdout	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	s	object:outputs.2797684049618456168
-stdout	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	s	object:outputs.931469667778813386
+stdout	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	s	object:outputs.17598535894874457435
+stdout	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	s	object:outputs.2797684049618456168
+stdout	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	s	object:outputs.931469667778813386
 str	search/src/algorithms/problem.rs	/^pub type State = &'static str;$/;"	v
-str	search_complex/src/algorithms/genetic_algorithm.rs	/^const STATES: [&'static str; 20] = [$/;"	v
 str	search_complex/src/algorithms/problem.rs	/^pub type State = &'static str;$/;"	v
 success	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	b	object:outputs.17598535894874457435
 success	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	b	object:outputs.2797684049618456168
@@ -3953,12 +3962,12 @@ success	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":32202256822821
 success	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	b	object:outputs.2797684049618456168
 success	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	b	object:outputs.5309432699494263626
 success	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	b	object:outputs.931469667778813386
-success	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	b	object:outputs.17598535894874457435
-success	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	b	object:outputs.2797684049618456168
-success	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	b	object:outputs.931469667778813386
+success	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	b	object:outputs.17598535894874457435
+success	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	b	object:outputs.2797684049618456168
+success	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	b	object:outputs.931469667778813386
 successes	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	o
 successes	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	o
-successes	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	o
+successes	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	o
 target	search/target/debug/.fingerprint/autocfg-1666e724c4950338/lib-autocfg.json	/^{"rustc":14330414595928666026,"features":"[]","target":10236397793970852656,"profile":1263731873/;"	n
 target	search/target/debug/.fingerprint/autocfg-3aefa914eeb411d0/lib-autocfg.json	/^{"rustc":15069735523673833430,"features":"[]","target":10236397793970852656,"profile":1263731873/;"	n
 target	search/target/debug/.fingerprint/cfg-if-0a04e74fc4f21d18/lib-cfg-if.json	/^{"rustc":14330414595928666026,"features":"[]","target":10094334937643343087,"profile":1263731873/;"	n
@@ -4114,8 +4123,10 @@ target	search_complex/target/debug/.fingerprint/search_complex-f19572bc3a587007/
 terminated	search/src/algorithms/bibf_search.rs	/^fn terminated<S, A>(solution: &SearchResult<S, A>, frontier_F: &Vec<Node<S, A>>, frontier_B: &Ve/;"	f
 try_algorithm	search/src/main.rs	/^fn try_algorithm<P, S, A>(problem: &P, name: &str, algorithm: SearchAlgorithm<P, S, A>) $/;"	f
 try_algorithm	search_complex/src/main.rs	/^fn try_algorithm<P, S, A>(problem: &P, name: &str, algorithm: SearchAlgorithm<P, S, A>) $/;"	f
+try_genetic	search_complex/src/main.rs	/^fn try_genetic<P, S, A>(problem: &P, name: &str, algorithm: SearchAlgorithm<P, String, A>) $/;"	f
 try_heuristic	search/src/main.rs	/^fn try_heuristic<P, S, A>(problem: &P, name: &str, algorithm: SearchAlgorithmHeuristic<P, S, A>,/;"	f
 try_heuristic	search_complex/src/main.rs	/^fn try_heuristic<P, S, A>(problem: &P, name: &str, algorithm: SearchAlgorithmHeuristic<P, S, A>,/;"	f
+try_or_search	search_complex/src/main.rs	/^fn try_or_search<P, S, A>(problem: &P, name: &str, algorithm: fn(&P) -> Plan<A>)$/;"	f
 uniform_cost_search	search/src/algorithms/breadth_first_search.rs	/^pub fn uniform_cost_search<P, S, A>(problem: &P) -> SearchResult<S, A> $/;"	f
 value	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	s	object:defs.0
 value	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	s	object:defs.1
