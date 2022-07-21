@@ -55,11 +55,22 @@ where
 {
     let res = algorithm(problem).expect("No path found");
     let node = Some(Box::new(res));
-    println!("[{}] Optimal x:", name);
+    let mut dummy: u32 = 0;
+
+    println!("[{}] Optimal child DNA: {}", name, node.as_ref().unwrap().state);
     //while node.is_some() {
-        println!("      {}", node.as_ref().unwrap().state);
+    println!("  Converted to choices:");
+    genetic_algorithm::iterate_over_dna(problem, node.as_ref().unwrap(), printfn, &mut dummy);
     //    node = node.unwrap().parent;
     //}
+}
+
+fn printfn<S, A>(node: Node<S, A>, _: &mut u32)
+where
+    S: Clone + Display,
+    A: Clone
+{
+    println!("      {}", node.state);
 }
 
 fn try_or_search<P, S, A>(problem: &P, name: &str, algorithm: fn(&P) -> Plan<A>)

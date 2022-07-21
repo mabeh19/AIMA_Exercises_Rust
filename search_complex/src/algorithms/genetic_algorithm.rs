@@ -136,10 +136,10 @@ where
     P: Problem<&'static str, A>,
     A: Clone
 {
-    const FITNESS: f64 = 600.;
+    const FITNESS: f64 = 1500.;
 
     let total_cost = get_path_cost(problem, individual);
-
+    
     total_cost < FITNESS
 }
 
@@ -261,10 +261,29 @@ where
             let choices = expand(problem, node.clone());
             if let Some(tmp) = choices.get(index as usize) {
                 node = tmp.clone();
-                total_cost += node.path_cost;
+                total_cost += node.path_cost + problem.get_heuristic_cost(&node.state);
             }
         }
     }
     
     total_cost
+}
+
+pub fn iterate_over_dna<P, S, A, T>(problem: &P, individual: &Individual<A>, callback: fn(Node<S, A>, &mut T), param: &mut T)
+where
+    P: Problem<S, A>,
+    S: Clone,
+    A: Clone
+{
+    let mut node = problem.get_initial_node();
+
+    for c in individual.state.chars() {
+        if let Some(index) = c.to_digit(10) {
+            let choices = expand(problem, node.clone());
+            if let Some(tmp) = choices.get(index as usize) {
+                (callback)(tmp.clone(), param);
+                node = tmp.clone();
+            }
+        }
+    }
 }
