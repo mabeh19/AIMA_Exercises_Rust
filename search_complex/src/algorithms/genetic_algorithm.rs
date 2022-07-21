@@ -1,5 +1,3 @@
-use std::cmp::Ordering;
-
 ///
 /// function Genetic-Algorithm(population, fitness) returns an individual
 ///     repeat
@@ -74,7 +72,7 @@ where
     Ok(population.first().unwrap().clone())
 }
 
-fn weighted_random_choices<P, A>(problem: &P, population: &Vec<Individual<A>>, weights: &Vec<GeneticWeights>, num_parents: usize) -> (Individual<A>, Individual<A>)
+fn weighted_random_choices<P, A>(_problem: &P, population: &Vec<Individual<A>>, weights: &Vec<GeneticWeights>, num_parents: usize) -> (Individual<A>, Individual<A>)
 where
     P: Problem<&'static str, A>,
     A: Clone
@@ -99,21 +97,6 @@ where
     }
 
     (parents.get(0).unwrap().clone(), parents.get(1).unwrap().clone())
-}
-
-fn cmp_f64<S, A>(a: &Node<S, A>, b: &Node<S, A>) -> Ordering {
-    if a.path_cost.is_nan() {
-        return Ordering::Greater;
-    }
-    if b.path_cost.is_nan() {
-        return Ordering::Less;
-    }
-    if a.path_cost < b.path_cost {
-        return Ordering::Less;
-    } else if a.path_cost > b.path_cost {
-        return Ordering::Greater;
-    }
-    return Ordering::Equal;
 }
 
 fn weighted_by<P, A>(problem: &P, population: &Vec<Node<String, A>>, fitness: fn(&P, &Individual<A>) -> GeneticWeights) -> Vec<GeneticWeights>

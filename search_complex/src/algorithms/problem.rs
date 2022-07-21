@@ -22,6 +22,7 @@ where
     fn get_initial_node(&self) -> Node<S, A>;
     fn get_goal_node(&self) -> Node<S, A>;
     fn get_heuristic_cost(&self, state: &S) -> f64;
+    fn stop(&self) -> A;
 }
 
 #[derive(Debug, Clone, PartialEq, PartialOrd, Eq, Ord)]
@@ -54,7 +55,8 @@ pub enum AradToBucharestAction {
     ToEforie,
     ToVaslui,
     ToIasi,
-    ToNeamt
+    ToNeamt,
+    Stop
 }
 
 pub struct AradToBucharestProblem {
@@ -98,6 +100,10 @@ impl Problem<State, Action> for AradToBucharestProblem {
 
     fn get_heuristic_cost(&self, state: &State) -> f64 {
         *H_SLD.get(state).unwrap()
+    }
+
+    fn stop(&self) -> Action {
+        return Action::Stop;
     }
 }
 
@@ -346,5 +352,9 @@ impl Problem<GraphState, GraphAction> for GraphProblem {
 
     fn get_heuristic_cost(&self, state: &GraphState) -> f64 {
         (self.graph_fn)(*state)
+    }
+
+    fn stop(&self) -> GraphAction {
+        return 0.;
     }
 }

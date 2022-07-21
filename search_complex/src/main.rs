@@ -1,6 +1,9 @@
 
 
-use std::fmt::{Display, Debug};
+use std::{
+    fmt::{Display, Debug},
+    hash::Hash,
+};
 
 
 mod algorithms;
@@ -8,10 +11,13 @@ mod algorithms;
 use crate::algorithms::{
     node::Node,
     problem::*,
+    agent::*,
     hill_climbing,
     simulated_annealing,
     genetic_algorithm,
     or_search::{self, Plan},
+    online_dfs_agent::OnlineDFSAgent,
+    lrta_agent::LrtaAgent
 };
 
 type SearchAlgorithm<P, S, A> = fn(&P) -> SearchResult<S, A>;
@@ -22,6 +28,8 @@ fn main() {
     try_algorithm(&GRAPH_PROBLEM, "Simulated Annealing", simulated_annealing::simulated_annealing);
     try_genetic(&ARAD_TO_BUCHAREST_PROBLEM, "Genetic Algorithm", genetic_algorithm::genetic_algorithm);
     try_or_search(&ARAD_TO_BUCHAREST_PROBLEM, "And-Or Search", or_search::and_or_search);
+    try_agent::<OnlineDFSAgent<_, _>, _, _, _>(&ARAD_TO_BUCHAREST_PROBLEM, "Online DFS Agent");
+    try_agent::<LrtaAgent<_,_,_>,_,_,_>(&ARAD_TO_BUCHAREST_PROBLEM, "LRTA* Agent");
 }
 
 fn try_algorithm<P, S, A>(problem: &P, name: &str, algorithm: SearchAlgorithm<P, S, A>) 
@@ -31,7 +39,7 @@ where
     A: Clone
 {
     let res = algorithm(problem).expect("No path found");
-    let mut node = Some(Box::new(res));
+    let node = Some(Box::new(res));
     println!("[{}] Optimal x:", name);
     //while node.is_some() {
         println!("      {}", node.as_ref().unwrap().state);
@@ -46,7 +54,7 @@ where
     A: Clone
 {
     let res = algorithm(problem).expect("No path found");
-    let mut node = Some(Box::new(res));
+    let node = Some(Box::new(res));
     println!("[{}] Optimal x:", name);
     //while node.is_some() {
         println!("      {}", node.as_ref().unwrap().state);
@@ -90,4 +98,23 @@ where
     A: Clone
 {
     problem.get_heuristic_cost(&node.state)
+}
+
+fn try_agent<T, P, S, A>(problem: &P, name: &str)
+where
+    P: Problem<S, A>,
+    S: Clone + Eq + Hash,
+    A: Clone + Eq + Hash + Debug,
+    T: Agent<P, S, A>,
+{
+    let mut agent = T::new();
+    let mut state = problem.get_initial_node().state.clone();
+    println!("[{}]", name);
+
+    while {
+        let action = agent.step(problem, state.clone());
+        state = problem.result(&state, &action);
+        println!("Action taken by agent: {:?}", action);
+        state != problem.get_goal_node().state     
+    }{}
 }

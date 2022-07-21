@@ -17,28 +17,29 @@
 ///     plan_n]
 ///
 
-use crate::algorithms::{
-    node::{Node, is_cycle},
-    problem::*
-};
+use std::fmt::Debug;
+
+use crate::algorithms::problem::*;
 
 pub type Plan<A> = Result<Vec<A>, SearchError>;
 
 pub fn and_or_search<P, S, A>(problem: &P) -> Plan<A>
 where
     P: Problem<S, A>,
-    S: Clone + PartialEq,
-    A: Clone
+    S: Clone + PartialEq + Debug,
+    A: Clone + Debug
 {
     let mut path: Vec<S> = Vec::new();
-    or_search(problem, problem.get_initial_node().state, &mut path)
+    let mut plan: Vec<A> = Vec::new();
+    or_search(problem, problem.get_initial_node().state, &mut path, &mut plan)?;
+    Ok(plan)
 }
 
-fn or_search<P, S, A>(problem: &P, state: S, path: &mut Vec<S>) -> Plan<A>
+fn or_search<P, S, A>(problem: &P, state: S, path: &mut Vec<S>, plan: &mut Vec<A>) -> Plan<A>
 where
     P: Problem<S, A>,
-    S: Clone + PartialEq,
-    A: Clone
+    S: Clone + PartialEq + Debug,
+    A: Clone + Debug
 {
     if problem.is_goal(&state) {
         return Ok(Vec::new());
@@ -50,32 +51,37 @@ where
 
     for action in problem.actions(&state) {
         path.push(state.clone());
-        if let Ok(mut plan) = and_search(problem, &problem.results(&state), path) {
-            plan.push(action);
-            return Ok(plan);
+        if let Ok(mut p) = and_search(problem, &problem.results(&state), path, plan) {
+            plan.push(action.clone());
+            p.push(action);
+            return Ok(p);
         }
         path.pop();
     }
-
+     
     return Err(SearchError::Failure);
 }
 
-fn and_search<P, S, A>(problem: &P, states: &Vec<S>, path: &mut Vec<S>) -> Plan<A> 
+fn and_search<P, S, A>(problem: &P, states: &Vec<S>, path: &mut Vec<S>, plan: &mut Vec<A>) -> Plan<A> 
 where
     P: Problem<S, A>,
-    S: Clone + PartialEq,
-    A: Clone
+    S: Clone + PartialEq + Debug,
+    A: Clone + Debug
 {
     let mut plans: Vec<Plan<A>> = Vec::new();
-
     for s in states {
-        let plan_i = or_search(problem, s.clone(), path);
+        let plan_i = or_search(problem, s.clone(), path, plan);
         if plan_i.is_err() {
-            return Err(SearchError::Failure);
+            //return Err(SearchError::Failure);
+        } else if plan_i.is_ok() {
+            plans.push(plan_i); 
         }
-        plans.push(plan_i);
     }
-    
+
+    if plans.is_empty() {
+        return Err(SearchError::Failure);
+    }
+
     return plans.last().unwrap().clone();
 }
 
