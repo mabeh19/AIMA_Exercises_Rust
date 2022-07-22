@@ -9,6 +9,8 @@
 !_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
 !_TAG_PROGRAM_VERSION	5.9.0	//
+0	adversarial_search_and_games/target/debug/.fingerprint/adversarial_search_and_games-294ab4acd78c7238/test-bin-adversarial_search_and_games.json	/^{"rustc":15069735523673833430,"features":"[]","target":11869639202455498530,"profile":1021633075/;"	o	array:local
+0	adversarial_search_and_games/target/debug/.fingerprint/adversarial_search_and_games-dd6e23745048a23a/bin-adversarial_search_and_games.json	/^{"rustc":15069735523673833430,"features":"[]","target":11869639202455498530,"profile":7309141686/;"	o	array:local
 0	search/target/debug/.fingerprint/autocfg-1666e724c4950338/lib-autocfg.json	/^{"rustc":14330414595928666026,"features":"[]","target":10236397793970852656,"profile":1263731873/;"	o	array:local
 0	search/target/debug/.fingerprint/autocfg-3aefa914eeb411d0/lib-autocfg.json	/^{"rustc":15069735523673833430,"features":"[]","target":10236397793970852656,"profile":1263731873/;"	o	array:local
 0	search/target/debug/.fingerprint/cfg-if-0a04e74fc4f21d18/lib-cfg-if.json	/^{"rustc":14330414595928666026,"features":"[]","target":10094334937643343087,"profile":1263731873/;"	o	array:local
@@ -933,6 +935,7 @@
 16	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o	array:prelude.external_crates
 17	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o	array:prelude.external_crates
 17	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o	array:prelude.external_crates
+17598535894874457435	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	o	object:outputs
 17598535894874457435	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	o	object:outputs
 17598535894874457435	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	o	object:outputs
 17598535894874457435	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	o	object:outputs
@@ -1206,6 +1209,7 @@
 20	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o	array:prelude.external_crates
 21	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o	array:prelude.external_crates
 22	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o	array:prelude.external_crates
+2797684049618456168	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	o	object:outputs
 2797684049618456168	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	o	object:outputs
 2797684049618456168	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	o	object:outputs
 2797684049618456168	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	o	object:outputs
@@ -1479,6 +1483,7 @@
 8	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o	array:prelude.external_crates
 9	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o	array:prelude.external_crates
 9	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o	array:prelude.external_crates
+931469667778813386	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	o	object:outputs
 931469667778813386	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	o	object:outputs
 931469667778813386	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	o	object:outputs
 931469667778813386	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	o	object:outputs
@@ -1501,6 +1506,11 @@ BASES_64	search/target/debug/build/num-bigint-13957ab7ea253800/out/radix_bases.r
 BASES_64	search/target/debug/build/num-bigint-6ea2015ca34fd581/out/radix_bases.rs	/^pub(crate) static BASES_64: [(u64, usize); 257] = [$/;"	v
 BASES_64	search/target/release/build/num-bigint-aaa373243cb7e334/out/radix_bases.rs	/^pub(crate) static BASES_64: [(u64, usize); 257] = [$/;"	v
 Backward	search/src/algorithms/bibf_search.rs	/^    Backward$/;"	e	enum:Direction
+Bishop	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    Bishop = 4,$/;"	e	enum:ChessPieceType
+Black	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    Black$/;"	e	enum:PlayerColor
+BoardPosition	adversarial_search_and_games/src/algorithms/games/chess.rs	/^type BoardPosition = (isize, isize);$/;"	t
+CheckDepInfo	adversarial_search_and_games/target/debug/.fingerprint/adversarial_search_and_games-294ab4acd78c7238/test-bin-adversarial_search_and_games.json	/^{"rustc":15069735523673833430,"features":"[]","target":11869639202455498530,"profile":1021633075/;"	o	object:local.0
+CheckDepInfo	adversarial_search_and_games/target/debug/.fingerprint/adversarial_search_and_games-dd6e23745048a23a/bin-adversarial_search_and_games.json	/^{"rustc":15069735523673833430,"features":"[]","target":11869639202455498530,"profile":7309141686/;"	o	object:local.0
 CheckDepInfo	search/target/debug/.fingerprint/autocfg-1666e724c4950338/lib-autocfg.json	/^{"rustc":14330414595928666026,"features":"[]","target":10236397793970852656,"profile":1263731873/;"	o	object:local.0
 CheckDepInfo	search/target/debug/.fingerprint/autocfg-3aefa914eeb411d0/lib-autocfg.json	/^{"rustc":15069735523673833430,"features":"[]","target":10236397793970852656,"profile":1263731873/;"	o	object:local.0
 CheckDepInfo	search/target/debug/.fingerprint/cfg-if-0a04e74fc4f21d18/lib-cfg-if.json	/^{"rustc":14330414595928666026,"features":"[]","target":10094334937643343087,"profile":1263731873/;"	o	object:local.0
@@ -1632,12 +1642,25 @@ CheckDepInfo	search_complex/target/debug/.fingerprint/search_complex-a6db32349bf
 CheckDepInfo	search_complex/target/debug/.fingerprint/search_complex-c3e0c78a14395e7a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	o	object:local.0
 CheckDepInfo	search_complex/target/debug/.fingerprint/search_complex-e7b5a594b3b0a62a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	o	object:local.0
 CheckDepInfo	search_complex/target/debug/.fingerprint/search_complex-f19572bc3a587007/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	o	object:local.0
+ChessAction	adversarial_search_and_games/src/algorithms/games/chess.rs	/^type ChessAction<'a> = (&'a Box<ChessPiece>, BoardPosition);$/;"	t
+ChessGame	adversarial_search_and_games/src/algorithms/games/chess.rs	/^impl ChessGame {$/;"	c
+ChessGame	adversarial_search_and_games/src/algorithms/games/chess.rs	/^impl<'a> Game<ChessState, ChessAction<'a>, ChessPlayer> for ChessGame {$/;"	c
+ChessGame	adversarial_search_and_games/src/algorithms/games/chess.rs	/^pub struct ChessGame {$/;"	s
+ChessPiece	adversarial_search_and_games/src/algorithms/games/chess.rs	/^impl ChessPiece {$/;"	c
+ChessPiece	adversarial_search_and_games/src/algorithms/games/chess.rs	/^struct ChessPiece {$/;"	s
+ChessPieceType	adversarial_search_and_games/src/algorithms/games/chess.rs	/^enum ChessPieceType {$/;"	g
+ChessPieceType	adversarial_search_and_games/src/algorithms/games/chess.rs	/^impl ChessPieceType {$/;"	c
+ChessPlayer	adversarial_search_and_games/src/algorithms/games/chess.rs	/^impl ChessPlayer {$/;"	c
+ChessPlayer	adversarial_search_and_games/src/algorithms/games/chess.rs	/^impl<'a> Player<ChessState, ChessAction<'a>> for ChessPlayer {$/;"	c
+ChessPlayer	adversarial_search_and_games/src/algorithms/games/chess.rs	/^pub struct ChessPlayer {$/;"	s
+ChessState	adversarial_search_and_games/src/algorithms/games/chess.rs	/^type ChessState = [[Option<Box<ChessPiece>>; 8]; 8];$/;"	t
 CutOffReached	search/src/algorithms/problem.rs	/^    CutOffReached,$/;"	e	enum:SearchError
 CutOffReached	search_complex/src/algorithms/problem.rs	/^    CutOffReached,$/;"	e	enum:SearchError
 Direction	search/src/algorithms/bibf_search.rs	/^enum Direction {$/;"	g
 Failure	search/src/algorithms/problem.rs	/^    Failure,$/;"	e	enum:SearchError
 Failure	search_complex/src/algorithms/problem.rs	/^    Failure,$/;"	e	enum:SearchError
 Forward	search/src/algorithms/bibf_search.rs	/^    Forward,$/;"	e	enum:Direction
+Game	adversarial_search_and_games/src/algorithms/game.rs	/^pub trait Game<S, A, P> $/;"	i
 GenericComplexProblem	search_complex/src/algorithms/problem.rs	/^pub struct GenericComplexProblem<S, A> {$/;"	s
 GeneticWeights	search_complex/src/algorithms/genetic_algorithm.rs	/^type GeneticWeights = Vec<f64>;$/;"	t
 GraphAction	search_complex/src/algorithms/problem.rs	/^type GraphAction = f64;$/;"	t
@@ -1646,6 +1669,8 @@ GraphProblem	search_complex/src/algorithms/problem.rs	/^pub struct GraphProblem 
 GraphState	search_complex/src/algorithms/problem.rs	/^type GraphState = f64;$/;"	t
 H	search_complex/src/algorithms/lrta_agent.rs	/^    H: HashMap<S, f64>,$/;"	m	struct:LrtaAgent
 Individual	search_complex/src/algorithms/genetic_algorithm.rs	/^type Individual<A> = Node<String, A>;$/;"	t
+King	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    King = 0,$/;"	e	enum:ChessPieceType
+Knight	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    Knight = 3,$/;"	e	enum:ChessPieceType
 LrtaAgent	search_complex/src/algorithms/lrta_agent.rs	/^impl<P, S, A> Agent<P, S, A> for LrtaAgent<P, S, A> $/;"	c
 LrtaAgent	search_complex/src/algorithms/lrta_agent.rs	/^impl<P, S, A> LrtaAgent<P, S, A>$/;"	c
 LrtaAgent	search_complex/src/algorithms/lrta_agent.rs	/^pub struct LrtaAgent<P, S, A> {$/;"	s
@@ -1657,11 +1682,15 @@ Node	search_complex/src/algorithms/node.rs	/^impl<S, A> std::fmt::Display for No
 Node	search_complex/src/algorithms/node.rs	/^pub struct Node<S, A> {$/;"	s
 OnlineDFSAgent	search_complex/src/algorithms/online_dfs_agent.rs	/^impl<P, S, A> Agent<P, S, A> for OnlineDFSAgent<S, A>$/;"	c
 OnlineDFSAgent	search_complex/src/algorithms/online_dfs_agent.rs	/^pub struct OnlineDFSAgent<S, A>$/;"	s
+Pawn	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    Pawn = 5$/;"	e	enum:ChessPieceType
 Plan	search_complex/src/algorithms/or_search.rs	/^pub type Plan<A> = Result<Vec<A>, SearchError>;$/;"	t
+Player	adversarial_search_and_games/src/algorithms/game.rs	/^pub trait Player<S, A>$/;"	i
+PlayerColor	adversarial_search_and_games/src/algorithms/games/chess.rs	/^enum PlayerColor {$/;"	g
 Precalculated	search/target/debug/.fingerprint/proc-macro-hack-484fdd2e1dfb22f4/run-build-script-build-script-build.json	/^{"rustc":14330414595928666026,"features":"","target":0,"profile":0,"path":0,"deps":[[46094553452/;"	s	object:local.0
 Precalculated	search/target/debug/.fingerprint/syn-b89cc2f2c4d559cc/run-build-script-build-script-build.json	/^{"rustc":14330414595928666026,"features":"","target":0,"profile":0,"path":0,"deps":[[24042438933/;"	s	object:local.0
 Problem	search/src/algorithms/problem.rs	/^pub trait Problem<S, A> $/;"	i
 Problem	search_complex/src/algorithms/problem.rs	/^pub trait Problem<S, A> $/;"	i
+Queen	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    Queen = 1,$/;"	e	enum:ChessPieceType
 RerunIfChanged	search/target/debug/.fingerprint/libc-afc331dcea82d9a5/run-build-script-build-script-build.json	/^{"rustc":14330414595928666026,"features":"","target":0,"profile":0,"path":0,"deps":[[13743578918/;"	o	object:local.0
 RerunIfChanged	search/target/debug/.fingerprint/num-bigint-13957ab7ea253800/run-build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"","target":0,"profile":0,"path":0,"deps":[[11048371280/;"	o	object:local.0
 RerunIfChanged	search/target/debug/.fingerprint/num-bigint-6ea2015ca34fd581/run-build-script-build-script-build.json	/^{"rustc":14330414595928666026,"features":"","target":0,"profile":0,"path":0,"deps":[[11048371280/;"	o	object:local.0
@@ -1681,6 +1710,7 @@ RerunIfChanged	search/target/release/.fingerprint/num-iter-dfdb95d7309cc61d/run-
 RerunIfChanged	search/target/release/.fingerprint/num-rational-9f8f3ad103dcafcf/run-build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"","target":0,"profile":0,"path":0,"deps":[[12116750734/;"	o	object:local.0
 RerunIfChanged	search/target/release/.fingerprint/num-traits-0ba7a1052bdb690b/run-build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"","target":0,"profile":0,"path":0,"deps":[[81216356945/;"	o	object:local.0
 RerunIfChanged	search_complex/target/debug/.fingerprint/libc-bca7439595590b1d/run-build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"","target":0,"profile":0,"path":0,"deps":[[13743578918/;"	o	object:local.0
+Rook	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    Rook = 2,$/;"	e	enum:ChessPieceType
 SearchAlgorithm	search/src/main.rs	/^type SearchAlgorithm<P, S, A> = fn(&P) -> SearchResult<S, A>;$/;"	t
 SearchAlgorithm	search_complex/src/main.rs	/^type SearchAlgorithm<P, S, A> = fn(&P) -> SearchResult<S, A>;$/;"	t
 SearchAlgorithmHeuristic	search/src/main.rs	/^type SearchAlgorithmHeuristic<P, S, A> = fn(&P, fn(&P, &Node<S, A>) -> u32) -> SearchResult<S, A/;"	t
@@ -1732,6 +1762,7 @@ ToVaslui	search/src/algorithms/problem.rs	/^    ToVaslui,$/;"	e	enum:AradToBucha
 ToVaslui	search_complex/src/algorithms/problem.rs	/^    ToVaslui,$/;"	e	enum:AradToBucharestAction
 ToZerind	search/src/algorithms/problem.rs	/^    ToZerind,$/;"	e	enum:AradToBucharestAction
 ToZerind	search_complex/src/algorithms/problem.rs	/^    ToZerind,$/;"	e	enum:AradToBucharestAction
+White	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    White,$/;"	e	enum:PlayerColor
 a	search_complex/src/algorithms/lrta_agent.rs	/^    a: Option<A>,$/;"	m	struct:LrtaAgent
 a	search_complex/src/algorithms/online_dfs_agent.rs	/^    a: Option<A>,$/;"	m	struct:OnlineDFSAgent
 action	search/src/algorithms/node.rs	/^    pub action: Option<A>,$/;"	m	struct:Node
@@ -1741,19 +1772,24 @@ action_cost	search/src/algorithms/problem.rs	/^    fn action_cost(&self, state: 
 action_cost	search_complex/src/algorithms/problem.rs	/^    fn action_cost(&self, state: &GraphState, action: &GraphAction, new_state: &GraphState) -> f/;"	P	implementation:GraphProblem
 action_cost	search_complex/src/algorithms/problem.rs	/^    fn action_cost(&self, state: &S, action: &A, new_state: &S) -> f64;$/;"	P	interface:Problem
 action_cost	search_complex/src/algorithms/problem.rs	/^    fn action_cost(&self, state: &State, action: &Action, new_state: &State) -> f64 {$/;"	P	implementation:AradToBucharestProblem
+actions	adversarial_search_and_games/src/algorithms/game.rs	/^    fn actions(&self, state: &S) -> Vec<A>;$/;"	P	interface:Game
+actions	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    fn actions(&self, state: &ChessState) -> Vec<ChessAction<'a>> {       $/;"	P	implementation:ChessGame
 actions	search/src/algorithms/problem.rs	/^    fn actions(&self, state: &S) -> Vec<A>;$/;"	P	interface:Problem
 actions	search/src/algorithms/problem.rs	/^    fn actions(&self, state: &State) -> Vec<Action> {$/;"	P	implementation:AradToBucharestProblem
 actions	search_complex/src/algorithms/problem.rs	/^    fn actions(&self, state: &GraphState) -> Vec<GraphAction> {$/;"	P	implementation:GraphProblem
 actions	search_complex/src/algorithms/problem.rs	/^    fn actions(&self, state: &S) -> Vec<A>;$/;"	P	interface:Problem
 actions	search_complex/src/algorithms/problem.rs	/^    fn actions(&self, state: &State) -> Vec<Action> {$/;"	P	implementation:AradToBucharestProblem
 agent	search_complex/src/algorithms/mod.rs	/^pub mod agent;$/;"	n
+algorithms	adversarial_search_and_games/src/main.rs	/^pub mod algorithms;$/;"	n
 algorithms	search/src/main.rs	/^mod algorithms;$/;"	n
 algorithms	search_complex/src/main.rs	/^mod algorithms;$/;"	n
+alpha_beta	adversarial_search_and_games/src/algorithms/mod.rs	/^pub mod alpha_beta;$/;"	n
 and_or_search	search_complex/src/algorithms/or_search.rs	/^pub fn and_or_search<P, S, A>(problem: &P) -> Plan<A>$/;"	f
 and_search	search_complex/src/algorithms/or_search.rs	/^fn and_search<P, S, A>(problem: &P, states: &Vec<S>, path: &mut Vec<S>, plan: &mut Vec<A>) -> Pl/;"	f
 argmin_cost	search_complex/src/algorithms/lrta_agent.rs	/^    fn argmin_cost(&self, problem: &P, s_star: &S) -> A$/;"	f
 arguments	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	a	object:compilation
 arguments	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	a	object:compilation
+array	adversarial_search_and_games/src/algorithms/games/chess.rs	/^macro_rules! array {$/;"	M
 attributes	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	a	object:defs.0
 attributes	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	a	object:defs.1
 attributes	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	a	object:defs.0
@@ -1762,6 +1798,8 @@ best_first_search	search/src/algorithms/best_first_search.rs	/^pub fn best_first
 best_first_search	search/src/algorithms/mod.rs	/^pub mod best_first_search;$/;"	n
 bibf_search	search/src/algorithms/bibf_search.rs	/^pub fn bibf_search<P, S, A>(problem: &P) -> SearchResult<S, A> $/;"	f
 bibf_search	search/src/algorithms/mod.rs	/^pub mod bibf_search;$/;"	n
+bishops	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    bishops: Vec<Box<ChessPiece>>,$/;"	m	struct:ChessPlayer
+board	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    board: ChessState,$/;"	m	struct:ChessGame
 borrow_data	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	b	object:config
 borrow_data	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	b	object:config
 breadth_first_search	search/src/algorithms/breadth_first_search.rs	/^pub fn breadth_first_search<P, S, A>(problem: &P) -> SearchResult<S, A>$/;"	f
@@ -1780,10 +1818,14 @@ byte_start	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.js
 byte_start	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	n	object:defs.0.span
 byte_start	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	n	object:defs.1.span
 byte_start	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	n	object:prelude.span
+chess	adversarial_search_and_games/src/algorithms/games/mod.rs	/^pub mod chess;$/;"	n
 children	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	a	object:defs.0
 children	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	a	object:defs.1
 children	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	a	object:defs.0
 children	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	a	object:defs.1
+code	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	n	object:outputs.17598535894874457435
+code	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	n	object:outputs.2797684049618456168
+code	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	n	object:outputs.931469667778813386
 code	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	n	object:outputs.17598535894874457435
 code	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	n	object:outputs.2797684049618456168
 code	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	n	object:outputs.931469667778813386
@@ -1794,6 +1836,7 @@ code	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":32202256822821391
 code	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	n	object:outputs.17598535894874457435
 code	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	n	object:outputs.2797684049618456168
 code	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	n	object:outputs.931469667778813386
+color	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    color: PlayerColor$/;"	m	struct:ChessPiece
 column_end	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	n	object:defs.0.span
 column_end	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	n	object:defs.1.attributes.0.span
 column_end	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	n	object:defs.1.span
@@ -1810,6 +1853,8 @@ column_start	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.
 column_start	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	n	object:prelude.span
 compilation	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o
 compilation	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o
+compile_kind	adversarial_search_and_games/target/debug/.fingerprint/adversarial_search_and_games-294ab4acd78c7238/test-bin-adversarial_search_and_games.json	/^{"rustc":15069735523673833430,"features":"[]","target":11869639202455498530,"profile":1021633075/;"	n
+compile_kind	adversarial_search_and_games/target/debug/.fingerprint/adversarial_search_and_games-dd6e23745048a23a/bin-adversarial_search_and_games.json	/^{"rustc":15069735523673833430,"features":"[]","target":11869639202455498530,"profile":7309141686/;"	n
 compile_kind	search/target/debug/.fingerprint/autocfg-1666e724c4950338/lib-autocfg.json	/^{"rustc":14330414595928666026,"features":"[]","target":10236397793970852656,"profile":1263731873/;"	n
 compile_kind	search/target/debug/.fingerprint/autocfg-3aefa914eeb411d0/lib-autocfg.json	/^{"rustc":15069735523673833430,"features":"[]","target":10236397793970852656,"profile":1263731873/;"	n
 compile_kind	search/target/debug/.fingerprint/cfg-if-0a04e74fc4f21d18/lib-cfg-if.json	/^{"rustc":14330414595928666026,"features":"[]","target":10094334937643343087,"profile":1263731873/;"	n
@@ -1962,6 +2007,8 @@ compile_kind	search_complex/target/debug/.fingerprint/search_complex-a6db32349bf
 compile_kind	search_complex/target/debug/.fingerprint/search_complex-c3e0c78a14395e7a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	n
 compile_kind	search_complex/target/debug/.fingerprint/search_complex-e7b5a594b3b0a62a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	n
 compile_kind	search_complex/target/debug/.fingerprint/search_complex-f19572bc3a587007/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	n
+config	adversarial_search_and_games/target/debug/.fingerprint/adversarial_search_and_games-294ab4acd78c7238/test-bin-adversarial_search_and_games.json	/^{"rustc":15069735523673833430,"features":"[]","target":11869639202455498530,"profile":1021633075/;"	n
+config	adversarial_search_and_games/target/debug/.fingerprint/adversarial_search_and_games-dd6e23745048a23a/bin-adversarial_search_and_games.json	/^{"rustc":15069735523673833430,"features":"[]","target":11869639202455498530,"profile":7309141686/;"	n
 config	search/target/debug/.fingerprint/autocfg-1666e724c4950338/lib-autocfg.json	/^{"rustc":14330414595928666026,"features":"[]","target":10236397793970852656,"profile":1263731873/;"	n
 config	search/target/debug/.fingerprint/autocfg-3aefa914eeb411d0/lib-autocfg.json	/^{"rustc":15069735523673833430,"features":"[]","target":10236397793970852656,"profile":1263731873/;"	n
 config	search/target/debug/.fingerprint/cfg-if-0a04e74fc4f21d18/lib-cfg-if.json	/^{"rustc":14330414595928666026,"features":"[]","target":10094334937643343087,"profile":1263731873/;"	n
@@ -2120,12 +2167,16 @@ crate_id	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json
 crate_id	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o	object:prelude
 crate_root	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	s	object:prelude
 crate_root	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	s	object:prelude
+create_game	adversarial_search_and_games/src/algorithms/game.rs	/^    fn create_game() -> Self;   $/;"	P	interface:Game
+create_game	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    fn create_game() -> Self {$/;"	P	implementation:ChessGame
 decl_id	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	z	object:defs.0
 decl_id	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	z	object:defs.1
 decl_id	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	z	object:defs.0
 decl_id	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	z	object:defs.1
 defs	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	a
 defs	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	a
+dep_info	adversarial_search_and_games/target/debug/.fingerprint/adversarial_search_and_games-294ab4acd78c7238/test-bin-adversarial_search_and_games.json	/^{"rustc":15069735523673833430,"features":"[]","target":11869639202455498530,"profile":1021633075/;"	s	object:local.0.CheckDepInfo
+dep_info	adversarial_search_and_games/target/debug/.fingerprint/adversarial_search_and_games-dd6e23745048a23a/bin-adversarial_search_and_games.json	/^{"rustc":15069735523673833430,"features":"[]","target":11869639202455498530,"profile":7309141686/;"	s	object:local.0.CheckDepInfo
 dep_info	search/target/debug/.fingerprint/autocfg-1666e724c4950338/lib-autocfg.json	/^{"rustc":14330414595928666026,"features":"[]","target":10236397793970852656,"profile":1263731873/;"	s	object:local.0.CheckDepInfo
 dep_info	search/target/debug/.fingerprint/autocfg-3aefa914eeb411d0/lib-autocfg.json	/^{"rustc":15069735523673833430,"features":"[]","target":10236397793970852656,"profile":1263731873/;"	s	object:local.0.CheckDepInfo
 dep_info	search/target/debug/.fingerprint/cfg-if-0a04e74fc4f21d18/lib-cfg-if.json	/^{"rustc":14330414595928666026,"features":"[]","target":10094334937643343087,"profile":1263731873/;"	s	object:local.0.CheckDepInfo
@@ -2257,6 +2308,8 @@ dep_info	search_complex/target/debug/.fingerprint/search_complex-a6db32349bfcf01
 dep_info	search_complex/target/debug/.fingerprint/search_complex-c3e0c78a14395e7a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	s	object:local.0.CheckDepInfo
 dep_info	search_complex/target/debug/.fingerprint/search_complex-e7b5a594b3b0a62a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	s	object:local.0.CheckDepInfo
 dep_info	search_complex/target/debug/.fingerprint/search_complex-f19572bc3a587007/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	s	object:local.0.CheckDepInfo
+deps	adversarial_search_and_games/target/debug/.fingerprint/adversarial_search_and_games-294ab4acd78c7238/test-bin-adversarial_search_and_games.json	/^{"rustc":15069735523673833430,"features":"[]","target":11869639202455498530,"profile":1021633075/;"	a
+deps	adversarial_search_and_games/target/debug/.fingerprint/adversarial_search_and_games-dd6e23745048a23a/bin-adversarial_search_and_games.json	/^{"rustc":15069735523673833430,"features":"[]","target":11869639202455498530,"profile":7309141686/;"	a
 deps	search/target/debug/.fingerprint/autocfg-1666e724c4950338/lib-autocfg.json	/^{"rustc":14330414595928666026,"features":"[]","target":10236397793970852656,"profile":1263731873/;"	a
 deps	search/target/debug/.fingerprint/autocfg-3aefa914eeb411d0/lib-autocfg.json	/^{"rustc":15069735523673833430,"features":"[]","target":10236397793970852656,"profile":1263731873/;"	a
 deps	search/target/debug/.fingerprint/cfg-if-0a04e74fc4f21d18/lib-cfg-if.json	/^{"rustc":14330414595928666026,"features":"[]","target":10094334937643343087,"profile":1263731873/;"	a
@@ -2470,6 +2523,8 @@ external_crates	search/target/rls/debug/deps/save-analysis/search-7592e65291c849
 external_crates	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	a	object:prelude
 f	search/src/algorithms/node.rs	/^    pub f: u32$/;"	m	struct:Node
 f	search_complex/src/algorithms/node.rs	/^    pub f: f64$/;"	m	struct:Node
+features	adversarial_search_and_games/target/debug/.fingerprint/adversarial_search_and_games-294ab4acd78c7238/test-bin-adversarial_search_and_games.json	/^{"rustc":15069735523673833430,"features":"[]","target":11869639202455498530,"profile":1021633075/;"	s
+features	adversarial_search_and_games/target/debug/.fingerprint/adversarial_search_and_games-dd6e23745048a23a/bin-adversarial_search_and_games.json	/^{"rustc":15069735523673833430,"features":"[]","target":11869639202455498530,"profile":7309141686/;"	s
 features	search/target/debug/.fingerprint/autocfg-1666e724c4950338/lib-autocfg.json	/^{"rustc":14330414595928666026,"features":"[]","target":10236397793970852656,"profile":1263731873/;"	s
 features	search/target/debug/.fingerprint/autocfg-3aefa914eeb411d0/lib-autocfg.json	/^{"rustc":15069735523673833430,"features":"[]","target":10236397793970852656,"profile":1263731873/;"	s
 features	search/target/debug/.fingerprint/cfg-if-0a04e74fc4f21d18/lib-cfg-if.json	/^{"rustc":14330414595928666026,"features":"[]","target":10094334937643343087,"profile":1263731873/;"	s
@@ -2675,9 +2730,14 @@ fmt	search/src/algorithms/node.rs	/^    fn fmt (&self, fmt: &mut std::fmt::Forma
 fmt	search_complex/src/algorithms/node.rs	/^    fn fmt (&self, fmt: &mut std::fmt::Formatter) -> std::result::Result<(), std::fmt::Error> {$/;"	f
 full_docs	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	b	object:config
 full_docs	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	b	object:config
+game	adversarial_search_and_games/src/algorithms/mod.rs	/^pub mod game;$/;"	n
+game_over	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    game_over: bool,$/;"	m	struct:ChessGame
+games	adversarial_search_and_games/src/algorithms/mod.rs	/^pub mod games;$/;"	n
 genetic_algorithm	search_complex/src/algorithms/genetic_algorithm.rs	/^pub fn genetic_algorithm<P, A>(problem: &P) -> SearchResult<String, A> $/;"	f
 genetic_algorithm	search_complex/src/algorithms/mod.rs	/^pub mod genetic_algorithm;$/;"	n
 genetic_fitness	search_complex/src/algorithms/genetic_algorithm.rs	/^fn genetic_fitness<P, A>(problem: &P, individual: &Individual<A>) -> GeneticWeights $/;"	f
+get_color	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    fn get_color(&self) -> PlayerColor {$/;"	P	implementation:ChessPiece
+get_current_player	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    fn get_current_player(&self) -> &ChessPlayer {$/;"	P	implementation:ChessGame
 get_goal_node	search/src/algorithms/problem.rs	/^    fn get_goal_node(&self) -> Node<S, A>;$/;"	P	interface:Problem
 get_goal_node	search/src/algorithms/problem.rs	/^    fn get_goal_node(&self) -> Node<State, Action> {$/;"	P	implementation:AradToBucharestProblem
 get_goal_node	search_complex/src/algorithms/problem.rs	/^    fn get_goal_node(&self) -> Node<GraphState, GraphAction> {$/;"	P	implementation:GraphProblem
@@ -2693,7 +2753,14 @@ get_initial_node	search/src/algorithms/problem.rs	/^    fn get_initial_node(&sel
 get_initial_node	search_complex/src/algorithms/problem.rs	/^    fn get_initial_node(&self) -> Node<GraphState, GraphAction> {$/;"	P	implementation:GraphProblem
 get_initial_node	search_complex/src/algorithms/problem.rs	/^    fn get_initial_node(&self) -> Node<S, A>;$/;"	P	interface:Problem
 get_initial_node	search_complex/src/algorithms/problem.rs	/^    fn get_initial_node(&self) -> Node<State, Action> {$/;"	P	implementation:AradToBucharestProblem
+get_initial_state	adversarial_search_and_games/src/algorithms/game.rs	/^    fn get_initial_state(&self) -> &S;$/;"	P	interface:Game
+get_initial_state	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    fn get_initial_state(&self) -> &ChessState {$/;"	P	implementation:ChessGame
+get_moves	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    fn get_moves<'a>(&self, state: &ChessState) -> Vec<ChessAction<'a>> {$/;"	P	implementation:ChessPlayer
 get_path_cost	search_complex/src/algorithms/genetic_algorithm.rs	/^fn get_path_cost<P, A>(problem: &P, individual: &Individual<A>) -> f64 $/;"	f
+get_position	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    fn get_position(&self) -> BoardPosition {$/;"	P	implementation:ChessPiece
+get_possible_moves	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    fn get_possible_moves<'a>(&self, state: &ChessState) -> Vec<BoardPosition> {$/;"	P	implementation:ChessPiece
+get_value	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    fn get_value(&self) -> f64 {$/;"	P	implementation:ChessPiece
+get_value	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    fn get_value(&self) -> f64 {$/;"	P	implementation:ChessPieceType
 goal_state	search/src/algorithms/problem.rs	/^    goal_state: State$/;"	m	struct:AradToBucharestProblem
 goal_state	search_complex/src/algorithms/problem.rs	/^    goal_state: State$/;"	m	struct:AradToBucharestProblem
 graph_actions	search_complex/src/algorithms/problem.rs	/^fn graph_actions(state: GraphState) -> Vec<GraphAction> {$/;"	f
@@ -2702,10 +2769,12 @@ graph_fn	search_complex/src/algorithms/problem.rs	/^    graph_fn: fn(f64) -> f64
 h	search/src/main.rs	/^fn h<P, S, A>(problem: &P, node: &Node<S, A>) -> u32$/;"	f
 h	search_complex/src/algorithms/lrta_agent.rs	/^    h: fn(&P, &S) -> f64,$/;"	m	struct:LrtaAgent
 h	search_complex/src/main.rs	/^fn h<P, S, A>(problem: &P, node: &Node<S, A>) -> f64$/;"	f
+heuristic_alpha_beta	adversarial_search_and_games/src/algorithms/mod.rs	/^pub mod heuristic_alpha_beta;$/;"	n
 heuristic_function	search_complex/src/algorithms/lrta_agent.rs	/^fn heuristic_function<P, S, A>(problem: &P, state: &S) -> f64 $/;"	f
 highest_valued_successor	search_complex/src/algorithms/hill_climbing.rs	/^fn highest_valued_successor<P, S, A>(problem: &P, node: Node<S, A>) -> SearchResult<S, A>$/;"	f
 hill_climbing	search_complex/src/algorithms/hill_climbing.rs	/^pub fn hill_climbing<P, S, A>(problem: &P) -> SearchResult<S, A>$/;"	f
 hill_climbing	search_complex/src/algorithms/mod.rs	/^pub mod hill_climbing;$/;"	n
+hypothetical_move	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    fn hypothetical_move<'a>(state: &ChessState, action: &ChessAction<'a>) -> ChessState {$/;"	P	implementation:ChessGame
 id	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o	object:defs.0
 id	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o	object:defs.1
 id	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o	object:prelude.external_crates.0
@@ -2772,6 +2841,7 @@ initial_node	search_complex/src/algorithms/problem.rs	/^    initial_node: Node<S
 initial_state	search/src/algorithms/problem.rs	/^    initial_state: State,$/;"	m	struct:AradToBucharestProblem
 initial_state	search_complex/src/algorithms/problem.rs	/^    initial_state: State,$/;"	m	struct:AradToBucharestProblem
 instantiate_population	search_complex/src/algorithms/genetic_algorithm.rs	/^fn instantiate_population<P, A>(problem: &P, size: usize) -> Vec<Individual<A>>$/;"	f
+is_checked	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    is_checked: bool$/;"	m	struct:ChessPlayer
 is_cycle	search/src/algorithms/node.rs	/^pub fn is_cycle<S, A>(node: Node<S, A>) -> bool $/;"	f
 is_cycle	search_complex/src/algorithms/node.rs	/^pub fn is_cycle<S, A>(node: Node<S, A>) -> bool $/;"	f
 is_fit_enough	search_complex/src/algorithms/genetic_algorithm.rs	/^fn is_fit_enough<P, A>(problem: &P, individual: &Individual<A>) -> bool $/;"	f
@@ -2780,6 +2850,9 @@ is_goal	search/src/algorithms/problem.rs	/^    fn is_goal(&self, state: &State) 
 is_goal	search_complex/src/algorithms/problem.rs	/^    fn is_goal(&self, state: &GraphState) -> bool {$/;"	P	implementation:GraphProblem
 is_goal	search_complex/src/algorithms/problem.rs	/^    fn is_goal(&self, state: &S) -> bool;$/;"	P	interface:Problem
 is_goal	search_complex/src/algorithms/problem.rs	/^    fn is_goal(&self, state: &State) -> bool {$/;"	P	implementation:AradToBucharestProblem
+is_legal_move	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    fn is_legal_move<'a>(state: &ChessState, action: ChessAction<'a>) -> bool {$/;"	P	implementation:ChessGame
+is_terminal	adversarial_search_and_games/src/algorithms/game.rs	/^    fn is_terminal(&self, state: &S) -> bool;$/;"	P	interface:Game
+is_terminal	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    fn is_terminal(&self, state: &ChessState) -> bool {$/;"	P	implementation:ChessGame
 iterate_over_dna	search_complex/src/algorithms/genetic_algorithm.rs	/^pub fn iterate_over_dna<P, S, A, T>(problem: &P, individual: &Individual<A>, callback: fn(Node<S/;"	f
 iterative_deepening_search	search/src/algorithms/iterative_deepening_search.rs	/^pub fn iterative_deepening_search<P, S, A>(problem: &P) -> SearchResult<S, A> $/;"	f
 iterative_deepening_search	search/src/algorithms/mod.rs	/^pub mod iterative_deepening_search;$/;"	n
@@ -2788,6 +2861,8 @@ kind	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{
 kind	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	s	object:defs.1
 kind	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	s	object:defs.0
 kind	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	s	object:defs.1
+king	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    king: Box<ChessPiece>,$/;"	m	struct:ChessPlayer
+knights	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    knights: Vec<Box<ChessPiece>>,$/;"	m	struct:ChessPlayer
 krate	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	n	object:defs.0.children.0
 krate	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	n	object:defs.0.children.1
 krate	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	n	object:defs.0.children.2
@@ -2813,6 +2888,8 @@ line_start	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.js
 line_start	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	n	object:defs.0.span
 line_start	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	n	object:defs.1.span
 line_start	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	n	object:prelude.span
+local	adversarial_search_and_games/target/debug/.fingerprint/adversarial_search_and_games-294ab4acd78c7238/test-bin-adversarial_search_and_games.json	/^{"rustc":15069735523673833430,"features":"[]","target":11869639202455498530,"profile":1021633075/;"	a
+local	adversarial_search_and_games/target/debug/.fingerprint/adversarial_search_and_games-dd6e23745048a23a/bin-adversarial_search_and_games.json	/^{"rustc":15069735523673833430,"features":"[]","target":11869639202455498530,"profile":7309141686/;"	a
 local	search/target/debug/.fingerprint/autocfg-1666e724c4950338/lib-autocfg.json	/^{"rustc":14330414595928666026,"features":"[]","target":10236397793970852656,"profile":1263731873/;"	a
 local	search/target/debug/.fingerprint/autocfg-3aefa914eeb411d0/lib-autocfg.json	/^{"rustc":15069735523673833430,"features":"[]","target":10236397793970852656,"profile":1263731873/;"	a
 local	search/target/debug/.fingerprint/cfg-if-0a04e74fc4f21d18/lib-cfg-if.json	/^{"rustc":14330414595928666026,"features":"[]","target":10094334937643343087,"profile":1263731873/;"	a
@@ -2969,8 +3046,11 @@ lrta_agent	search_complex/src/algorithms/mod.rs	/^pub mod lrta_agent;$/;"	n
 lrta_cost	search_complex/src/algorithms/lrta_agent.rs	/^    fn lrta_cost(&self, problem: &P, s: Option<S>, a: &A, s_star: Option<S>) -> f64$/;"	f
 macro_refs	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	a
 macro_refs	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	a
+main	adversarial_search_and_games/src/main.rs	/^fn main() {$/;"	f
 main	search/src/main.rs	/^fn main() {$/;"	f
 main	search_complex/src/main.rs	/^fn main() {$/;"	f
+metadata	adversarial_search_and_games/target/debug/.fingerprint/adversarial_search_and_games-294ab4acd78c7238/test-bin-adversarial_search_and_games.json	/^{"rustc":15069735523673833430,"features":"[]","target":11869639202455498530,"profile":1021633075/;"	n
+metadata	adversarial_search_and_games/target/debug/.fingerprint/adversarial_search_and_games-dd6e23745048a23a/bin-adversarial_search_and_games.json	/^{"rustc":15069735523673833430,"features":"[]","target":11869639202455498530,"profile":7309141686/;"	n
 metadata	search/target/debug/.fingerprint/autocfg-1666e724c4950338/lib-autocfg.json	/^{"rustc":14330414595928666026,"features":"[]","target":10236397793970852656,"profile":1263731873/;"	n
 metadata	search/target/debug/.fingerprint/autocfg-3aefa914eeb411d0/lib-autocfg.json	/^{"rustc":15069735523673833430,"features":"[]","target":10236397793970852656,"profile":1263731873/;"	n
 metadata	search/target/debug/.fingerprint/cfg-if-0a04e74fc4f21d18/lib-cfg-if.json	/^{"rustc":14330414595928666026,"features":"[]","target":10094334937643343087,"profile":1263731873/;"	n
@@ -3124,6 +3204,9 @@ metadata	search_complex/target/debug/.fingerprint/search_complex-c3e0c78a14395e7
 metadata	search_complex/target/debug/.fingerprint/search_complex-e7b5a594b3b0a62a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	n
 metadata	search_complex/target/debug/.fingerprint/search_complex-f19572bc3a587007/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	n
 min_cost	search_complex/src/algorithms/lrta_agent.rs	/^    fn min_cost(&self, problem: &P) -> f64 $/;"	f
+minimax	adversarial_search_and_games/src/algorithms/mod.rs	/^pub mod minimax;$/;"	n
+monte_carlo_tree_search	adversarial_search_and_games/src/algorithms/mod.rs	/^pub mod monte_carlo_tree_search;$/;"	n
+move_piece	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    fn move_piece<'a>(&mut self, action: ChessAction<'a>) {$/;"	P	implementation:ChessGame
 mutate	search_complex/src/algorithms/genetic_algorithm.rs	/^fn mutate<P, A>(problem: &P, child: &Individual<A>) -> Individual<A>$/;"	f
 name	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	s	object:defs.0
 name	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	s	object:defs.1
@@ -3173,11 +3256,13 @@ name	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{
 name	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	s	object:prelude.external_crates.7.id
 name	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	s	object:prelude.external_crates.8.id
 name	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	s	object:prelude.external_crates.9.id
+new	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    fn new(color: PlayerColor) -> Self {$/;"	P	implementation:ChessPlayer
 new	search/src/algorithms/node.rs	/^    pub const fn new(state: S, parent: Option<Box<Node<S, A>>>, action: Option<A>, path_cost: u3/;"	P	implementation:Node
 new	search_complex/src/algorithms/agent.rs	/^    fn new() -> Self;$/;"	P	interface:Agent
 new	search_complex/src/algorithms/lrta_agent.rs	/^    fn new() -> Self {$/;"	f
 new	search_complex/src/algorithms/node.rs	/^    pub const fn new(state: S, parent: Option<Box<Node<S, A>>>, action: Option<A>, path_cost: f6/;"	P	implementation:Node
 new	search_complex/src/algorithms/online_dfs_agent.rs	/^    fn new() -> Self {$/;"	f
+node	adversarial_search_and_games/src/algorithms/mod.rs	/^pub mod node;$/;"	n
 node	search/src/algorithms/mod.rs	/^pub mod node;$/;"	n
 node	search_complex/src/algorithms/mod.rs	/^pub mod node;$/;"	n
 noise_dfn	search_complex/src/algorithms/problem.rs	/^fn noise_dfn(x : f64) -> f64 {$/;"	f
@@ -3250,6 +3335,7 @@ output	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/
 output	search_complex/target/debug/.fingerprint/libc-bca7439595590b1d/run-build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"","target":0,"profile":0,"path":0,"deps":[[13743578918/;"	s	object:local.0.RerunIfChanged
 output_file	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	z	object:config
 output_file	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	z	object:config
+outputs	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	o
 outputs	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	o
 outputs	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	o
 outputs	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	o
@@ -3259,6 +3345,8 @@ parent	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/
 parent	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	z	object:defs.0
 parent	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	z	object:defs.1
 parent	search_complex/src/algorithms/node.rs	/^    pub parent: Option<Box<Node<S, A>>>,$/;"	m	struct:Node
+path	adversarial_search_and_games/target/debug/.fingerprint/adversarial_search_and_games-294ab4acd78c7238/test-bin-adversarial_search_and_games.json	/^{"rustc":15069735523673833430,"features":"[]","target":11869639202455498530,"profile":1021633075/;"	n
+path	adversarial_search_and_games/target/debug/.fingerprint/adversarial_search_and_games-dd6e23745048a23a/bin-adversarial_search_and_games.json	/^{"rustc":15069735523673833430,"features":"[]","target":11869639202455498530,"profile":7309141686/;"	n
 path	search/target/debug/.fingerprint/autocfg-1666e724c4950338/lib-autocfg.json	/^{"rustc":14330414595928666026,"features":"[]","target":10236397793970852656,"profile":1263731873/;"	n
 path	search/target/debug/.fingerprint/autocfg-3aefa914eeb411d0/lib-autocfg.json	/^{"rustc":15069735523673833430,"features":"[]","target":10236397793970852656,"profile":1263731873/;"	n
 path	search/target/debug/.fingerprint/cfg-if-0a04e74fc4f21d18/lib-cfg-if.json	/^{"rustc":14330414595928666026,"features":"[]","target":10094334937643343087,"profile":1263731873/;"	n
@@ -3432,12 +3520,20 @@ paths	search/target/release/.fingerprint/num-iter-dfdb95d7309cc61d/run-build-scr
 paths	search/target/release/.fingerprint/num-rational-9f8f3ad103dcafcf/run-build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"","target":0,"profile":0,"path":0,"deps":[[12116750734/;"	a	object:local.0.RerunIfChanged
 paths	search/target/release/.fingerprint/num-traits-0ba7a1052bdb690b/run-build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"","target":0,"profile":0,"path":0,"deps":[[81216356945/;"	a	object:local.0.RerunIfChanged
 paths	search_complex/target/debug/.fingerprint/libc-bca7439595590b1d/run-build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"","target":0,"profile":0,"path":0,"deps":[[13743578918/;"	a	object:local.0.RerunIfChanged
+pawns	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    pawns: Vec<Box<ChessPiece>>,$/;"	m	struct:ChessPlayer
+perform_move	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    fn perform_move<'a>(state: &mut ChessState, action: &ChessAction<'a>) {$/;"	P	implementation:ChessGame
+piece_type	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    piece_type: ChessPieceType,$/;"	m	struct:ChessPiece
+players	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    players: [ChessPlayer; 2],$/;"	m	struct:ChessGame
+ply	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    ply: usize,$/;"	m	struct:ChessGame
+position	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    position: BoardPosition,$/;"	m	struct:ChessPiece
 prelude	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o
 prelude	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o
 printfn	search_complex/src/main.rs	/^fn printfn<S, A>(node: Node<S, A>, _: &mut u32)$/;"	f
 problem	search/src/algorithms/mod.rs	/^pub mod problem;$/;"	n
 problem	search_complex/src/algorithms/mod.rs	/^pub mod problem;$/;"	n
 proceed	search/src/algorithms/bibf_search.rs	/^fn proceed<P, S, A>(problem: &P, dir: Direction, frontier: &mut Vec<Node<S, A>>, reached: &mut H/;"	f
+profile	adversarial_search_and_games/target/debug/.fingerprint/adversarial_search_and_games-294ab4acd78c7238/test-bin-adversarial_search_and_games.json	/^{"rustc":15069735523673833430,"features":"[]","target":11869639202455498530,"profile":1021633075/;"	n
+profile	adversarial_search_and_games/target/debug/.fingerprint/adversarial_search_and_games-dd6e23745048a23a/bin-adversarial_search_and_games.json	/^{"rustc":15069735523673833430,"features":"[]","target":11869639202455498530,"profile":7309141686/;"	n
 profile	search/target/debug/.fingerprint/autocfg-1666e724c4950338/lib-autocfg.json	/^{"rustc":14330414595928666026,"features":"[]","target":10236397793970852656,"profile":1263731873/;"	n
 profile	search/target/debug/.fingerprint/autocfg-3aefa914eeb411d0/lib-autocfg.json	/^{"rustc":15069735523673833430,"features":"[]","target":10236397793970852656,"profile":1263731873/;"	n
 profile	search/target/debug/.fingerprint/cfg-if-0a04e74fc4f21d18/lib-cfg-if.json	/^{"rustc":14330414595928666026,"features":"[]","target":10094334937643343087,"profile":1263731873/;"	n
@@ -3598,6 +3694,7 @@ qualname	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json
 qualname	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	s	object:defs.1
 qualname	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	s	object:defs.0
 qualname	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	s	object:defs.1
+queens	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    queens: Vec<Box<ChessPiece>>,$/;"	m	struct:ChessPlayer
 rand_individual	search_complex/src/algorithms/genetic_algorithm.rs	/^fn rand_individual<P, A>(problem: &P) -> Individual<A>$/;"	f
 random_successor	search_complex/src/algorithms/simulated_annealing.rs	/^fn random_successor<P, S, A>(problem: &P, node: &Node<S, A>) -> Node<S, A>$/;"	f
 rbfs	search/src/algorithms/mod.rs	/^pub mod rbfs;$/;"	n
@@ -3610,6 +3707,8 @@ refs	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{
 relations	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	a
 relations	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	a
 reproduce	search_complex/src/algorithms/genetic_algorithm.rs	/^fn reproduce<P, A>(problem: &P, parent1: &Node<String, A>, parent2: &Node<String, A>) -> Node<St/;"	f
+result	adversarial_search_and_games/src/algorithms/game.rs	/^    fn result(&self, state: &S, action: &A) -> S;$/;"	P	interface:Game
+result	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    fn result(&self, state: &ChessState, action: &ChessAction<'a>) -> ChessState {$/;"	P	implementation:ChessGame
 result	search/src/algorithms/problem.rs	/^    fn result(&self, state: &S, action: &A) -> S;$/;"	P	interface:Problem
 result	search/src/algorithms/problem.rs	/^    fn result(&self, state: &State, action: &Action) -> State {$/;"	P	implementation:AradToBucharestProblem
 result	search_complex/src/algorithms/lrta_agent.rs	/^    result: HashMap<(S, A), S>,$/;"	m	struct:LrtaAgent
@@ -3620,6 +3719,9 @@ result	search_complex/src/algorithms/problem.rs	/^    fn result(&self, state: &S
 results	search_complex/src/algorithms/problem.rs	/^    fn results(&self, state: &GraphState) -> Vec<GraphState> {$/;"	P	implementation:GraphProblem
 results	search_complex/src/algorithms/problem.rs	/^    fn results(&self, state: &S) -> Vec<S>;$/;"	P	interface:Problem
 results	search_complex/src/algorithms/problem.rs	/^    fn results(&self, state: &State) -> Vec<State> {$/;"	P	implementation:AradToBucharestProblem
+rooks	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    rooks: Vec<Box<ChessPiece>>,$/;"	m	struct:ChessPlayer
+rustc	adversarial_search_and_games/target/debug/.fingerprint/adversarial_search_and_games-294ab4acd78c7238/test-bin-adversarial_search_and_games.json	/^{"rustc":15069735523673833430,"features":"[]","target":11869639202455498530,"profile":1021633075/;"	n
+rustc	adversarial_search_and_games/target/debug/.fingerprint/adversarial_search_and_games-dd6e23745048a23a/bin-adversarial_search_and_games.json	/^{"rustc":15069735523673833430,"features":"[]","target":11869639202455498530,"profile":7309141686/;"	n
 rustc	search/target/debug/.fingerprint/autocfg-1666e724c4950338/lib-autocfg.json	/^{"rustc":14330414595928666026,"features":"[]","target":10236397793970852656,"profile":1263731873/;"	n
 rustc	search/target/debug/.fingerprint/autocfg-3aefa914eeb411d0/lib-autocfg.json	/^{"rustc":15069735523673833430,"features":"[]","target":10236397793970852656,"profile":1263731873/;"	n
 rustc	search/target/debug/.fingerprint/cfg-if-0a04e74fc4f21d18/lib-cfg-if.json	/^{"rustc":14330414595928666026,"features":"[]","target":10094334937643343087,"profile":1263731873/;"	n
@@ -3772,9 +3874,12 @@ rustc	search_complex/target/debug/.fingerprint/search_complex-a6db32349bfcf013/t
 rustc	search_complex/target/debug/.fingerprint/search_complex-c3e0c78a14395e7a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	n
 rustc	search_complex/target/debug/.fingerprint/search_complex-e7b5a594b3b0a62a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	n
 rustc	search_complex/target/debug/.fingerprint/search_complex-f19572bc3a587007/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	n
+rustc_fingerprint	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	n
 rustc_fingerprint	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	n
 rustc_fingerprint	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	n
 rustc_fingerprint	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	n
+rustflags	adversarial_search_and_games/target/debug/.fingerprint/adversarial_search_and_games-294ab4acd78c7238/test-bin-adversarial_search_and_games.json	/^{"rustc":15069735523673833430,"features":"[]","target":11869639202455498530,"profile":1021633075/;"	a
+rustflags	adversarial_search_and_games/target/debug/.fingerprint/adversarial_search_and_games-dd6e23745048a23a/bin-adversarial_search_and_games.json	/^{"rustc":15069735523673833430,"features":"[]","target":11869639202455498530,"profile":7309141686/;"	a
 rustflags	search/target/debug/.fingerprint/autocfg-1666e724c4950338/lib-autocfg.json	/^{"rustc":14330414595928666026,"features":"[]","target":10236397793970852656,"profile":1263731873/;"	a
 rustflags	search/target/debug/.fingerprint/autocfg-3aefa914eeb411d0/lib-autocfg.json	/^{"rustc":15069735523673833430,"features":"[]","target":10236397793970852656,"profile":1263731873/;"	a
 rustflags	search/target/debug/.fingerprint/cfg-if-0a04e74fc4f21d18/lib-cfg-if.json	/^{"rustc":14330414595928666026,"features":"[]","target":10094334937643343087,"profile":1263731873/;"	a
@@ -3947,6 +4052,9 @@ span	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{
 span	search/target/rls/debug/deps/save-analysis/search-c0bffd160371d764.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	o	object:prelude
 state	search/src/algorithms/node.rs	/^    pub state: S,$/;"	m	struct:Node
 state	search_complex/src/algorithms/node.rs	/^    pub state: S,$/;"	m	struct:Node
+status	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	s	object:outputs.17598535894874457435
+status	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	s	object:outputs.2797684049618456168
+status	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	s	object:outputs.931469667778813386
 status	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	s	object:outputs.17598535894874457435
 status	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	s	object:outputs.2797684049618456168
 status	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	s	object:outputs.931469667778813386
@@ -3957,6 +4065,9 @@ status	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":322022568228213
 status	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	s	object:outputs.17598535894874457435
 status	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	s	object:outputs.2797684049618456168
 status	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	s	object:outputs.931469667778813386
+stderr	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	s	object:outputs.17598535894874457435
+stderr	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	s	object:outputs.2797684049618456168
+stderr	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	s	object:outputs.931469667778813386
 stderr	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	s	object:outputs.17598535894874457435
 stderr	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	s	object:outputs.2797684049618456168
 stderr	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	s	object:outputs.931469667778813386
@@ -3967,6 +4078,9 @@ stderr	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":322022568228213
 stderr	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	s	object:outputs.17598535894874457435
 stderr	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	s	object:outputs.2797684049618456168
 stderr	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	s	object:outputs.931469667778813386
+stdout	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	s	object:outputs.17598535894874457435
+stdout	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	s	object:outputs.2797684049618456168
+stdout	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	s	object:outputs.931469667778813386
 stdout	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	s	object:outputs.17598535894874457435
 stdout	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	s	object:outputs.2797684049618456168
 stdout	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	s	object:outputs.931469667778813386
@@ -3985,6 +4099,9 @@ stop	search_complex/src/algorithms/problem.rs	/^    fn stop(&self) -> Action {$/
 stop	search_complex/src/algorithms/problem.rs	/^    fn stop(&self) -> GraphAction {$/;"	P	implementation:GraphProblem
 str	search/src/algorithms/problem.rs	/^pub type State = &'static str;$/;"	v
 str	search_complex/src/algorithms/problem.rs	/^pub type State = &'static str;$/;"	v
+success	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	b	object:outputs.17598535894874457435
+success	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	b	object:outputs.2797684049618456168
+success	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	b	object:outputs.931469667778813386
 success	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	b	object:outputs.17598535894874457435
 success	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	b	object:outputs.2797684049618456168
 success	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	b	object:outputs.931469667778813386
@@ -3995,9 +4112,12 @@ success	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":32202256822821
 success	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	b	object:outputs.17598535894874457435
 success	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	b	object:outputs.2797684049618456168
 success	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	b	object:outputs.931469667778813386
+successes	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"2797684049618456168":{"success":false,"sta/;"	o
 successes	search/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	o
 successes	search/target/rls/.rustc_info.json	/^{"rustc_fingerprint":3220225682282139119,"outputs":{"5309432699494263626":{"success":true,"statu/;"	o
 successes	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	o
+target	adversarial_search_and_games/target/debug/.fingerprint/adversarial_search_and_games-294ab4acd78c7238/test-bin-adversarial_search_and_games.json	/^{"rustc":15069735523673833430,"features":"[]","target":11869639202455498530,"profile":1021633075/;"	n
+target	adversarial_search_and_games/target/debug/.fingerprint/adversarial_search_and_games-dd6e23745048a23a/bin-adversarial_search_and_games.json	/^{"rustc":15069735523673833430,"features":"[]","target":11869639202455498530,"profile":7309141686/;"	n
 target	search/target/debug/.fingerprint/autocfg-1666e724c4950338/lib-autocfg.json	/^{"rustc":14330414595928666026,"features":"[]","target":10236397793970852656,"profile":1263731873/;"	n
 target	search/target/debug/.fingerprint/autocfg-3aefa914eeb411d0/lib-autocfg.json	/^{"rustc":15069735523673833430,"features":"[]","target":10236397793970852656,"profile":1263731873/;"	n
 target	search/target/debug/.fingerprint/cfg-if-0a04e74fc4f21d18/lib-cfg-if.json	/^{"rustc":14330414595928666026,"features":"[]","target":10094334937643343087,"profile":1263731873/;"	n
@@ -4151,6 +4271,8 @@ target	search_complex/target/debug/.fingerprint/search_complex-c3e0c78a14395e7a/
 target	search_complex/target/debug/.fingerprint/search_complex-e7b5a594b3b0a62a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	n
 target	search_complex/target/debug/.fingerprint/search_complex-f19572bc3a587007/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	n
 terminated	search/src/algorithms/bibf_search.rs	/^fn terminated<S, A>(solution: &SearchResult<S, A>, frontier_F: &Vec<Node<S, A>>, frontier_B: &Ve/;"	f
+to_move	adversarial_search_and_games/src/algorithms/game.rs	/^    fn to_move(&self, state: &S) -> &P;$/;"	P	interface:Game
+to_move	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    fn to_move(&self, state: &ChessState) -> &ChessPlayer {$/;"	P	implementation:ChessGame
 try_agent	search_complex/src/main.rs	/^fn try_agent<T, P, S, A>(problem: &P, name: &str)$/;"	f
 try_algorithm	search/src/main.rs	/^fn try_algorithm<P, S, A>(problem: &P, name: &str, algorithm: SearchAlgorithm<P, S, A>) $/;"	f
 try_algorithm	search_complex/src/main.rs	/^fn try_algorithm<P, S, A>(problem: &P, name: &str, algorithm: SearchAlgorithm<P, S, A>) $/;"	f
@@ -4161,6 +4283,8 @@ try_or_search	search_complex/src/main.rs	/^fn try_or_search<P, S, A>(problem: &P
 unbacktracked	search_complex/src/algorithms/online_dfs_agent.rs	/^    unbacktracked: HashMap<S, Vec<S>>, $/;"	m	struct:OnlineDFSAgent
 uniform_cost_search	search/src/algorithms/breadth_first_search.rs	/^pub fn uniform_cost_search<P, S, A>(problem: &P) -> SearchResult<S, A> $/;"	f
 untried	search_complex/src/algorithms/online_dfs_agent.rs	/^    untried: HashMap<S, Vec<A>>,$/;"	m	struct:OnlineDFSAgent
+utility	adversarial_search_and_games/src/algorithms/game.rs	/^    fn utility(&self, state: &S, player: &P) -> f64;$/;"	P	interface:Game
+utility	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    fn utility(&self, state: &ChessState, player: &ChessPlayer) -> f64 {$/;"	P	implementation:ChessGame
 value	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	s	object:defs.0
 value	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	s	object:defs.1
 value	search/target/rls/debug/deps/save-analysis/search-7592e65291c8491e.json	/^{"config":{"output_file":null,"full_docs":false,"pub_only":false,"reachable_only":false,"distro_/;"	s	object:defs.1.attributes.0
