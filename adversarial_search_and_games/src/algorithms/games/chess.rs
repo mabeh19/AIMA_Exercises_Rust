@@ -1,11 +1,9 @@
 
-use std::collections::HashMap;
-
 use crate::algorithms::game::{Game, Player};
 
 type BoardPosition = (isize, isize);
 type ChessState = [[Option<Box<ChessPiece>>; 8]; 8];
-type ChessAction<'a> = (&'a Box<ChessPiece>, BoardPosition);
+type ChessAction = (BoardPosition/*&'a Box<ChessPiece>*/, BoardPosition, bool);
 
 const BOARD_ROWS: isize = 8;
 const BOARD_COLS: isize = 8;
@@ -68,14 +66,14 @@ impl ChessGame {
         &self.players[self.ply % 2]
     }
 
-    fn move_piece<'a>(&mut self, action: ChessAction<'a>) {
+    fn move_piece(&mut self, action: ChessAction) {
         Self::perform_move(&mut self.board, &action);
         self.ply += 1;
     }
 
-    fn is_legal_move<'a>(state: &ChessState, action: ChessAction<'a>) -> bool {
-        let cur_pos = action.0.get_position();
-        
+    fn is_legal_move(state: &ChessState, action: ChessAction) -> bool {
+        let cur_pos = action.0;//.get_position();
+        let piece = &state[cur_pos.0 as usize][cur_pos.1 as usize];
         if action.1.0 > 7 || action.1.1 > 7 {
             return false;
         }
@@ -84,7 +82,7 @@ impl ChessGame {
         match square_value {
             Some(piece) => {
                 // Compare color of piece at destination and color of moving piece
-                piece.get_color() != action.0.get_color()
+                piece.get_color() != piece.get_color()
             },
             None => {
                 true
@@ -92,7 +90,7 @@ impl ChessGame {
         }
     }
 
-    fn hypothetical_move<'a>(state: &ChessState, action: &ChessAction<'a>) -> ChessState {
+    fn hypothetical_move(state: &ChessState, action: &ChessAction) -> ChessState {
         let mut new_state = state.clone();
         
         Self::perform_move(&mut new_state, &action);
@@ -100,16 +98,18 @@ impl ChessGame {
         new_state
     }
 
-    fn perform_move<'a>(state: &mut ChessState, action: &ChessAction<'a>) {
-        let cur_pos = action.0.get_position();
+    fn perform_move(state: &mut ChessState, action: &ChessAction) {
+        let cur_pos = action.0;
+        let piece = state[cur_pos.0 as usize][cur_pos.1 as usize].clone();
+        state[action.1.0 as usize][action.1.0 as usize] = Some(piece.unwrap());
         state[cur_pos.0 as usize][cur_pos.1 as usize] = None;
-        state[action.1.0 as usize][action.1.0 as usize] = Some(action.0.clone());
+
     }
 }
 
-impl<'a> Game<ChessState, ChessAction<'a>, ChessPlayer> for ChessGame {
+impl Game<ChessState, ChessAction, ChessPlayer> for ChessGame {
     fn create_game() -> Self {
-        let mut new_game = Self {
+        let new_game = Self {
             board: array![array![None; 8]; 8],
             players: [ChessPlayer::new(PlayerColor::White),
                       ChessPlayer::new(PlayerColor::Black)],
@@ -128,11 +128,11 @@ impl<'a> Game<ChessState, ChessAction<'a>, ChessPlayer> for ChessGame {
         &self.players[self.ply % 2]
     }
 
-    fn actions(&self, state: &ChessState) -> Vec<ChessAction<'a>> {       
+    fn actions(&self, state: &ChessState) -> Vec<ChessAction> {       
         self.get_current_player().get_moves(state)
     }
 
-    fn result(&self, state: &ChessState, action: &ChessAction<'a>) -> ChessState {
+    fn result(&self, state: &ChessState, action: &ChessAction) -> ChessState {
         ChessGame::hypothetical_move(state, action)        
     }
 
@@ -153,10 +153,10 @@ pub struct ChessPlayer {
     knights: Vec<Box<ChessPiece>>,
     bishops: Vec<Box<ChessPiece>>,
     pawns: Vec<Box<ChessPiece>>,
-    is_checked: bool
+    checked_by: Option<ChessPiece>
 }
 
-impl<'a> Player<ChessState, ChessAction<'a>> for ChessPlayer {
+impl Player<ChessState, ChessAction> for ChessPlayer {
 
 }
 
@@ -211,41 +211,67 @@ impl ChessPlayer {
             knights,
             bishops,
             pawns,
-            is_checked: false
+            checked_by: None
         };
         
         new_player
     }
 
-    fn get_moves<'a>(&self, state: &ChessState) -> Vec<ChessAction<'a>> {
-        let mut all_moves: Vec<ChessAction<'a>>;
+    fn get_moves(&self, state: &ChessState) -> Vec<ChessAction> {
+        let mut all_moves: Vec<ChessAction> = Vec::new();
+        
+        if self.checked_by.is_some() {
+            
+
+            return all_moves;
+        }
 
         for m in self.king.get_possible_moves(state) {
-            all_moves.push((&self.king, m));
+            all_moves.push((self.king.get_position(), m, false));
         }
-        for queen in self.queens {
+        for queen in &self.queens {
             for m in queen.get_possible_moves(state) {
-                all_moves.push((&queen, m));
+                let mut is_check: bool = false;
+                if state[m.0 as usize][m.1 as usize].is_some() {
+                    is_check = state[m.0 as usize][m.1 as usize].as_ref().unwrap().get_type() == ChessPieceType::King;
+                }
+                all_moves.push((queen.get_position(), m, is_check));
             }
         }
-        for rook in self.rooks {
+        for rook in &self.rooks {
             for m in rook.get_possible_moves(state) {
-                all_moves.push((&rook, m));
+                let mut is_check: bool = false;
+                if state[m.0 as usize][m.1 as usize].is_some() {
+                    is_check = state[m.0 as usize][m.1 as usize].as_ref().unwrap().get_type() == ChessPieceType::King;
+                }
+                all_moves.push((rook.get_position(), m, is_check));
             }
         }
-        for knight in self.knights {
+        for knight in &self.knights {
             for m in knight.get_possible_moves(state) {
-                all_moves.push((&knight, m));
-            }
-       }
-        for bishop in self.bishops {
-            for m in bishop.get_possible_moves(state) {
-                all_moves.push((&bishop, m));
+                let mut is_check: bool = false;
+                if state[m.0 as usize][m.1 as usize].is_some() {
+                    is_check = state[m.0 as usize][m.1 as usize].as_ref().unwrap().get_type() == ChessPieceType::King;
+                }
+                all_moves.push((knight.get_position(), m, is_check));
             }
         }
-        for pawn in self.pawns {
+        for bishop in &self.bishops {
+            for m in bishop.get_possible_moves(state) {
+                let mut is_check: bool = false;
+                if state[m.0 as usize][m.1 as usize].is_some() {
+                    is_check = state[m.0 as usize][m.1 as usize].as_ref().unwrap().get_type() == ChessPieceType::King;
+                }
+                all_moves.push((bishop.get_position(), m, is_check));
+            }
+        }
+        for pawn in &self.pawns {
             for m in pawn.get_possible_moves(state) {
-                all_moves.push((&pawn, m));
+                let mut is_check: bool = false;
+                if state[m.0 as usize][m.1 as usize].is_some() {
+                    is_check = state[m.0 as usize][m.1 as usize].as_ref().unwrap().get_type() == ChessPieceType::King;
+                }
+                all_moves.push((pawn.get_position(), m, is_check));
             }
         }
 
@@ -261,7 +287,7 @@ struct ChessPiece {
 }
 
 impl ChessPiece {
-    fn get_possible_moves<'a>(&self, state: &ChessState) -> Vec<BoardPosition> {
+    fn get_possible_moves(&self, state: &ChessState) -> Vec<BoardPosition> {
         let mut moves: Vec<BoardPosition> = Vec::new();
         let vectors: Vec<BoardPosition>;
         let range: isize;
@@ -338,7 +364,7 @@ impl ChessPiece {
             let mut new_pos = self.position;
             for _ in 0..range {
                 new_pos = (new_pos.0 + vector.0, new_pos.1 + vector.1);
-                let action: ChessAction = (&Box::new(self.clone()), new_pos);
+                let action: ChessAction = (self.position, new_pos, false);
                 if ChessGame::is_legal_move(state, action) {
                     moves.push(new_pos);
                 }
@@ -359,9 +385,13 @@ impl ChessPiece {
     fn get_color(&self) -> PlayerColor {
         self.color
     }
+
+    fn get_type(&self) -> ChessPieceType {
+        self.piece_type
+    }
 }
 
-#[derive(Clone, Copy)]
+#[derive(Clone, Copy, PartialEq)]
 enum ChessPieceType {
     King = 0,
     Queen = 1,
