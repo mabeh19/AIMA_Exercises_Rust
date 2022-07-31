@@ -5,7 +5,7 @@ use crate::algorithms::game::{Game, Player};
 
 pub type BoardPosition = (isize, isize);
 pub type ChessState = ([[Option<Box<ChessPiece>>; 8]; 8], [ChessPlayer; 2], usize);
-pub type ChessAction = (BoardPosition/*&'a Box<ChessPiece>*/, BoardPosition, bool);
+pub type ChessAction = (BoardPosition, BoardPosition, bool);
 
 //const BOARD_ROWS: isize = 8;
 const BOARD_COLS: isize = 8;
@@ -23,6 +23,14 @@ const PIECE_VALUES: [f64; 6] = [
     KNIGHT_VALUE,
     BISHOP_VALUE,
     PAWN_VALUE
+];
+
+pub const OPENERS: [[ChessAction; 8]; 1] = [
+    /* Scandinavian */
+    [((4,6), (4,4), false), ((3,1), (3,3), false), // 1: e4 d5
+     ((4,4), (3,3), false), ((3,0), (3,3), false), // 2: d5 Qd5
+     ((6,7), (5,5), false), ((2,0), (6,4), false), // 3: Nf3 Bg4
+     ((5,7), (4,6), false), ((1,0), (2,2), false)] // 4: Be2 Nc6
 ];
 
 macro_rules! array {
@@ -59,8 +67,6 @@ macro_rules! array {
 #[derive(Clone, Debug)]
 pub struct ChessGame {
     board: ChessState,
-    //players: [ChessPlayer; 2],
-    game_over: bool,
 }
 
 impl ChessGame {
@@ -101,9 +107,6 @@ impl ChessGame {
         let square_value = &state.0[new_pos.1 as usize][new_pos.0 as usize];
         match square_value {
             Some(other_piece) => {
-                println!("State: {:?}", state.0);
-                println!("Players: {:?}", state.1);
-                println!("Checking move: {:?}->{:?}", action.0, action.1);
                 // Compare color of piece at destination and color of moving piece
                 piece.as_ref().unwrap().get_color() != other_piece.get_color()
             },
@@ -120,7 +123,6 @@ impl ChessGame {
             return false;
         }
         let piece = &state.0[cur_pos.1 as usize][cur_pos.0 as usize];
-
         let square_value = &state.0[new_pos.1 as usize][new_pos.0 as usize];
         match square_value {
             Some(other_piece) => {
@@ -166,7 +168,6 @@ impl Game<ChessState, ChessAction, ChessPlayer> for ChessGame {
         let mut new_game = Self {
             board: (array![array![None; 8]; 8], [ChessPlayer::new(PlayerColor::White),
                       ChessPlayer::new(PlayerColor::Black)], 0),
-            game_over: false
         };
 
         for p in &new_game.board.1 {
@@ -238,12 +239,13 @@ impl Game<ChessState, ChessAction, ChessPlayer> for ChessGame {
         let other_player = Self::get_other_player(state);
         let k = if player.king.is_some() { 1. } else { 0. };
         let k_m = if other_player.king.is_some() { 1. } else { 0. };
-        200. * (k - k_m)
+        let utility = 200. * (k - k_m)
         + 9. * (player.queens.len() as f64 - other_player.queens.len() as f64)
         + 5. * (player.rooks.len() as f64 - other_player.rooks.len() as f64)
         + 3. * (player.knights.len() as f64 - other_player.knights.len() as f64 + player.bishops.len() as f64 - other_player.bishops.len() as f64)
         + 1. * (player.pawns.len() as f64 - other_player.pawns.len() as f64)
-        +0.1 * (player.get_moves(state).len() as f64 - other_player.get_moves(state).len() as f64)
+        +0.1 * (player.get_moves(state).len() as f64 - other_player.get_moves(state).len() as f64);
+        return utility;
     }
 
     fn take_action(&mut self, _state: &ChessState, action: &ChessAction) -> &ChessState {
@@ -310,7 +312,7 @@ impl ChessPlayer {
                 }
             }
         }
-               
+        
         
         new_player = Self {
             color, 
@@ -474,7 +476,7 @@ impl ChessPlayer {
         let piece_info = *self.pieces.get(&action.1).unwrap();
         match piece_info.0 {
             ChessPieceType::King => {
-                
+                self.king = None;   
             },
             ChessPieceType::Queen => {
                 self.queens.remove(piece_info.1);

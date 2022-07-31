@@ -1,6 +1,12 @@
-use std::fmt::Debug;
+#![allow(dead_code)]
+
+use std::{
+    fmt::Debug,
+    thread::sleep
+};
 
 use console::Term;
+use rand::prelude::*;
 
 pub mod algorithms;
 
@@ -10,26 +16,24 @@ use crate::algorithms::{
     minimax,
 };
 
+type Algorithm<G, S, A>= fn(game: &G, state: &S, depth: usize) -> Option<A>;
 
-type Algorithm<G, S, A>= fn(game: G, state: &S, depth: usize) -> Option<A>;
+const AI_VS_AI: bool = true;
 
 
 fn main() {
-    try_algorithm::<chess::ChessGame, _, _, _>(minimax::minimax_search, 2);
+    play_chess();
 }
 
 
-fn try_algorithm<G, S, A, P>(algorithm: Algorithm<G, S, A>, depth: usize)
+fn try_algorithm<G, S, A, P>(algorithm: Algorithm<G, S, A>, game: &G, state: &S, depth: usize) -> Option<A>
 where
     G: Game<S, A, P> + Clone,
     S: Clone + Debug,
     A: Clone + Debug,
     P: Player<S, A>
 {
-    let game: G = Game::create_game();
-    let init_state = game.get_initial_state().clone();
-    let optimal_move = algorithm(game, &init_state, depth);
-    println!("Optimal action = {:?}", optimal_move);
+    algorithm(game, state, depth)
 }
 
 
@@ -37,19 +41,59 @@ fn play_chess() {
     let mut game = chess::ChessGame::create_game();
     let init_state = game.get_initial_state().clone();
     let term = Term::stdout();
-    
+    draw_board(&term, &init_state);
     
     let mut state = init_state.clone();
-    while !game.is_terminal(&state) {
-        let moves = game.actions(&state);
-       
-        /* Display current state and actions */
-        term.clear_screen().expect("");
+  
+    /*
+     * First we perform some sequence of moves to get the game started...
+     */
+    /*
+    let mut rng = rand::thread_rng();
+    for m in chess::OPENERS[rng.gen_range(0..chess::OPENERS.len())] {
+        state = game.take_action(&state, &m).clone();
+        sleep(std::time::Duration::from_millis(500));
         draw_board(&term, &state);
-        display_actions(&term, &moves);
+    }
+*/
+    while !game.is_terminal(&state) {
+        /* 
+         * White
+         */
+        if !AI_VS_AI {
+            let moves = game.actions(&state);
+            display_actions(&term, &moves);
+            let choice: usize = term.read_line().unwrap().trim().parse().unwrap();
+            state = game.take_action(&state, &moves[choice]).clone();
+        } else {
+            let choice = if state.2 < 8 {
+                Some(chess::OPENERS[0][state.2])
+            } else {
+                try_algorithm(minimax::minimax_search, &game, &state, 4)
+            };
+            if choice.is_some() {
+                state = game.take_action(&state, &choice.unwrap()).clone();
+            }
+            sleep(std::time::Duration::from_millis(100));
+        }
+
+        draw_board(&term, &state);
+
+        /*
+         * Black
+         */
+        //let choice = try_algorithm::<chess::ChessGame, _, _, _>(minimax::minimax_search, &game, &state, 4);
+        let choice = if state.2 < 8 {
+            Some(chess::OPENERS[0][state.2])
+        } else {
+            try_algorithm(minimax::minimax_search, &game, &state, 4)
+        };
+        if choice.is_some() {
+            state = game.take_action(&state, &choice.unwrap()).clone();
+       }
+        sleep(std::time::Duration::from_millis(100));
         
-        let choice: usize = term.read_line().unwrap().trim().parse().unwrap();
-        state = game.take_action(&state, &moves[choice]).clone();
+        draw_board(&term, &state);
     }
     
 
@@ -68,6 +112,7 @@ fn display_actions(term: &Term, actions: &Vec<chess::ChessAction>) {
 }
 
 fn draw_board(term: &Term, state: &chess::ChessState) {
+    term.clear_screen().expect("");
     for row in &state.0 {
         for piece in row {
             if let Some(p) = piece {
