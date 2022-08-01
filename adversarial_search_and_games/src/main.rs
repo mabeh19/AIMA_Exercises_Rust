@@ -1,5 +1,5 @@
 #![allow(dead_code)]
-
+#![allow(unused_imports)]
 use std::{
     fmt::Debug,
     thread::sleep
@@ -66,15 +66,10 @@ fn play_chess() {
             let choice: usize = term.read_line().unwrap().trim().parse().unwrap();
             state = game.take_action(&state, &moves[choice]).clone();
         } else {
-            let choice = if state.2 < 8 {
-                Some(chess::OPENERS[0][state.2])
-            } else {
-                try_algorithm(minimax::minimax_search, &game, &state, 4)
-            };
+            let choice = try_algorithm(minimax::minimax_search, &game, &state, 4);
             if choice.is_some() {
                 state = game.take_action(&state, &choice.unwrap()).clone();
             }
-            sleep(std::time::Duration::from_millis(100));
         }
 
         draw_board(&term, &state);
@@ -82,18 +77,19 @@ fn play_chess() {
         /*
          * Black
          */
-        //let choice = try_algorithm::<chess::ChessGame, _, _, _>(minimax::minimax_search, &game, &state, 4);
+        //let choice = try_algorithm(minimax::minimax_search, &game, &state, 4);
+        /*
         let choice = if state.2 < 8 {
             Some(chess::OPENERS[0][state.2])
         } else {
             try_algorithm(minimax::minimax_search, &game, &state, 4)
-        };
-        if choice.is_some() {
-            state = game.take_action(&state, &choice.unwrap()).clone();
-       }
-        sleep(std::time::Duration::from_millis(100));
+        };*/
+        //if choice.is_some() {
+        //    state = game.take_action(&state, &choice.unwrap()).clone();
+        //}
+        //sleep(std::time::Duration::from_millis(100));
         
-        draw_board(&term, &state);
+        //draw_board(&term, &state);
     }
     
 
