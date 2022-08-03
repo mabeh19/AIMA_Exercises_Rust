@@ -1,4 +1,8 @@
-use std::collections::HashMap;
+use std::{
+    collections::HashMap,
+    thread,
+    sync::{Arc,Mutex},
+};
 
 use crate::algorithms::game::{Game, Player};
 
@@ -28,11 +32,11 @@ const PIECE_VALUES: [f64; 6] = [
 
 /* Generic weight matric for positions on the board, need to make one for each piece */
 const WEIGHT_MATRIX: [[f64; 8]; 8] = [
-    [0.6, 0.8, 1.0, 1.2, 1.2, 1.0, 0.8, 0.6],
+    [0.4, 0.6, 1.0, 1.2, 1.2, 1.0, 0.6, 0.4],
     [0.8, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.8],
     [1.0, 1.1, 1.4, 1.6, 1.6, 1.4, 1.1, 1.0],
-    [1.1, 1.2, 1.6, 1.8, 1.8, 1.6, 1.2, 1.1],
-    [1.1, 1.1, 1.6, 1.8, 1.8, 1.6, 1.2, 1.1],
+    [1.1, 1.2, 1.6, 3.0, 3.0, 1.6, 1.2, 1.1],
+    [1.1, 1.1, 1.6, 3.0, 3.0, 1.6, 1.2, 1.1],
     [1.0, 1.1, 1.4, 1.6, 1.6, 1.4, 1.1, 1.0],
     [0.8, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.8],
     [0.6, 0.8, 1.0, 1.2, 1.2, 1.0, 0.8, 0.6]
@@ -79,7 +83,7 @@ macro_rules! array {
 
 #[derive(Clone, Debug)]
 pub struct ChessGame {
-    board: ChessState,
+   board: ChessState,
 }
 
 impl ChessGame {
@@ -107,9 +111,9 @@ impl ChessGame {
         if action.1.0  > 7 || action.1.1  > 7 {
             return false;
         }
-        let piece = &state.0[cur_pos.1 ][cur_pos.0 ];
+        let piece = &state.0[cur_pos.1][cur_pos.0];
 
-        let square_value = &state.0[new_pos.1 ][new_pos.0 ];
+        let square_value = &state.0[new_pos.1][new_pos.0];
         match square_value {
             Some(other_piece) => {
                 // Compare color of piece at destination and color of moving piece
@@ -127,8 +131,8 @@ impl ChessGame {
         if action.1.0  > 7 || action.1.1  > 7 {
             return false;
         }
-        let piece = &state.0[cur_pos.1 ][cur_pos.0 ];
-        let square_value = &state.0[new_pos.1 ][new_pos.0 ];
+        let piece = &state.0[cur_pos.1][cur_pos.0];
+        let square_value = &state.0[new_pos.1][new_pos.0];
         match square_value {
             Some(other_piece) => {
                 // Compare color of piece at destination and color of moving piece
@@ -146,8 +150,8 @@ impl ChessGame {
         if action.1.0  > 7 || action.1.1  > 7 {
             return false;
         }
-        let piece = &state.0[cur_pos.1 ][cur_pos.0 ];
-        let square_value = &state.0[new_pos.1 ][new_pos.0 ];
+        let piece = &state.0[cur_pos.1][cur_pos.0];
+        let square_value = &state.0[new_pos.1][new_pos.0];
         match square_value {
             Some(other_piece) => {
                 // Compare color of piece at destination and color of moving piece
@@ -179,6 +183,8 @@ impl ChessGame {
         if piece_taken {
             Self::get_other_player_as_mut(&mut new_state).remove_piece(&action);
         }
+        let state_copy = new_state.clone();
+        Self::get_other_player_as_mut(&mut new_state).check_if_checked(&state_copy, Self::get_current_player(&state_copy));
         new_state.2 += 1;
 
         new_state
@@ -187,12 +193,12 @@ impl ChessGame {
     fn perform_move(state: &mut ChessState, action: &ChessAction) -> bool {
         let cur_pos = action.0;
         let new_pos = action.1;
-        let piece_taken = state.0[new_pos.1 ][new_pos.0 ].is_some();
-        let mut piece = state.0[cur_pos.1 ][cur_pos.0 ].as_mut().unwrap();
+        let piece_taken = state.0[new_pos.1][new_pos.0].is_some();
+        let mut piece = state.0[cur_pos.1][cur_pos.0].as_mut().unwrap();
         // update piece's own state
         piece.position = action.1; 
-        state.0[new_pos.1 ][new_pos.0 ] = Some(piece.clone());
-        state.0[cur_pos.1 ][cur_pos.0 ] = None;
+        state.0[new_pos.1][new_pos.0] = Some(piece.clone());
+        state.0[cur_pos.1][cur_pos.0] = None;
 
         piece_taken
     }
@@ -236,7 +242,7 @@ impl ChessGame {
         for m in moves {
             total += WEIGHT_MATRIX[m.1.1 ][m.1.0 ];
         }
-        0.5 * (total + player.get_moves(state).len() as f64)
+        0.1 * (total + player.get_moves(state).len() as f64)
     }
 }
 
@@ -282,7 +288,6 @@ impl Game<ChessState, ChessAction, ChessPlayer> for ChessGame {
             }
         }
 
-
         new_game
     }
 
@@ -313,11 +318,44 @@ impl Game<ChessState, ChessAction, ChessPlayer> for ChessGame {
 
     fn utility(&self, state: &ChessState, player: &ChessPlayer) -> f64 {
         // eval function from https://www.chessprogramming.org/Evaluation#Where_to_Start
-        let other_player = Self::get_other_player(state);
-        Self::get_total_piece_value(state, player)
-        + Self::get_weighted_attacked_pieces_value(state, player) - Self::get_weighted_attacked_pieces_value(state, other_player)
-        + Self::get_weighted_defended_pieces_value(state, player) - Self::get_weighted_attacked_pieces_value(state, other_player)
-        + Self::get_weighted_available_moves(state, player)       - Self::get_weighted_available_moves(state, other_player)
+        let other_player = Arc::new(Mutex::new(Self::get_other_player(state).clone()));
+        let player = Arc::new(Mutex::new(player.clone()));
+        let state = Arc::new(Mutex::new(state.clone()));
+        let t_state = Arc::clone(&state);
+        let t_player = Arc::clone(&player);
+        let a_state = Arc::clone(&state);
+        let a_player = Arc::clone(&player);
+        let a_other = Arc::clone(&other_player);
+        let d_state = Arc::clone(&state);
+        let d_player = Arc::clone(&player);
+        let d_other = Arc::clone(&other_player);
+        let m_state = Arc::clone(&state);
+        let m_player = Arc::clone(&player);
+        let m_other = Arc::clone(&other_player);
+        thread::spawn(move || {
+            Self::get_total_piece_value(&t_state.lock().unwrap(), &t_player.lock().unwrap())
+        }).join().unwrap()
+        + 
+        thread::spawn(move || {
+            let a_player = a_player.lock().unwrap();
+            let a_state = a_state.lock().unwrap();
+            let a_other = a_other.lock().unwrap();
+            Self::get_weighted_attacked_pieces_value(&a_state, &a_player) - Self::get_weighted_attacked_pieces_value(&a_state, &a_other)
+        }).join().unwrap()
+        + 
+        thread::spawn(move || {
+            let d_player = d_player.lock().unwrap();
+            let d_state = d_state.lock().unwrap();
+            let d_other = d_other.lock().unwrap();
+            Self::get_weighted_defended_pieces_value(&d_state, &d_player) - Self::get_weighted_attacked_pieces_value(&d_state, &d_other)
+        }).join().unwrap()
+        + 
+        thread::spawn(move || {
+            let m_player = m_player.lock().unwrap();
+            let m_state = m_state.lock().unwrap();
+            let m_other = m_other.lock().unwrap();
+            Self::get_weighted_available_moves(&m_state, &m_player) - Self::get_weighted_available_moves(&m_state, &m_other)
+        }).join().unwrap()
     }
 
     fn take_action(&mut self, _state: &ChessState, action: &ChessAction) -> &ChessState {
@@ -427,12 +465,16 @@ impl ChessPlayer {
     fn get_moves(&self, state: &ChessState) -> Vec<ChessAction> {
         let mut all_moves: Vec<ChessAction> = Vec::new();
         let mut checked_squares: Vec<BoardPosition> = Vec::new();
-
+        let mut other_players_moves = Vec::new();
+        let other_player = ChessGame::get_other_player(state);
+        if self.color == ChessGame::get_current_player(state).color {
+            other_players_moves.append(&mut other_player.get_moves(state));
+        } 
         if self.checked_by.is_some() {
             let other_pos = self.checked_by.as_ref().unwrap().get_position();
             let king_pos = self.king.as_ref().unwrap().get_position();
-            let max_length = (other_pos.0-king_pos.0).max(other_pos.1-king_pos.1);
-            let diff = (other_pos.0 - king_pos.0, other_pos.1 - king_pos.1);
+            let max_length = (other_pos.0 as isize - king_pos.0 as isize).max(other_pos.1 as isize - king_pos.1 as isize);
+            let diff = (other_pos.0 as isize - king_pos.0 as isize, other_pos.1 as isize - king_pos.1 as isize);
             match self.checked_by.as_ref().unwrap().get_type() {
                 ChessPieceType::Knight => {
                     /* We handle knights differently, as they aren't stopped by LOS */
@@ -442,7 +484,8 @@ impl ChessPlayer {
                     /* All pieces but knights */
                     for i in 1..=max_length {
                         let offset = (( diff.0 / max_length ) * i, (diff.1 / max_length) * i);
-                        let new_pos = (king_pos.0 + offset.0, king_pos.1 + offset.0);
+                        let new_pos = (king_pos.0 as isize + offset.0, king_pos.1 as isize + offset.0);
+                        let new_pos = (new_pos.0 as usize, new_pos.1 as usize);
                         checked_squares.push(new_pos);
                     }
                 }
@@ -450,7 +493,7 @@ impl ChessPlayer {
         }
         
         for m in self.king.as_ref().unwrap().get_possible_moves(state) {
-            if !checked_squares.contains(&m) {
+            if !checked_squares.contains(&m) && !other_player.attacked_squares(&other_players_moves).contains(&m) {
                 all_moves.push((self.king.as_ref().unwrap().get_position(), m, false)); // If the move puts us outside of checked line
             }
         }
@@ -509,7 +552,7 @@ impl ChessPlayer {
                 }
             }
         }
-        println!("Moves available: {:?}", all_moves);
+        //println!("Moves available: {:?}", all_moves);
         all_moves
     }
 
@@ -519,14 +562,6 @@ impl ChessPlayer {
 
     fn update_piece(&mut self, action: &ChessAction) {
         let piece_info = *self.pieces.get(&action.0).unwrap();
-        println!("Updating {:?}...", piece_info);
-        println!("Length of piece vectors:");
-        println!("  Queens: {}", self.queens.len());
-        println!("  Knights: {}", self.knights.len());
-        println!("  Rooks: {}", self.rooks.len());
-        println!("  Bishops: {}", self.bishops.len());
-        println!("  Pawns: {}", self.pawns.len());
-       
         match piece_info.0 {
             ChessPieceType::King => {
                 self.king.as_mut().unwrap().position = action.1;
@@ -576,6 +611,13 @@ impl ChessPlayer {
                 self.pawns.remove(piece_info.1);
             }
         }
+        
+        for p in self.pieces.values_mut() {
+            if p.0 == piece_info.0 && p.1 > piece_info.1 {
+                p.1 -= 1;
+            }
+        }
+
         self.pieces.remove(&action.1);
     }
 
@@ -621,6 +663,27 @@ impl ChessPlayer {
         }
 
         defended_pieces
+    }
+
+    fn attacked_squares(&self, moves: &Vec<ChessAction>) -> Vec<BoardPosition> {
+        let mut attacked_squares = Vec::new();
+        for m in moves {
+            attacked_squares.push(m.1);  
+        }
+        attacked_squares
+    }
+
+    fn check_if_checked(&mut self, state: &ChessState, other_player: &Self) -> bool {
+        let mut is_checked = false;
+        self.checked_by = None;
+        for m in other_player.get_moves(state) {
+            if m.1 == self.king.as_ref().unwrap().get_position() {
+                is_checked = true;
+                self.checked_by = Some(*state.0[m.0.1][m.0.0].clone().unwrap());
+            }
+        }
+
+        is_checked
     }
 }
 
@@ -731,20 +794,37 @@ impl ChessPiece {
                     }
 
                     // Then we check if we can move two pieces forward...
-                    else if vector == &vectors[3] {
-                        if state.0[new_pos.1 ][new_pos.0 ].is_none() && state.0[new_pos.1 - 1][new_pos.0].is_none() && self.can_perform {
-                            moves.push(new_pos);
-                        }
-                    }
-                    
+                    //else if vector == &vectors[3] {
+                    //    if self.can_perform && state.0[new_pos.1][new_pos.0].is_none() {
+                    //        
+                    //        moves.push(new_pos);
+                    //    }
+                    //}
+ 
                     // Lastly, check if we can even move forward
                     else if vector == &vectors[0] {
-                        if state.0[new_pos.1 ][new_pos.0 ].is_none() {
+                        if state.0[new_pos.1][new_pos.0].is_none() {
                             moves.push(new_pos);
+
+                            /* Check if we can move two squares ahead */
+                            if self.can_perform {
+                                if self.color == PlayerColor::White {
+                                    new_pos = (self.position.0, self.position.1 - vectors[3].1 as usize);
+                                } else {
+                                    new_pos = (self.position.0, self.position.1 + vectors[3].1 as usize);
+                                }
+                                //let action: ChessAction = (self.position, new_pos, false);
+                                if state.0[new_pos.1][new_pos.0].is_none() {
+                                    moves.push(new_pos);
+                                }
+                            }
                         }
                     }
                 } else if ChessGame::is_legal_move(state, action) {
                     moves.push(new_pos);
+                    if ChessGame::contains_opponent_piece(state, &action) {
+                        break;
+                    }
                 } else {
                     break;
                 }

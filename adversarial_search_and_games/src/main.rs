@@ -42,7 +42,7 @@ fn play_chess() {
     let init_state = game.get_initial_state().clone();
     let term = Term::stdout();
     draw_board(&term, &init_state);
-    
+    const AI_DEPTH: usize = 4;
     let mut state = init_state.clone();
   
     /*
@@ -64,11 +64,11 @@ fn play_chess() {
             let moves = game.actions(&state);
             display_actions(&term, &moves);
             let choice: usize = term.read_line().unwrap().trim().parse().unwrap();
-            state = game.take_action(&state, &moves[choice]).clone();
+            state = game.result(&state, &moves[choice]).clone();
         } else {
-            let choice = try_algorithm(minimax::minimax_search, &game, &state, 4);
+            let choice = try_algorithm(minimax::minimax_search, &game, &state, AI_DEPTH);
             if choice.is_some() {
-                state = game.take_action(&state, &choice.unwrap()).clone();
+                state = game.result(&state, &choice.unwrap()).clone();
             }
         }
 
