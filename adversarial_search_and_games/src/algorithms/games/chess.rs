@@ -219,20 +219,20 @@ impl ChessGame {
         let attacked_pieces = player.get_attacked_pieces(state);
         let mut total_value: f64 = 0.;
         for piece in attacked_pieces {
-            total_value += piece.1.get_value() * 1.5;
+            total_value += piece.1.get_value();
         }
 
-        total_value
+        total_value * 3.
     }
 
     fn get_weighted_defended_pieces_value(state: &ChessState, player: &ChessPlayer) -> f64 {
         let defended_pieces = player.get_defended_pieces(state);
         let mut total_value: f64 = 0.;
         for piece in defended_pieces {
-            total_value += piece.1.get_value() * 1.;
+            total_value += piece.1.get_value();
         }
 
-        total_value
+        total_value * 0.7
     }
 
     fn get_weighted_available_moves(state: &ChessState, player: &ChessPlayer) -> f64 {
