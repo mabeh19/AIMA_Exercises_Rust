@@ -222,7 +222,7 @@ impl ChessGame {
             total_value += piece.1.get_value();
         }
 
-        total_value * 3.
+        total_value * 0.3
     }
 
     fn get_weighted_defended_pieces_value(state: &ChessState, player: &ChessPlayer) -> f64 {
@@ -232,7 +232,7 @@ impl ChessGame {
             total_value += piece.1.get_value();
         }
 
-        total_value * 0.7
+        total_value * 0.2
     }
 
     fn get_weighted_available_moves(state: &ChessState, player: &ChessPlayer) -> f64 {
@@ -240,7 +240,7 @@ impl ChessGame {
         let mut total: f64 = 0.;
 
         for m in moves {
-            total += WEIGHT_MATRIX[m.1.1 ][m.1.0 ];
+            total += WEIGHT_MATRIX[m.1.1][m.1.0];
         }
         0.1 * (total + player.get_moves(state).len() as f64)
     }
@@ -317,7 +317,6 @@ impl Game<ChessState, ChessAction, ChessPlayer> for ChessGame {
     }
 
     fn utility(&self, state: &ChessState, player: &ChessPlayer) -> f64 {
-        // eval function from https://www.chessprogramming.org/Evaluation#Where_to_Start
         let other_player = Arc::new(Mutex::new(Self::get_other_player(state).clone()));
         let player = Arc::new(Mutex::new(player.clone()));
         let state = Arc::new(Mutex::new(state.clone()));
@@ -469,7 +468,7 @@ impl ChessPlayer {
         let other_player = ChessGame::get_other_player(state);
         if self.color == ChessGame::get_current_player(state).color {
             other_players_moves.append(&mut other_player.get_moves(state));
-        } 
+        }
         if self.checked_by.is_some() {
             let other_pos = self.checked_by.as_ref().unwrap().get_position();
             let king_pos = self.king.as_ref().unwrap().get_position();
@@ -483,7 +482,7 @@ impl ChessPlayer {
                 _ => {
                     /* All pieces but knights */
                     for i in 1..=max_length {
-                        let offset = (( diff.0 / max_length ) * i, (diff.1 / max_length) * i);
+                        let offset = ((diff.0 / max_length) * i, (diff.1 / max_length) * i);
                         let new_pos = (king_pos.0 as isize + offset.0, king_pos.1 as isize + offset.0);
                         let new_pos = (new_pos.0 as usize, new_pos.1 as usize);
                         checked_squares.push(new_pos);
@@ -593,7 +592,7 @@ impl ChessPlayer {
         let piece_info = *self.pieces.get(&action.1).unwrap();
         match piece_info.0 {
             ChessPieceType::King => {
-                self.king = None;   
+                self.king = None; 
             },
             ChessPieceType::Queen => {
                 self.queens.remove(piece_info.1);
