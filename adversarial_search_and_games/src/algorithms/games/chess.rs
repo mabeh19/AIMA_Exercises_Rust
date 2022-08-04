@@ -8,7 +8,14 @@ use crate::algorithms::game::{Game, Player};
 
 
 pub type BoardPosition = (usize, usize);
-pub type ChessState = ([[Option<Box<ChessPiece>>; 8]; 8], [ChessPlayer; 2], usize);
+pub type ChessBoard = [[Option<Box<ChessPiece>>; 8]; 8];
+/* The chess state consists of the following values:
+ * 0. Current board positions
+ * 1. Players (and their pieces)
+ * 2. Ply
+ * 3. History of last 3 states (to check for three-fold repetition)
+ */
+pub type ChessState = (ChessBoard, [ChessPlayer; 2], usize, [ChessBoard;3]);
 pub type ChessAction = (BoardPosition, BoardPosition, bool);
 
 //const BOARD_ROWS:  = 8;
@@ -251,7 +258,7 @@ impl Game<ChessState, ChessAction, ChessPlayer> for ChessGame {
     fn create_game() -> Self {
         let mut new_game = Self {
             board: (array![array![None; 8]; 8], [ChessPlayer::new(PlayerColor::White),
-                      ChessPlayer::new(PlayerColor::Black)], 0),
+                      ChessPlayer::new(PlayerColor::Black)], 0, array![array![array![None; 8]; 8]; 3]),
         };
 
         for p in &new_game.board.1 {
@@ -310,7 +317,7 @@ impl Game<ChessState, ChessAction, ChessPlayer> for ChessGame {
 
     fn is_terminal(&self, state: &ChessState) -> bool {
         // If we can't perform any moves, the game must be over
-        if Self::get_current_player(state).get_moves(state).len() == 0 {
+        if Self::get_current_player(state).get_moves(state).len() == 0 || (state.3[0] == state.3[1] && state.3[1] == state.3[2]) {
             true
         } else {
             false
@@ -593,9 +600,6 @@ impl ChessPlayer {
         let piece_info = *self.pieces.get(&action.1).unwrap();
         match piece_info.0 {
             ChessPieceType::King => {
-//                self.king = None;
-                //println!("King removed from game! {:?}", action);
-                //loop {}
             },
             ChessPieceType::Queen => {
                 self.queens.remove(piece_info.1);
@@ -689,7 +693,7 @@ impl ChessPlayer {
     }
 }
 
-#[derive(Clone, Debug)]
+#[derive(Clone, Debug, PartialEq)]
 pub struct ChessPiece {
     piece_type: ChessPieceType,
     position: BoardPosition,
