@@ -193,6 +193,8 @@ impl ChessGame {
         let state_copy = new_state.clone();
         Self::get_other_player_as_mut(&mut new_state).check_if_checked(&state_copy, Self::get_current_player(&state_copy));
         new_state.2 += 1;
+        
+        new_state.3[state.2 % state.3.len()] = new_state.0.clone();
 
         new_state
     }
@@ -206,7 +208,6 @@ impl ChessGame {
         piece.position = action.1; 
         state.0[new_pos.1][new_pos.0] = Some(piece.clone());
         state.0[cur_pos.1][cur_pos.0] = None;
-
         piece_taken
     }
 
