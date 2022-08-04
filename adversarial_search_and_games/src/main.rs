@@ -48,14 +48,14 @@ fn play_chess() {
     /*
      * First we perform some sequence of moves to get the game started...
      */
-    /*
+    
     let mut rng = rand::thread_rng();
     for m in chess::OPENERS[rng.gen_range(0..chess::OPENERS.len())] {
         state = game.take_action(&state, &m).clone();
         sleep(std::time::Duration::from_millis(500));
         draw_board(&term, &state);
     }
-*/
+
     while !game.is_terminal(&state) {
         /* 
          * White

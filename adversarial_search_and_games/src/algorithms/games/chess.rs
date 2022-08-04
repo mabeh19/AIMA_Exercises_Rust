@@ -13,7 +13,7 @@ pub type ChessAction = (BoardPosition, BoardPosition, bool);
 
 //const BOARD_ROWS:  = 8;
 const BOARD_COLS: usize = 8;
-const KING_VALUE: f64 = f64::MAX;
+const KING_VALUE: f64 = 200.;
 const QUEEN_VALUE: f64 = 9.;
 const ROOK_VALUE: f64 = 5.;
 const KNIGHT_VALUE: f64 = 3.;
@@ -593,9 +593,9 @@ impl ChessPlayer {
         let piece_info = *self.pieces.get(&action.1).unwrap();
         match piece_info.0 {
             ChessPieceType::King => {
-                self.king = None;
-                println!("King removed from game! {:?}", action);
-                loop {}
+//                self.king = None;
+                //println!("King removed from game! {:?}", action);
+                //loop {}
             },
             ChessPieceType::Queen => {
                 self.queens.remove(piece_info.1);
