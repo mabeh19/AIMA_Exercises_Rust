@@ -20,7 +20,7 @@ pub type ChessAction = (BoardPosition, BoardPosition, bool);
 
 //const BOARD_ROWS:  = 8;
 const BOARD_COLS: usize = 8;
-const KING_VALUE: f64 = 200.;
+const KING_VALUE: f64 = 20.;
 const QUEEN_VALUE: f64 = 9.;
 const ROOK_VALUE: f64 = 5.;
 const KNIGHT_VALUE: f64 = 3.;
@@ -230,7 +230,7 @@ impl ChessGame {
             total_value += piece.1.get_value();
         }
         //let len = if attacked_pieces.len() == 0 { 1. } else { attacked_pieces.len() as f64 };
-        total_value * 4.
+        total_value * 0.3
     }
 
     fn get_weighted_defended_pieces_value(state: &ChessState, player: &ChessPlayer) -> f64 {
@@ -240,8 +240,8 @@ impl ChessGame {
             total_value += piece.1.get_value();
         }
 
-        let len = if defended_pieces.len() == 0 { 1. } else { defended_pieces.len() as f64 };
-        total_value * 0.4 / len
+        //let len = if defended_pieces.len() == 0 { 1. } else { defended_pieces.len() as f64 };
+        total_value * 0.4
     }
 
     fn get_weighted_available_moves(state: &ChessState, player: &ChessPlayer) -> f64 {
@@ -364,6 +364,9 @@ impl Game<ChessState, ChessAction, ChessPlayer> for ChessGame {
             let m_other = m_other.lock().unwrap();
             Self::get_weighted_available_moves(&m_state, &m_player) - Self::get_weighted_available_moves(&m_state, &m_other)
         }).join().unwrap()
+/*        if util < 0. && state.lock().unwrap().2 > 50 {
+            
+        }*/
     }
 
     fn take_action(&mut self, _state: &ChessState, action: &ChessAction) -> &ChessState {
