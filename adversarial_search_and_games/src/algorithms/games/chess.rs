@@ -218,21 +218,22 @@ impl ChessGame {
     fn get_weighted_attacked_pieces_value(state: &ChessState, player: &ChessPlayer) -> f64 {
         let attacked_pieces = player.get_attacked_pieces(state);
         let mut total_value: f64 = 0.;
-        for piece in attacked_pieces {
+        for piece in &attacked_pieces {
             total_value += piece.1.get_value();
         }
-
-        total_value * 0.3
+        //let len = if attacked_pieces.len() == 0 { 1. } else { attacked_pieces.len() as f64 };
+        total_value * 4.
     }
 
     fn get_weighted_defended_pieces_value(state: &ChessState, player: &ChessPlayer) -> f64 {
         let defended_pieces = player.get_defended_pieces(state);
         let mut total_value: f64 = 0.;
-        for piece in defended_pieces {
+        for piece in &defended_pieces {
             total_value += piece.1.get_value();
         }
 
-        total_value * 0.2
+        let len = if defended_pieces.len() == 0 { 1. } else { defended_pieces.len() as f64 };
+        total_value * 0.4 / len
     }
 
     fn get_weighted_available_moves(state: &ChessState, player: &ChessPlayer) -> f64 {
@@ -260,31 +261,31 @@ impl Game<ChessState, ChessAction, ChessPlayer> for ChessGame {
             // place queen(s?)
             for q in &p.queens {
                 let pos = q.get_position();
-                new_game.board.0[pos.1 ][pos.0 ] = Some(q.clone());
+                new_game.board.0[pos.1][pos.0] = Some(q.clone());
             }
 
             // place rooks
             for r in &p.rooks {
                 let pos = r.get_position();
-                new_game.board.0[pos.1 ][pos.0 ] = Some(r.clone());
+                new_game.board.0[pos.1][pos.0] = Some(r.clone());
             }
 
             // place knights
             for n in &p.knights {
                 let pos = n.get_position();
-                new_game.board.0[pos.1 ][pos.0 ] = Some(n.clone());
+                new_game.board.0[pos.1][pos.0] = Some(n.clone());
             }
 
             // place bishops
             for b in &p.bishops {
                 let pos = b.get_position();
-                new_game.board.0[pos.1 ][pos.0 ] = Some(b.clone());
+                new_game.board.0[pos.1][pos.0] = Some(b.clone());
             }
 
             // place pawns
             for pawn in &p.pawns {
                 let pos = pawn.get_position();
-                new_game.board.0[pos.1 ][pos.0 ] = Some(pawn.clone());
+                new_game.board.0[pos.1][pos.0] = Some(pawn.clone());
             }
         }
 
@@ -500,7 +501,7 @@ impl ChessPlayer {
             for m in queen.get_possible_moves(state) {
                 if self.checked_by.is_none() || checked_squares.contains(&m) {
                     let mut is_check: bool = false;
-                    if state.0[m.1 ][m.0 ].is_some() {
+                    if state.0[m.1][m.0].is_some() {
                         is_check = state.0[m.1][m.0].as_ref().unwrap().get_type() == ChessPieceType::King;
                     }
                     all_moves.push((queen.get_position(), m, is_check));
@@ -544,14 +545,14 @@ impl ChessPlayer {
             for m in pawn.get_possible_moves(state) {
                 if self.checked_by.is_none() || checked_squares.contains(&m) {
                     let mut is_check: bool = false;
-                    if state.0[m.1 ][m.0 ].is_some() {
+                    if state.0[m.1][m.0].is_some() {
                         is_check = state.0[m.1][m.0].as_ref().unwrap().get_type() == ChessPieceType::King;
                     }
                     all_moves.push((pawn.get_position(), m, is_check));
                 }
             }
         }
-        //println!("Moves available: {:?}", all_moves);
+
         all_moves
     }
 
@@ -592,7 +593,9 @@ impl ChessPlayer {
         let piece_info = *self.pieces.get(&action.1).unwrap();
         match piece_info.0 {
             ChessPieceType::King => {
-                self.king = None; 
+                self.king = None;
+                println!("King removed from game! {:?}", action);
+                loop {}
             },
             ChessPieceType::Queen => {
                 self.queens.remove(piece_info.1);
@@ -792,14 +795,6 @@ impl ChessPiece {
                         }
                     }
 
-                    // Then we check if we can move two pieces forward...
-                    //else if vector == &vectors[3] {
-                    //    if self.can_perform && state.0[new_pos.1][new_pos.0].is_none() {
-                    //        
-                    //        moves.push(new_pos);
-                    //    }
-                    //}
- 
                     // Lastly, check if we can even move forward
                     else if vector == &vectors[0] {
                         if state.0[new_pos.1][new_pos.0].is_none() {
@@ -812,7 +807,7 @@ impl ChessPiece {
                                 } else {
                                     new_pos = (self.position.0, self.position.1 + vectors[3].1 as usize);
                                 }
-                                //let action: ChessAction = (self.position, new_pos, false);
+                            
                                 if state.0[new_pos.1][new_pos.0].is_none() {
                                     moves.push(new_pos);
                                 }

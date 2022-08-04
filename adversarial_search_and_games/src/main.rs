@@ -16,9 +16,9 @@ use crate::algorithms::{
     minimax,
 };
 
-type Algorithm<G, S, A>= fn(game: &G, state: &S, depth: usize) -> Option<A>;
+type Algorithm<G, S, A> = fn(game: &G, state: &S, depth: usize) -> Option<A>;
 
-const AI_VS_AI: bool = false;
+const AI_VS_AI: bool = true;
 
 
 fn main() {
@@ -44,7 +44,7 @@ fn play_chess() {
     draw_board(&term, &init_state);
     const AI_DEPTH: usize = 4;
     let mut state = init_state.clone();
-  
+
     /*
      * First we perform some sequence of moves to get the game started...
      */
@@ -67,9 +67,10 @@ fn play_chess() {
             state = game.result(&state, &moves[choice]).clone();
         } else {
             let choice = try_algorithm(minimax::minimax_search, &game, &state, AI_DEPTH);
-            term.read_key().expect("");
-            term.move_cursor_to(10, 0).expect("");
-            term.write_line(&format!("Choice: {:?}", choice)).expect("");
+            //term.move_cursor_to(10, 0).expect("");
+            //term.write_line(&format!("Choice: {:?}", choice)).expect("");
+            //term.read_key().expect("");
+
             if choice.is_some() {
                 state = game.result(&state, &choice.unwrap()).clone();
             }
