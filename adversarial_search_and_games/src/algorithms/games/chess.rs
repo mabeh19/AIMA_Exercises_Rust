@@ -178,7 +178,7 @@ impl ChessGame {
         if piece_taken {
             Self::get_other_player_as_mut(&mut self.board).remove_piece(&action);
         }
-        self.board.3[self.board.2 % self.board.3.len()] = self.board.0.clone();
+        self.board.3[(self.board.2 / 2) % self.board.3.len()] = self.board.0.clone();
         self.board.2 += 1;
     }
 
@@ -193,7 +193,7 @@ impl ChessGame {
         }
         let state_copy = new_state.clone();
         Self::get_other_player_as_mut(&mut new_state).check_if_checked(&state_copy, Self::get_current_player(&state_copy));
-        new_state.3[state.2 % state.3.len()] = new_state.0.clone();
+        new_state.3[(state.2 / 2) % state.3.len()] = new_state.0.clone();
 
         new_state.2 += 1;
         new_state
@@ -318,7 +318,7 @@ impl Game<ChessState, ChessAction, ChessPlayer> for ChessGame {
 
     fn is_terminal(&self, state: &ChessState) -> bool {
         // If we can't perform any moves, the game must be over
-        if Self::get_current_player(state).get_moves(state).len() == 0 || (state.3[0] == state.3[1] && state.3[1] == state.3[2]) {
+        if Self::get_current_player(state).get_moves(state).len() == 0 /*|| (state.3[0] == state.3[1] && state.3[1] == state.3[2])*/ {
             true
         } else {
             false
