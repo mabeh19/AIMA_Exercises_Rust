@@ -195,13 +195,18 @@ impl ChessGame {
         
         let piece_taken = Self::perform_move(&mut new_state, &action);
         // update players piece
-        Self::get_current_player_as_mut(&mut new_state).update_piece(&action);
+        if let Some(promoted_pawn) = Self::get_current_player_as_mut(&mut new_state).update_piece(&action) {
+            let pos = promoted_pawn.get_position().clone();
+            new_state.0[pos.1][pos.0] = Some(Box::new(promoted_pawn));
+        }
         if piece_taken.is_some() {
             Self::get_other_player_as_mut(&mut new_state).remove_piece(&action);
         }
         let state_copy = new_state.clone();
         Self::get_other_player_as_mut(&mut new_state).check_if_checked(&state_copy, Self::get_current_player(&state_copy));
         Self::get_current_player_as_mut(&mut new_state).last_move = Some(*action);
+   
+        // Log state in history buffer
         new_state.3[(state.2 / 2) % state.3.len()] = new_state.0.clone();
 
         new_state.2 += 1;
@@ -215,11 +220,10 @@ impl ChessGame {
         let mut piece = state.0[cur_pos.1][cur_pos.0].as_mut().unwrap();
         // update piece's own state
         piece.position = action.1;
-        if piece.get_type() == ChessPieceType::Pawn && new_pos.1 == 0 {
-            
-        }
+
         state.0[new_pos.1][new_pos.0] = Some(piece.clone());
         state.0[cur_pos.1][cur_pos.0] = None;
+        
         piece_taken
     }
 
@@ -594,16 +598,23 @@ impl ChessPlayer {
         self.color
     }
 
-    fn update_piece(&mut self, action: &ChessAction) {
+    fn update_piece(&mut self, action: &ChessAction) -> Option<ChessPiece> {
         let piece_info = self.pieces.get(&action.0).clone();
+        let mut promoted_pawn = None;
         if piece_info.is_some() {
-            let piece_info = *piece_info.unwrap();
+            let mut piece_info = *piece_info.unwrap();
             match piece_info.0 {
                 ChessPieceType::King => {
                     self.king.as_mut().unwrap().position = action.1;
                     self.king.as_mut().unwrap().can_perform = false;
                 },
                 ChessPieceType::Queen => { 
+                    if piece_info.1 > self.queens.len() {
+                        println!("Queens: {:?}", self.queens);
+                        println!("Piece_info: {:?}", piece_info);
+                        println!("Pieces: {:?}", self.pieces);
+                        loop {}
+                    }
                     self.queens[piece_info.1].position = action.1;
                 },
                 ChessPieceType::Rook => {
@@ -619,11 +630,45 @@ impl ChessPlayer {
                 ChessPieceType::Pawn => {
                     self.pawns[piece_info.1].position = action.1;
                     self.pawns[piece_info.1].can_perform = false;
+                    match self.color {
+                        PlayerColor::White => {
+                            if action.1.1 == 0 {
+                                /*
+                                let mut pawn = self.pawns[piece_info.1].clone();
+                                self.remove_piece(action);
+                                pawn.piece_type = ChessPieceType::Queen;
+                                self.queens.push(pawn);
+                                piece_info.0 = ChessPieceType::Queen;
+                                piece_info.1 = self.queens.len() - 1;
+                                */
+                                promoted_pawn = Some(self.promote_pawn(action).clone());
+                                piece_info.0 = ChessPieceType::Queen;
+                                piece_info.1 = self.queens.len() - 1;
+                            }
+                        },
+                        PlayerColor::Black => {
+                            if action.1.1 == 7 {
+                                /*
+                                let mut pawn = self.pawns[piece_info.1].clone();
+                                self.remove_piece(action);
+                                pawn.piece_type = ChessPieceType::Queen;
+                                self.queens.push(pawn);
+                                piece_info.0 = ChessPieceType::Queen;
+                                piece_info.1 = self.queens.len() - 1;
+                                */
+                                promoted_pawn = Some(self.promote_pawn(action).clone());
+                                piece_info.0 = ChessPieceType::Queen;
+                                piece_info.1 = self.queens.len() - 1;
+                            }
+                        }
+                    }
                 }
             }
             self.pieces.remove(&action.0);
             self.pieces.insert(action.1, piece_info);
         }
+
+        promoted_pawn
     }
 
     fn remove_piece(&mut self, action: &ChessAction) {
@@ -736,14 +781,12 @@ impl ChessPlayer {
     }
 
     fn promote_pawn(&mut self, action: &ChessAction) -> &ChessPiece {
-        let piece_info = self.pieces.get(&action.1).unwrap();
+        let piece_info = self.pieces.get(&action.0).unwrap();
         let mut pawn_to_queen = self.pawns.get(piece_info.1).unwrap().clone();
-        self.pawns.remove(piece_info.1);
+        self.remove_piece(action);
         pawn_to_queen.piece_type = ChessPieceType::Queen;
         self.queens.push(pawn_to_queen.clone());
-        self.pieces.insert
-        //return &pawn_to_queen.clone();
-        
+        self.queens.last().unwrap()
     }
 }
 

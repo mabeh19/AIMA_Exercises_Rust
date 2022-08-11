@@ -389,7 +389,7 @@
 1	search_complex/target/debug/.fingerprint/search_complex-e7b5a594b3b0a62a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	s	array:deps.0
 1	search_complex/target/debug/.fingerprint/search_complex-e7b5a594b3b0a62a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	s	array:deps.1
 1	search_complex/target/debug/.fingerprint/search_complex-f19572bc3a587007/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	s	array:deps.0
-17598535894874457435	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	o	object:outputs
+17598535894874457435	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	o	object:outputs
 17598535894874457435	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	o	object:outputs
 2	adversarial_search_and_games/target/debug/.fingerprint/adversarial_search_and_games-0899bbe223d48a8e/test-bin-adversarial_search_and_games.json	/^{"rustc":15069735523673833430,"features":"[]","target":11869639202455498530,"profile":1021633075/;"	a	array:deps
 2	adversarial_search_and_games/target/debug/.fingerprint/adversarial_search_and_games-0899bbe223d48a8e/test-bin-adversarial_search_and_games.json	/^{"rustc":15069735523673833430,"features":"[]","target":11869639202455498530,"profile":1021633075/;"	b	array:deps.0
@@ -509,7 +509,7 @@
 2	search_complex/target/debug/.fingerprint/search_complex-e7b5a594b3b0a62a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	b	array:deps.0
 2	search_complex/target/debug/.fingerprint/search_complex-e7b5a594b3b0a62a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	b	array:deps.1
 2	search_complex/target/debug/.fingerprint/search_complex-f19572bc3a587007/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	b	array:deps.0
-2797684049618456168	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	o	object:outputs
+2797684049618456168	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	o	object:outputs
 2797684049618456168	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	o	object:outputs
 3	adversarial_search_and_games/target/debug/.fingerprint/adversarial_search_and_games-0899bbe223d48a8e/test-bin-adversarial_search_and_games.json	/^{"rustc":15069735523673833430,"features":"[]","target":11869639202455498530,"profile":1021633075/;"	n	array:deps.0
 3	adversarial_search_and_games/target/debug/.fingerprint/adversarial_search_and_games-0899bbe223d48a8e/test-bin-adversarial_search_and_games.json	/^{"rustc":15069735523673833430,"features":"[]","target":11869639202455498530,"profile":1021633075/;"	n	array:deps.1
@@ -621,7 +621,7 @@
 3	search_complex/target/debug/.fingerprint/search_complex-f19572bc3a587007/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	n	array:deps.0
 4	search/target/release/.fingerprint/num-d01e04fdabbf24da/lib-num.json	/^{"rustc":15069735523673833430,"features":"[\\"default\\", \\"num-bigint\\", \\"std\\"]","target"/;"	a	array:deps
 5	search/target/release/.fingerprint/num-d01e04fdabbf24da/lib-num.json	/^{"rustc":15069735523673833430,"features":"[\\"default\\", \\"num-bigint\\", \\"std\\"]","target"/;"	a	array:deps
-931469667778813386	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	o	object:outputs
+931469667778813386	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	o	object:outputs
 931469667778813386	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	o	object:outputs
 Action	search/src/algorithms/problem.rs	/^pub type Action = AradToBucharestAction;$/;"	t
 Action	search_complex/src/algorithms/problem.rs	/^pub type Action = AradToBucharestAction;$/;"	t
@@ -714,7 +714,8 @@ CheckDepInfo	search_complex/target/debug/.fingerprint/search_complex-a6db32349bf
 CheckDepInfo	search_complex/target/debug/.fingerprint/search_complex-c3e0c78a14395e7a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	o	object:local.0
 CheckDepInfo	search_complex/target/debug/.fingerprint/search_complex-e7b5a594b3b0a62a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	o	object:local.0
 CheckDepInfo	search_complex/target/debug/.fingerprint/search_complex-f19572bc3a587007/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	o	object:local.0
-ChessAction	adversarial_search_and_games/src/algorithms/games/chess.rs	/^pub type ChessAction = (BoardPosition, BoardPosition, bool);$/;"	t
+ChessAction	adversarial_search_and_games/src/algorithms/games/chess.rs	/^pub type ChessAction = (BoardPosition, BoardPosition);$/;"	t
+ChessBoard	adversarial_search_and_games/src/algorithms/games/chess.rs	/^pub type ChessBoard = [[Option<Box<ChessPiece>>; 8]; 8];$/;"	t
 ChessGame	adversarial_search_and_games/src/algorithms/games/chess.rs	/^impl ChessGame {$/;"	c
 ChessGame	adversarial_search_and_games/src/algorithms/games/chess.rs	/^impl Game<ChessState, ChessAction, ChessPlayer> for ChessGame {$/;"	c
 ChessGame	adversarial_search_and_games/src/algorithms/games/chess.rs	/^pub struct ChessGame {$/;"	s
@@ -725,7 +726,7 @@ ChessPieceType	adversarial_search_and_games/src/algorithms/games/chess.rs	/^pub 
 ChessPlayer	adversarial_search_and_games/src/algorithms/games/chess.rs	/^impl ChessPlayer {$/;"	c
 ChessPlayer	adversarial_search_and_games/src/algorithms/games/chess.rs	/^impl Player<ChessState, ChessAction> for ChessPlayer {$/;"	c
 ChessPlayer	adversarial_search_and_games/src/algorithms/games/chess.rs	/^pub struct ChessPlayer {$/;"	s
-ChessState	adversarial_search_and_games/src/algorithms/games/chess.rs	/^pub type ChessState = ([[Option<Box<ChessPiece>>; 8]; 8], [ChessPlayer; 2], usize);$/;"	t
+ChessState	adversarial_search_and_games/src/algorithms/games/chess.rs	/^pub type ChessState = (ChessBoard, [ChessPlayer; 2], usize, [ChessBoard; 64]);$/;"	t
 CutOffReached	search/src/algorithms/problem.rs	/^    CutOffReached,$/;"	e	enum:SearchError
 CutOffReached	search_complex/src/algorithms/problem.rs	/^    CutOffReached,$/;"	e	enum:SearchError
 Direction	search/src/algorithms/bibf_search.rs	/^enum Direction {$/;"	g
@@ -842,6 +843,7 @@ algorithms	adversarial_search_and_games/src/main.rs	/^pub mod algorithms;$/;"	n
 algorithms	search/src/main.rs	/^mod algorithms;$/;"	n
 algorithms	search_complex/src/main.rs	/^mod algorithms;$/;"	n
 alpha_beta	adversarial_search_and_games/src/algorithms/mod.rs	/^pub mod alpha_beta;$/;"	n
+alpha_beta_search	adversarial_search_and_games/src/algorithms/alpha_beta.rs	/^pub fn alpha_beta_search<G, S, A, P>(game: &G, state: &S, depth: usize) -> Option<A>$/;"	f
 and_or_search	search_complex/src/algorithms/or_search.rs	/^pub fn and_or_search<P, S, A>(problem: &P) -> Plan<A>$/;"	f
 and_search	search_complex/src/algorithms/or_search.rs	/^fn and_search<P, S, A>(problem: &P, states: &Vec<S>, path: &mut Vec<S>, plan: &mut Vec<A>) -> Pl/;"	f
 argmin_cost	search_complex/src/algorithms/lrta_agent.rs	/^    fn argmin_cost(&self, problem: &P, s_star: &S) -> A$/;"	f
@@ -857,11 +859,11 @@ breadth_first_search	search/src/algorithms/breadth_first_search.rs	/^pub fn brea
 breadth_first_search	search/src/algorithms/mod.rs	/^pub mod breadth_first_search;$/;"	n
 can_perform	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    can_perform: bool, \/\/ this is used for initial movement of pawns and castling of kings$/;"	m	struct:ChessPiece
 check_if_checked	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    fn check_if_checked(&mut self, state: &ChessState, other_player: &Self) -> bool {$/;"	P	implementation:ChessPlayer
-checked_by	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    checked_by: Option<ChessPiece>$/;"	m	struct:ChessPlayer
+checked_by	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    checked_by: Option<ChessPiece>,$/;"	m	struct:ChessPlayer
 chess	adversarial_search_and_games/src/algorithms/games/mod.rs	/^pub mod chess;$/;"	n
-code	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	n	object:outputs.17598535894874457435
-code	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	n	object:outputs.2797684049618456168
-code	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	n	object:outputs.931469667778813386
+code	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	n	object:outputs.17598535894874457435
+code	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	n	object:outputs.2797684049618456168
+code	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	n	object:outputs.931469667778813386
 code	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	n	object:outputs.17598535894874457435
 code	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	n	object:outputs.2797684049618456168
 code	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	n	object:outputs.931469667778813386
@@ -1193,6 +1195,7 @@ depth	search_complex/src/algorithms/node.rs	/^pub fn depth<S, A>(start_node: Nod
 depth_limited_search	search/src/algorithms/iterative_deepening_search.rs	/^fn depth_limited_search<P, S, A>(problem: &P, l: usize) -> SearchResult<S, A>$/;"	f
 display_actions	adversarial_search_and_games/src/main.rs	/^fn display_actions(term: &Term, actions: &Vec<chess::ChessAction>) {$/;"	f
 draw_board	adversarial_search_and_games/src/main.rs	/^fn draw_board(term: &Term, state: &chess::ChessState) {$/;"	f
+expand	adversarial_search_and_games/src/algorithms/monte_carlo_tree_search.rs	/^fn expand<G, P, S, A>(game: &G, state: &S) -> S$/;"	f
 expand	search/src/algorithms/problem.rs	/^pub fn expand<'a, P, S, A>(problem: &P, node: Node<S, A>) -> Vec<Node<S, A>> $/;"	f
 expand	search_complex/src/algorithms/problem.rs	/^pub fn expand<'a, P, S, A>(problem: &P, node: Node<S, A>) -> Vec<Node<S, A>> $/;"	f
 f	search/src/algorithms/node.rs	/^    pub f: u32$/;"	m	struct:Node
@@ -1316,6 +1319,7 @@ get_other_player_as_mut	adversarial_search_and_games/src/algorithms/games/chess.
 get_path_cost	search_complex/src/algorithms/genetic_algorithm.rs	/^fn get_path_cost<P, A>(problem: &P, individual: &Individual<A>) -> f64 $/;"	f
 get_position	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    pub fn get_position(&self) -> BoardPosition {$/;"	P	implementation:ChessPiece
 get_possible_moves	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    fn get_possible_moves(&self, state: &ChessState) -> Vec<BoardPosition> {$/;"	P	implementation:ChessPiece
+get_repetition_penalty	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    fn get_repetition_penalty(state: &ChessState) -> f64 {$/;"	P	implementation:ChessGame
 get_total_piece_value	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    fn get_total_piece_value(state: &ChessState, player: &ChessPlayer) -> f64 {$/;"	P	implementation:ChessGame
 get_type	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    pub fn get_type(&self) -> ChessPieceType {$/;"	P	implementation:ChessPiece
 get_value	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    fn get_value(&self) -> f64 {$/;"	P	implementation:ChessPieceType
@@ -1359,6 +1363,7 @@ iterative_deepening_search	search/src/algorithms/mod.rs	/^pub mod iterative_deep
 join_nodes	search/src/algorithms/bibf_search.rs	/^fn join_nodes<S, A>(dir: &Direction, node: Node<S, A>, reached: Node<S, A>) -> Node<S, A>$/;"	f
 king	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    king: Option<Box<ChessPiece>>,$/;"	m	struct:ChessPlayer
 knights	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    knights: Vec<Box<ChessPiece>>,$/;"	m	struct:ChessPlayer
+last_move	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    last_move: Option<ChessAction>$/;"	m	struct:ChessPlayer
 local	adversarial_search_and_games/target/debug/.fingerprint/adversarial_search_and_games-0899bbe223d48a8e/test-bin-adversarial_search_and_games.json	/^{"rustc":15069735523673833430,"features":"[]","target":11869639202455498530,"profile":1021633075/;"	a
 local	adversarial_search_and_games/target/debug/.fingerprint/adversarial_search_and_games-0a6c80888aa1b07e/bin-adversarial_search_and_games.json	/^{"rustc":15069735523673833430,"features":"[]","target":11869639202455498530,"profile":9251013656/;"	a
 local	adversarial_search_and_games/target/debug/.fingerprint/adversarial_search_and_games-294ab4acd78c7238/test-bin-adversarial_search_and_games.json	/^{"rustc":15069735523673833430,"features":"[]","target":11869639202455498530,"profile":1021633075/;"	a
@@ -1445,6 +1450,7 @@ lrta_cost	search_complex/src/algorithms/lrta_agent.rs	/^    fn lrta_cost(&self, 
 main	adversarial_search_and_games/src/main.rs	/^fn main() {$/;"	f
 main	search/src/main.rs	/^fn main() {$/;"	f
 main	search_complex/src/main.rs	/^fn main() {$/;"	f
+max_value	adversarial_search_and_games/src/algorithms/alpha_beta.rs	/^fn max_value<G, S, A, P>(game: &mut G, state: &S, alpha: f64, beta: f64, depth: &mut usize) -> (/;"	f
 max_value	adversarial_search_and_games/src/algorithms/minimax.rs	/^fn max_value<G, S, A, P>(game: &mut G, state: &S, cur_depth: &mut usize) -> (f64, Option<A>)$/;"	f
 metadata	adversarial_search_and_games/target/debug/.fingerprint/adversarial_search_and_games-0899bbe223d48a8e/test-bin-adversarial_search_and_games.json	/^{"rustc":15069735523673833430,"features":"[]","target":11869639202455498530,"profile":1021633075/;"	n
 metadata	adversarial_search_and_games/target/debug/.fingerprint/adversarial_search_and_games-0a6c80888aa1b07e/bin-adversarial_search_and_games.json	/^{"rustc":15069735523673833430,"features":"[]","target":11869639202455498530,"profile":9251013656/;"	n
@@ -1528,9 +1534,11 @@ metadata	search_complex/target/debug/.fingerprint/search_complex-c3e0c78a14395e7
 metadata	search_complex/target/debug/.fingerprint/search_complex-e7b5a594b3b0a62a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	n
 metadata	search_complex/target/debug/.fingerprint/search_complex-f19572bc3a587007/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	n
 min_cost	search_complex/src/algorithms/lrta_agent.rs	/^    fn min_cost(&self, problem: &P) -> f64 $/;"	f
+min_value	adversarial_search_and_games/src/algorithms/alpha_beta.rs	/^fn min_value<G, S, A, P>(game: &mut G, state: &S, alpha: f64, beta: f64, depth: &mut usize) -> (/;"	f
 min_value	adversarial_search_and_games/src/algorithms/minimax.rs	/^fn min_value<G, S, A, P>(game: &mut G, state: &S, cur_depth: &mut usize) -> (f64, Option<A>)$/;"	f
 minimax	adversarial_search_and_games/src/algorithms/mod.rs	/^pub mod minimax;$/;"	n
 minimax_search	adversarial_search_and_games/src/algorithms/minimax.rs	/^pub fn minimax_search<G, S, A, P>(game: &G, state: &S, depth: usize) -> Option<A>$/;"	f
+monte_carlo_search	adversarial_search_and_games/src/algorithms/monte_carlo_tree_search.rs	/^pub fn monte_carlo_search<G, P, S, A>(game: &G, state: &S) -> A$/;"	f
 monte_carlo_tree_search	adversarial_search_and_games/src/algorithms/mod.rs	/^pub mod monte_carlo_tree_search;$/;"	n
 move_piece	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    fn move_piece(&mut self, action: ChessAction) {$/;"	P	implementation:ChessGame
 mutate	search_complex/src/algorithms/genetic_algorithm.rs	/^fn mutate<P, A>(problem: &P, child: &Individual<A>) -> Individual<A>$/;"	f
@@ -1555,7 +1563,7 @@ output	search/target/release/.fingerprint/num-iter-dfdb95d7309cc61d/run-build-sc
 output	search/target/release/.fingerprint/num-rational-9f8f3ad103dcafcf/run-build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"","target":0,"profile":0,"path":0,"deps":[[12116750734/;"	s	object:local.0.RerunIfChanged
 output	search/target/release/.fingerprint/num-traits-0ba7a1052bdb690b/run-build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"","target":0,"profile":0,"path":0,"deps":[[81216356945/;"	s	object:local.0.RerunIfChanged
 output	search_complex/target/debug/.fingerprint/libc-bca7439595590b1d/run-build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"","target":0,"profile":0,"path":0,"deps":[[13743578918/;"	s	object:local.0.RerunIfChanged
-outputs	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	o
+outputs	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	o
 outputs	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	o
 parent	search/src/algorithms/node.rs	/^    pub parent: Option<Box<Node<S, A>>>,$/;"	m	struct:Node
 parent	search_complex/src/algorithms/node.rs	/^    pub parent: Option<Box<Node<S, A>>>,$/;"	m	struct:Node
@@ -1650,7 +1658,7 @@ paths	search/target/release/.fingerprint/num-rational-9f8f3ad103dcafcf/run-build
 paths	search/target/release/.fingerprint/num-traits-0ba7a1052bdb690b/run-build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"","target":0,"profile":0,"path":0,"deps":[[81216356945/;"	a	object:local.0.RerunIfChanged
 paths	search_complex/target/debug/.fingerprint/libc-bca7439595590b1d/run-build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"","target":0,"profile":0,"path":0,"deps":[[13743578918/;"	a	object:local.0.RerunIfChanged
 pawns	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    pawns: Vec<Box<ChessPiece>>,$/;"	m	struct:ChessPlayer
-perform_move	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    fn perform_move(state: &mut ChessState, action: &ChessAction) -> bool {$/;"	P	implementation:ChessGame
+perform_move	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    fn perform_move(state: &mut ChessState, action: &ChessAction) -> Option<ChessPieceType> {$/;"	P	implementation:ChessGame
 piece_type	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    piece_type: ChessPieceType,$/;"	m	struct:ChessPiece
 pieces	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    pieces: HashMap<(usize, usize), (ChessPieceType, usize)>,$/;"	m	struct:ChessPlayer
 play_chess	adversarial_search_and_games/src/main.rs	/^fn play_chess() {$/;"	f
@@ -1740,6 +1748,7 @@ profile	search_complex/target/debug/.fingerprint/search_complex-a6db32349bfcf013
 profile	search_complex/target/debug/.fingerprint/search_complex-c3e0c78a14395e7a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	n
 profile	search_complex/target/debug/.fingerprint/search_complex-e7b5a594b3b0a62a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	n
 profile	search_complex/target/debug/.fingerprint/search_complex-f19572bc3a587007/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	n
+promote_pawn	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    fn promote_pawn(&mut self, action: &ChessAction) -> &ChessPiece {$/;"	P	implementation:ChessPlayer
 queens	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    queens: Vec<Box<ChessPiece>>,$/;"	m	struct:ChessPlayer
 rand_individual	search_complex/src/algorithms/genetic_algorithm.rs	/^fn rand_individual<P, A>(problem: &P) -> Individual<A>$/;"	f
 random_successor	search_complex/src/algorithms/simulated_annealing.rs	/^fn random_successor<P, S, A>(problem: &P, node: &Node<S, A>) -> Node<S, A>$/;"	f
@@ -1842,7 +1851,7 @@ rustc	search_complex/target/debug/.fingerprint/search_complex-a6db32349bfcf013/t
 rustc	search_complex/target/debug/.fingerprint/search_complex-c3e0c78a14395e7a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	n
 rustc	search_complex/target/debug/.fingerprint/search_complex-e7b5a594b3b0a62a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	n
 rustc	search_complex/target/debug/.fingerprint/search_complex-f19572bc3a587007/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	n
-rustc_fingerprint	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	n
+rustc_fingerprint	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	n
 rustc_fingerprint	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	n
 rustflags	adversarial_search_and_games/target/debug/.fingerprint/adversarial_search_and_games-0899bbe223d48a8e/test-bin-adversarial_search_and_games.json	/^{"rustc":15069735523673833430,"features":"[]","target":11869639202455498530,"profile":1021633075/;"	a
 rustflags	adversarial_search_and_games/target/debug/.fingerprint/adversarial_search_and_games-0a6c80888aa1b07e/bin-adversarial_search_and_games.json	/^{"rustc":15069735523673833430,"features":"[]","target":11869639202455498530,"profile":9251013656/;"	a
@@ -1928,25 +1937,26 @@ rustflags	search_complex/target/debug/.fingerprint/search_complex-f19572bc3a5870
 s	search_complex/src/algorithms/lrta_agent.rs	/^    s: Option<S>,$/;"	m	struct:LrtaAgent
 s	search_complex/src/algorithms/online_dfs_agent.rs	/^    s: Option<S>,$/;"	m	struct:OnlineDFSAgent
 schedule	search_complex/src/algorithms/simulated_annealing.rs	/^fn schedule(t: usize) -> f64 {$/;"	f
+select	adversarial_search_and_games/src/algorithms/monte_carlo_tree_search.rs	/^fn select<G, P, S, A>(game: &G, state: &S) -> S$/;"	f
 simulated_annealing	search_complex/src/algorithms/mod.rs	/^pub mod simulated_annealing;$/;"	n
 simulated_annealing	search_complex/src/algorithms/simulated_annealing.rs	/^pub fn simulated_annealing<P, S, A>(problem: &P) -> SearchResult<S, A>$/;"	f
 state	search/src/algorithms/node.rs	/^    pub state: S,$/;"	m	struct:Node
 state	search_complex/src/algorithms/node.rs	/^    pub state: S,$/;"	m	struct:Node
-status	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	s	object:outputs.17598535894874457435
-status	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	s	object:outputs.2797684049618456168
-status	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	s	object:outputs.931469667778813386
+status	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	s	object:outputs.17598535894874457435
+status	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	s	object:outputs.2797684049618456168
+status	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	s	object:outputs.931469667778813386
 status	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	s	object:outputs.17598535894874457435
 status	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	s	object:outputs.2797684049618456168
 status	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	s	object:outputs.931469667778813386
-stderr	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	s	object:outputs.17598535894874457435
-stderr	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	s	object:outputs.2797684049618456168
-stderr	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	s	object:outputs.931469667778813386
+stderr	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	s	object:outputs.17598535894874457435
+stderr	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	s	object:outputs.2797684049618456168
+stderr	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	s	object:outputs.931469667778813386
 stderr	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	s	object:outputs.17598535894874457435
 stderr	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	s	object:outputs.2797684049618456168
 stderr	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	s	object:outputs.931469667778813386
-stdout	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	s	object:outputs.17598535894874457435
-stdout	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	s	object:outputs.2797684049618456168
-stdout	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	s	object:outputs.931469667778813386
+stdout	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	s	object:outputs.17598535894874457435
+stdout	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	s	object:outputs.2797684049618456168
+stdout	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	s	object:outputs.931469667778813386
 stdout	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	s	object:outputs.17598535894874457435
 stdout	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	s	object:outputs.2797684049618456168
 stdout	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	s	object:outputs.931469667778813386
@@ -1959,13 +1969,13 @@ stop	search_complex/src/algorithms/problem.rs	/^    fn stop(&self) -> GraphActio
 str	adversarial_search_and_games/src/main.rs	/^                let icon: &'static str;$/;"	v	function:draw_board
 str	search/src/algorithms/problem.rs	/^pub type State = &'static str;$/;"	v
 str	search_complex/src/algorithms/problem.rs	/^pub type State = &'static str;$/;"	v
-success	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	b	object:outputs.17598535894874457435
-success	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	b	object:outputs.2797684049618456168
-success	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	b	object:outputs.931469667778813386
+success	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	b	object:outputs.17598535894874457435
+success	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	b	object:outputs.2797684049618456168
+success	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	b	object:outputs.931469667778813386
 success	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	b	object:outputs.17598535894874457435
 success	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	b	object:outputs.2797684049618456168
 success	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	b	object:outputs.931469667778813386
-successes	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"931469667778813386":{"success":true,"statu/;"	o
+successes	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	o
 successes	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	o
 take_action	adversarial_search_and_games/src/algorithms/game.rs	/^    fn take_action(&mut self, state: &S, action: &A) -> &S;$/;"	P	interface:Game
 take_action	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    fn take_action(&mut self, _state: &ChessState, action: &ChessAction) -> &ChessState {$/;"	P	implementation:ChessGame
@@ -2064,7 +2074,7 @@ try_or_search	search_complex/src/main.rs	/^fn try_or_search<P, S, A>(problem: &P
 unbacktracked	search_complex/src/algorithms/online_dfs_agent.rs	/^    unbacktracked: HashMap<S, Vec<S>>, $/;"	m	struct:OnlineDFSAgent
 uniform_cost_search	search/src/algorithms/breadth_first_search.rs	/^pub fn uniform_cost_search<P, S, A>(problem: &P) -> SearchResult<S, A> $/;"	f
 untried	search_complex/src/algorithms/online_dfs_agent.rs	/^    untried: HashMap<S, Vec<A>>,$/;"	m	struct:OnlineDFSAgent
-update_piece	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    fn update_piece(&mut self, action: &ChessAction) {$/;"	P	implementation:ChessPlayer
+update_piece	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    fn update_piece(&mut self, action: &ChessAction) -> Option<ChessPiece> {$/;"	P	implementation:ChessPlayer
 utility	adversarial_search_and_games/src/algorithms/game.rs	/^    fn utility(&self, state: &S, player: &P) -> f64;$/;"	P	interface:Game
 utility	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    fn utility(&self, state: &ChessState, player: &ChessPlayer) -> f64 {$/;"	P	implementation:ChessGame
 value	search_complex/src/algorithms/simulated_annealing.rs	/^fn value<P, S, A>(problem: &P, node: &Node<S, A>) -> f64$/;"	f
