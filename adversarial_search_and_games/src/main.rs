@@ -20,7 +20,7 @@ use crate::algorithms::{
 type Algorithm<G, S, A> = fn(game: &G, state: &S, depth: usize) -> Option<A>;
 
 const AI_VS_AI: bool = true;
-
+const CHECK_AI_CHOICE: bool = false;
 
 fn main() {
     play_chess();
@@ -50,13 +50,13 @@ fn play_chess() {
      * First we perform some sequence of moves to get the game started...
      */
     
-    /*let mut rng = rand::thread_rng();
+    let mut rng = rand::thread_rng();
     for m in chess::OPENERS[rng.gen_range(0..chess::OPENERS.len())] {
         state = game.take_action(&state, &m).clone();
         sleep(std::time::Duration::from_millis(500));
         draw_board(&term, &state);
     }
-*/
+
     while !game.is_terminal(&state) {
         /* 
          * White
@@ -69,10 +69,11 @@ fn play_chess() {
         } else {
             //let choice = try_algorithm(minimax::minimax_search, &game, &state, AI_DEPTH);
             let choice = try_algorithm(alpha_beta::alpha_beta_search, &game, &state, AI_DEPTH);
-            term.move_cursor_to(10, 0).expect("");
-            term.write_line(&format!("Choice: {:?}", choice)).expect("");
-            term.read_key().expect("");
-
+            if CHECK_AI_CHOICE {
+                term.move_cursor_to(10, 0).expect("");
+                term.write_line(&format!("Choice: {:?}", choice)).expect("");
+                term.read_key().expect("");
+            }
             if choice.is_some() {
                 state = game.result(&state, &choice.unwrap()).clone();
             }
