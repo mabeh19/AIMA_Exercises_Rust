@@ -7,12 +7,13 @@
 ///         Back-Propagate(result, child)
 ///     return the move in Actions(state) whose node as highest number of playouts
 ///
+use rand::prelude::*;
 
 use crate::algorithms::game::*;
 
 const MAX_TIME: std::time::Duration = std::time::Duration::from_secs(5);
 
-pub fn monte_carlo_search<G, P, S, A>(game: &G, state: &S) -> A
+pub fn monte_carlo_tree_search<G, P, S, A>(game: &G, state: &S) -> A
 where
     G: Game<S, A, P>,
     P: Player<S, A>,
@@ -24,6 +25,8 @@ where
     while start.elapsed() < MAX_TIME {
 
     }
+
+    
 }
 
 fn select<G, P, S, A>(game: &G, state: &S) -> S
@@ -33,7 +36,7 @@ where
     S: Clone,
     A: Clone
 {
-    
+    state.clone()
 }
 
 fn expand<G, P, S, A>(game: &G, state: &S) -> S
@@ -44,4 +47,20 @@ where
     A: Clone
 {
 
+    state.clone()
+}
+
+fn simulate<G, P, S, A>(game: &G, state: &S) -> bool
+where
+    G: Game<S, A, P>,
+    P: Player<S, A>,
+    S: Clone,
+    A: Clone
+{
+    let rng = rand::thread_rng();
+    if rng.gen_ratio((50. + game.utility(state, G::to_move(state))) as u32, 100) {
+        true
+    } else {
+        false 
+    }
 }

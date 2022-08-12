@@ -186,7 +186,7 @@ impl ChessGame {
         if piece_taken.is_some() {
             Self::get_other_player_as_mut(&mut self.board).remove_piece(&action);
         }
-        self.board.3[(self.board.2 / 2) % self.board.3.len()] = self.board.0.clone();
+        self.board.3[self.board.2 % self.board.3.len()] = self.board.0.clone();
         self.board.2 += 1;
     }
 
@@ -207,7 +207,7 @@ impl ChessGame {
         Self::get_current_player_as_mut(&mut new_state).last_move = Some(*action);
    
         // Log state in history buffer
-        new_state.3[(state.2 / 2) % state.3.len()] = new_state.0.clone();
+        new_state.3[state.2 % state.3.len()] = new_state.0.clone();
 
         new_state.2 += 1;
         new_state
@@ -245,7 +245,7 @@ impl ChessGame {
         for piece in &attacked_pieces {
             total_value += piece.1.get_value() * WEIGHT_MATRIX[piece.0.1][piece.0.0];
         }
-        total_value * 0.1
+        total_value * 0.001
     }
 
     fn get_weighted_defended_pieces_value(state: &ChessState, player: &ChessPlayer) -> f64 {
@@ -255,7 +255,7 @@ impl ChessGame {
             total_value += piece.1.get_value() * WEIGHT_MATRIX[piece.0.1][piece.0.0]; 
         }
 
-        total_value * 0.1
+        total_value * 0.001
     }
 
     fn get_weighted_available_moves(state: &ChessState, player: &ChessPlayer) -> f64 {
@@ -265,14 +265,14 @@ impl ChessGame {
         for m in &moves {
             total += WEIGHT_MATRIX[m.1.1][m.1.0];
         }
-        0.1 * (total + moves.len() as f64)
+        0.01 * (total + moves.len() as f64)
     }
 
     fn get_repetition_penalty(state: &ChessState) -> f64 {
         let mut penalty: f64 = 0.;
-        for i in 2..state.3.len() {
+        for i in 2..if state.2 < state.3.len() { state.2 } else { state.3.len() } {
             if state.3[i] == state.3[i - 2] {
-                penalty += 500.;
+                penalty += 100.;
             }
         }
         penalty
