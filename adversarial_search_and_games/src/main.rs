@@ -20,7 +20,7 @@ use crate::algorithms::{
 type Algorithm<G, S, A> = fn(game: &G, state: &S, depth: usize) -> Option<A>;
 
 const AI_VS_AI: bool = true;
-const CHECK_AI_CHOICE: bool = true;
+const CHECK_AI_CHOICE: bool = false;
 
 fn main() {
     play_chess();
@@ -58,6 +58,7 @@ fn play_chess() {
     }
 
     while !game.is_terminal(&state) {
+        let current_player = chess::ChessGame::to_move(&state).clone();
         /* 
          * White
          */
@@ -69,6 +70,7 @@ fn play_chess() {
         } else {
             //let choice = try_algorithm(minimax::minimax_search, &game, &state, AI_DEPTH);
             let choice = try_algorithm(alpha_beta::alpha_beta_search, &game, &state, AI_DEPTH);
+
             if CHECK_AI_CHOICE {
                 term.move_cursor_to(10, 0).expect("");
                 term.write_line(&format!("Choice: {:?}", choice)).expect("");
@@ -82,6 +84,8 @@ fn play_chess() {
         }
 
         draw_board(&term, &state);
+        term.move_cursor_down(1).expect("");
+        term.write_line(&format!("Current utility for {:?} = {:.2}", current_player.get_color(), game.utility(&state, &current_player))).expect("");
 
         /*
          * Black

@@ -151,7 +151,11 @@ impl ChessGame {
         match square_value {
             Some(other_piece) => {
                 // Compare color of piece at destination and color of moving piece
-                piece.as_ref().unwrap().get_color() != other_piece.get_color()
+                if piece.is_some() {
+                    piece.as_ref().unwrap().get_color() != other_piece.get_color()
+                } else {
+                    false 
+                }
             },
             None => {
                 false
@@ -170,7 +174,11 @@ impl ChessGame {
         match square_value {
             Some(other_piece) => {
                 // Compare color of piece at destination and color of moving piece
-                piece.as_ref().unwrap().get_color() == other_piece.get_color()
+                if piece.is_some() {
+                    piece.as_ref().unwrap().get_color() == other_piece.get_color()
+                } else {
+                    false
+                }
             },
             None => {
                 false
@@ -245,7 +253,7 @@ impl ChessGame {
         for piece in &attacked_pieces {
             total_value += piece.1.get_value() * WEIGHT_MATRIX[piece.0.1][piece.0.0];
         }
-        total_value * 0.001
+        total_value * 0.0005
     }
 
     fn get_weighted_defended_pieces_value(state: &ChessState, player: &ChessPlayer) -> f64 {
@@ -255,7 +263,7 @@ impl ChessGame {
             total_value += piece.1.get_value() * WEIGHT_MATRIX[piece.0.1][piece.0.0]; 
         }
 
-        total_value * 0.001
+        total_value * 0.0005
     }
 
     fn get_weighted_available_moves(state: &ChessState, player: &ChessPlayer) -> f64 {
@@ -265,14 +273,14 @@ impl ChessGame {
         for m in &moves {
             total += WEIGHT_MATRIX[m.1.1][m.1.0];
         }
-        0.01 * (total + moves.len() as f64)
+        0.0005 * (total + moves.len() as f64)
     }
 
     fn get_repetition_penalty(state: &ChessState) -> f64 {
         let mut penalty: f64 = 0.;
-        for i in 2..if state.2 < state.3.len() { state.2 } else { state.3.len() } {
-            if state.3[i] == state.3[i - 2] {
-                penalty += 100.;
+        for i in 4..if state.2 < state.3.len() { state.2 } else { state.3.len() } {
+            if state.3[i] == state.3[i-4] {
+                penalty += 300.;
             }
         }
         penalty

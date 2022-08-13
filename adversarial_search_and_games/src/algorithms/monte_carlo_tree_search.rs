@@ -12,7 +12,7 @@ use rand::prelude::*;
 use crate::algorithms::game::*;
 
 const MAX_TIME: std::time::Duration = std::time::Duration::from_secs(5);
-
+/*
 pub fn monte_carlo_tree_search<G, P, S, A>(game: &G, state: &S) -> A
 where
     G: Game<S, A, P>,
@@ -64,3 +64,4 @@ where
         false 
     }
 }
+*/
