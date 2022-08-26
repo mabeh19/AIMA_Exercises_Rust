@@ -24,15 +24,15 @@ where
 }
 
 pub struct UnaryConstraint {
-    rule: Rule //fn(&Variable<T, C>, &Domain<T>) -> bool,
+    rule: Rule 
 }
 
 pub struct BinaryConstraint {
-    rule: Rule //fn(&Variable<T, C>, &Variable<T, C>) -> bool,
+    rule: Rule
 }
 
 pub struct PathConstraint {
-    rule: Rule //fn(&Variable<T, C>, &Variable<T, C>, &Variable<T>) -> bool,
+    rule: Rule
 }
 
 impl<T, C> Constraint<T, C> for UnaryConstraint
@@ -115,6 +115,10 @@ where
 
         let mut c = self.constraints.get_mut(&other.to_owned()).unwrap().push_back( C::new(rtype) );
     }
+
+    pub fn get_neighbors(&self) -> Vec<String> {
+
+    }
 }
 
 
@@ -142,6 +146,14 @@ where
 
     pub fn add_constraint(&mut self, variable: &str, other_variable: &str, ctype: ConstraintType, rtype: RuleType) {
         self.variables.get_mut(variable).unwrap().add_constraint(other_variable, ctype, rtype);
+    }
+
+    pub fn get_arcs(&self) -> &HashMap<String, Variable<T, C>> {
+        &self.variables
+    }
+
+    pub fn satisfies_constraint(&self) -> bool {
+        false
     }
 }
 

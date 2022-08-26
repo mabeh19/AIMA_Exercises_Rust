@@ -667,11 +667,11 @@
 1	search_complex/target/debug/.fingerprint/search_complex-e7b5a594b3b0a62a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	s	array:deps.1
 1	search_complex/target/debug/.fingerprint/search_complex-f19572bc3a587007/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	s	array:deps.0
 10376369925670944939	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":3920037762690034323,"outputs":{"10376369925670944939":{"success":true,"stat/;"	o	object:outputs
-10376369925670944939	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"4614504638168534921":{"success":true,"statu/;"	o	object:outputs
+10376369925670944939	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"9218888252049904301":{"success":false,"stat/;"	o	object:outputs
 10376369925670944939	search/target/.rustc_info.json	/^{"rustc_fingerprint":3920037762690034323,"outputs":{"15697416045686424142":{"success":false,"sta/;"	o	object:outputs
-15493033989842322569	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"4614504638168534921":{"success":true,"statu/;"	o	object:outputs
+15493033989842322569	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"9218888252049904301":{"success":false,"stat/;"	o	object:outputs
 15697416045686424142	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":3920037762690034323,"outputs":{"10376369925670944939":{"success":true,"stat/;"	o	object:outputs
-15697416045686424142	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"4614504638168534921":{"success":true,"statu/;"	o	object:outputs
+15697416045686424142	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"9218888252049904301":{"success":false,"stat/;"	o	object:outputs
 15697416045686424142	search/target/.rustc_info.json	/^{"rustc_fingerprint":3920037762690034323,"outputs":{"15697416045686424142":{"success":false,"sta/;"	o	object:outputs
 17598535894874457435	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	o	object:outputs
 2	adversarial_search_and_games/target/debug/.fingerprint/adversarial_search_and_games-0899bbe223d48a8e/test-bin-adversarial_search_and_games.json	/^{"rustc":15069735523673833430,"features":"[]","target":11869639202455498530,"profile":1021633075/;"	a	array:deps
@@ -1074,11 +1074,11 @@
 4	search/target/debug/.fingerprint/num-01f6fe8adbf55316/lib-num.json	/^{"rustc":10648053849583285360,"features":"[\\"default\\", \\"num-bigint\\", \\"std\\"]","target"/;"	a	array:deps
 4	search/target/release/.fingerprint/num-d01e04fdabbf24da/lib-num.json	/^{"rustc":15069735523673833430,"features":"[\\"default\\", \\"num-bigint\\", \\"std\\"]","target"/;"	a	array:deps
 4614504638168534921	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":3920037762690034323,"outputs":{"10376369925670944939":{"success":true,"stat/;"	o	object:outputs
-4614504638168534921	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"4614504638168534921":{"success":true,"statu/;"	o	object:outputs
+4614504638168534921	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"9218888252049904301":{"success":false,"stat/;"	o	object:outputs
 4614504638168534921	search/target/.rustc_info.json	/^{"rustc_fingerprint":3920037762690034323,"outputs":{"15697416045686424142":{"success":false,"sta/;"	o	object:outputs
 5	search/target/debug/.fingerprint/num-01f6fe8adbf55316/lib-num.json	/^{"rustc":10648053849583285360,"features":"[\\"default\\", \\"num-bigint\\", \\"std\\"]","target"/;"	a	array:deps
 5	search/target/release/.fingerprint/num-d01e04fdabbf24da/lib-num.json	/^{"rustc":15069735523673833430,"features":"[\\"default\\", \\"num-bigint\\", \\"std\\"]","target"/;"	a	array:deps
-9218888252049904301	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"4614504638168534921":{"success":true,"statu/;"	o	object:outputs
+9218888252049904301	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"9218888252049904301":{"success":false,"stat/;"	o	object:outputs
 931469667778813386	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	o	object:outputs
 Action	search/src/algorithms/problem.rs	/^pub type Action = AradToBucharestAction;$/;"	t
 Action	search_complex/src/algorithms/problem.rs	/^pub type Action = AradToBucharestAction;$/;"	t
@@ -1428,11 +1428,11 @@ children	adversarial_search_and_games/src/algorithms/node.rs	/^    pub children:
 code	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":3920037762690034323,"outputs":{"10376369925670944939":{"success":true,"stat/;"	n	object:outputs.10376369925670944939
 code	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":3920037762690034323,"outputs":{"10376369925670944939":{"success":true,"stat/;"	n	object:outputs.15697416045686424142
 code	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":3920037762690034323,"outputs":{"10376369925670944939":{"success":true,"stat/;"	n	object:outputs.4614504638168534921
-code	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"4614504638168534921":{"success":true,"statu/;"	n	object:outputs.10376369925670944939
-code	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"4614504638168534921":{"success":true,"statu/;"	n	object:outputs.15493033989842322569
-code	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"4614504638168534921":{"success":true,"statu/;"	n	object:outputs.15697416045686424142
-code	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"4614504638168534921":{"success":true,"statu/;"	n	object:outputs.4614504638168534921
-code	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"4614504638168534921":{"success":true,"statu/;"	n	object:outputs.9218888252049904301
+code	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"9218888252049904301":{"success":false,"stat/;"	n	object:outputs.10376369925670944939
+code	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"9218888252049904301":{"success":false,"stat/;"	n	object:outputs.15493033989842322569
+code	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"9218888252049904301":{"success":false,"stat/;"	n	object:outputs.15697416045686424142
+code	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"9218888252049904301":{"success":false,"stat/;"	n	object:outputs.4614504638168534921
+code	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"9218888252049904301":{"success":false,"stat/;"	n	object:outputs.9218888252049904301
 code	search/target/.rustc_info.json	/^{"rustc_fingerprint":3920037762690034323,"outputs":{"15697416045686424142":{"success":false,"sta/;"	n	object:outputs.10376369925670944939
 code	search/target/.rustc_info.json	/^{"rustc_fingerprint":3920037762690034323,"outputs":{"15697416045686424142":{"success":false,"sta/;"	n	object:outputs.15697416045686424142
 code	search/target/.rustc_info.json	/^{"rustc_fingerprint":3920037762690034323,"outputs":{"15697416045686424142":{"success":false,"sta/;"	n	object:outputs.4614504638168534921
@@ -2148,6 +2148,7 @@ games	adversarial_search_and_games/src/algorithms/mod.rs	/^pub mod games;$/;"	n
 genetic_algorithm	search_complex/src/algorithms/genetic_algorithm.rs	/^pub fn genetic_algorithm<P, A>(problem: &P) -> SearchResult<String, A> $/;"	f
 genetic_algorithm	search_complex/src/algorithms/mod.rs	/^pub mod genetic_algorithm;$/;"	n
 genetic_fitness	search_complex/src/algorithms/genetic_algorithm.rs	/^fn genetic_fitness<P, A>(problem: &P, individual: &Individual<A>) -> GeneticWeights $/;"	f
+get_arcs	constraint_satisfaction_problems/src/algorithms/constraint.rs	/^    pub fn get_arcs(&self) -> &HashMap<String, Variable<T, C>> {$/;"	f
 get_attacked_pieces	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    fn get_attacked_pieces(&self, state: &ChessState) -> Vec<(BoardPosition, ChessPieceType)> { /;"	P	implementation:ChessPlayer
 get_attacks	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    pub fn get_attacks(&self, state: &ChessState) -> Vec<(BoardPosition, ChessPieceType)> {    $/;"	P	implementation:ChessPiece
 get_color	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    pub fn get_color(&self) -> PlayerColor {$/;"	P	implementation:ChessPiece
@@ -2174,6 +2175,7 @@ get_initial_node	search_complex/src/algorithms/problem.rs	/^    fn get_initial_n
 get_initial_state	adversarial_search_and_games/src/algorithms/game.rs	/^    fn get_initial_state(&self) -> &S;$/;"	P	interface:Game
 get_initial_state	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    fn get_initial_state(&self) -> &ChessState {$/;"	P	implementation:ChessGame
 get_moves	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    fn get_moves(&self, state: &ChessState) -> Vec<ChessAction> {$/;"	P	implementation:ChessPlayer
+get_neighbors	constraint_satisfaction_problems/src/algorithms/constraint.rs	/^    pub fn get_neighbors(&self) -> Vec<String> {$/;"	f
 get_num_pieces	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    fn get_num_pieces(&self) -> usize {$/;"	P	implementation:ChessPlayer
 get_other_player	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    fn get_other_player(state: &ChessState) -> &ChessPlayer {$/;"	P	implementation:ChessGame
 get_other_player_as_mut	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    fn get_other_player_as_mut(state: &mut ChessState) -> &mut ChessPlayer {$/;"	P	implementation:ChessGame
@@ -2557,7 +2559,7 @@ output	search/target/release/.fingerprint/num-rational-9f8f3ad103dcafcf/run-buil
 output	search/target/release/.fingerprint/num-traits-0ba7a1052bdb690b/run-build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"","target":0,"profile":0,"path":0,"deps":[[81216356945/;"	s	object:local.0.RerunIfChanged
 output	search_complex/target/debug/.fingerprint/libc-bca7439595590b1d/run-build-script-build-script-build.json	/^{"rustc":15069735523673833430,"features":"","target":0,"profile":0,"path":0,"deps":[[13743578918/;"	s	object:local.0.RerunIfChanged
 outputs	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":3920037762690034323,"outputs":{"10376369925670944939":{"success":true,"stat/;"	o
-outputs	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"4614504638168534921":{"success":true,"statu/;"	o
+outputs	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"9218888252049904301":{"success":false,"stat/;"	o
 outputs	search/target/.rustc_info.json	/^{"rustc_fingerprint":3920037762690034323,"outputs":{"15697416045686424142":{"success":false,"sta/;"	o
 outputs	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	o
 parent	adversarial_search_and_games/src/algorithms/node.rs	/^    pub parent: Link<S, A>,$/;"	m	struct:MonteCarloNode
@@ -2893,9 +2895,9 @@ revise	constraint_satisfaction_problems/src/algorithms/ac3.rs	/^fn revise<T, C>(
 rooks	adversarial_search_and_games/src/algorithms/games/chess.rs	/^    rooks: Vec<ChessPiece>,$/;"	m	struct:ChessPlayer
 root	adversarial_search_and_games/src/algorithms/monte_carlo_tree_search.rs	/^    pub root: Link<S, A>,$/;"	m	struct:MonteCarloTree
 rtype	constraint_satisfaction_problems/src/algorithms/constraint.rs	/^    rtype: RuleType$/;"	m	struct:Rule
-rule	constraint_satisfaction_problems/src/algorithms/constraint.rs	/^    rule: Rule \/\/fn(&Variable<T, C>, &Domain<T>) -> bool,$/;"	m	struct:UnaryConstraint
-rule	constraint_satisfaction_problems/src/algorithms/constraint.rs	/^    rule: Rule \/\/fn(&Variable<T, C>, &Variable<T, C>) -> bool,$/;"	m	struct:BinaryConstraint
-rule	constraint_satisfaction_problems/src/algorithms/constraint.rs	/^    rule: Rule \/\/fn(&Variable<T, C>, &Variable<T, C>, &Variable<T>) -> bool,$/;"	m	struct:PathConstraint
+rule	constraint_satisfaction_problems/src/algorithms/constraint.rs	/^    rule: Rule $/;"	m	struct:UnaryConstraint
+rule	constraint_satisfaction_problems/src/algorithms/constraint.rs	/^    rule: Rule$/;"	m	struct:BinaryConstraint
+rule	constraint_satisfaction_problems/src/algorithms/constraint.rs	/^    rule: Rule$/;"	m	struct:PathConstraint
 rustc	adversarial_search_and_games/target/debug/.fingerprint/adversarial_search_and_games-0899bbe223d48a8e/test-bin-adversarial_search_and_games.json	/^{"rustc":15069735523673833430,"features":"[]","target":11869639202455498530,"profile":1021633075/;"	n
 rustc	adversarial_search_and_games/target/debug/.fingerprint/adversarial_search_and_games-0a6c80888aa1b07e/bin-adversarial_search_and_games.json	/^{"rustc":15069735523673833430,"features":"[]","target":11869639202455498530,"profile":9251013656/;"	n
 rustc	adversarial_search_and_games/target/debug/.fingerprint/adversarial_search_and_games-25fc8f95a4cf3b7b/test-bin-adversarial_search_and_games.json	/^{"rustc":10648053849583285360,"features":"[]","target":11869639202455498530,"profile":1021633075/;"	n
@@ -3036,7 +3038,7 @@ rustc	search_complex/target/debug/.fingerprint/search_complex-c3e0c78a14395e7a/b
 rustc	search_complex/target/debug/.fingerprint/search_complex-e7b5a594b3b0a62a/bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":73091416868/;"	n
 rustc	search_complex/target/debug/.fingerprint/search_complex-f19572bc3a587007/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	n
 rustc_fingerprint	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":3920037762690034323,"outputs":{"10376369925670944939":{"success":true,"stat/;"	n
-rustc_fingerprint	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"4614504638168534921":{"success":true,"statu/;"	n
+rustc_fingerprint	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"9218888252049904301":{"success":false,"stat/;"	n
 rustc_fingerprint	search/target/.rustc_info.json	/^{"rustc_fingerprint":3920037762690034323,"outputs":{"15697416045686424142":{"success":false,"sta/;"	n
 rustc_fingerprint	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	n
 rustflags	adversarial_search_and_games/target/debug/.fingerprint/adversarial_search_and_games-0899bbe223d48a8e/test-bin-adversarial_search_and_games.json	/^{"rustc":15069735523673833430,"features":"[]","target":11869639202455498530,"profile":1021633075/;"	a
@@ -3180,6 +3182,7 @@ rustflags	search_complex/target/debug/.fingerprint/search_complex-e7b5a594b3b0a6
 rustflags	search_complex/target/debug/.fingerprint/search_complex-f19572bc3a587007/test-bin-search_complex.json	/^{"rustc":15069735523673833430,"features":"[]","target":9348882321661654917,"profile":10216330754/;"	a
 s	search_complex/src/algorithms/lrta_agent.rs	/^    s: Option<S>,$/;"	m	struct:LrtaAgent
 s	search_complex/src/algorithms/online_dfs_agent.rs	/^    s: Option<S>,$/;"	m	struct:OnlineDFSAgent
+satisfies_constraint	constraint_satisfaction_problems/src/algorithms/constraint.rs	/^    pub fn satisfies_constraint(&self) -> bool {$/;"	f
 schedule	search_complex/src/algorithms/simulated_annealing.rs	/^fn schedule(t: usize) -> f64 {$/;"	f
 select	adversarial_search_and_games/src/algorithms/monte_carlo_tree_search.rs	/^    fn select<G, P>(&mut self, game: &G, state: &S) -> Link<S, A>$/;"	f
 simulate	adversarial_search_and_games/src/algorithms/monte_carlo_tree_search.rs	/^    fn simulate<G, P>(&self, game: &G, state: &Link<S, A>) -> bool$/;"	f
@@ -3191,11 +3194,11 @@ state	search_complex/src/algorithms/node.rs	/^    pub state: S,$/;"	m	struct:Nod
 status	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":3920037762690034323,"outputs":{"10376369925670944939":{"success":true,"stat/;"	s	object:outputs.10376369925670944939
 status	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":3920037762690034323,"outputs":{"10376369925670944939":{"success":true,"stat/;"	s	object:outputs.15697416045686424142
 status	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":3920037762690034323,"outputs":{"10376369925670944939":{"success":true,"stat/;"	s	object:outputs.4614504638168534921
-status	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"4614504638168534921":{"success":true,"statu/;"	s	object:outputs.10376369925670944939
-status	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"4614504638168534921":{"success":true,"statu/;"	s	object:outputs.15493033989842322569
-status	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"4614504638168534921":{"success":true,"statu/;"	s	object:outputs.15697416045686424142
-status	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"4614504638168534921":{"success":true,"statu/;"	s	object:outputs.4614504638168534921
-status	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"4614504638168534921":{"success":true,"statu/;"	s	object:outputs.9218888252049904301
+status	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"9218888252049904301":{"success":false,"stat/;"	s	object:outputs.10376369925670944939
+status	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"9218888252049904301":{"success":false,"stat/;"	s	object:outputs.15493033989842322569
+status	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"9218888252049904301":{"success":false,"stat/;"	s	object:outputs.15697416045686424142
+status	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"9218888252049904301":{"success":false,"stat/;"	s	object:outputs.4614504638168534921
+status	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"9218888252049904301":{"success":false,"stat/;"	s	object:outputs.9218888252049904301
 status	search/target/.rustc_info.json	/^{"rustc_fingerprint":3920037762690034323,"outputs":{"15697416045686424142":{"success":false,"sta/;"	s	object:outputs.10376369925670944939
 status	search/target/.rustc_info.json	/^{"rustc_fingerprint":3920037762690034323,"outputs":{"15697416045686424142":{"success":false,"sta/;"	s	object:outputs.15697416045686424142
 status	search/target/.rustc_info.json	/^{"rustc_fingerprint":3920037762690034323,"outputs":{"15697416045686424142":{"success":false,"sta/;"	s	object:outputs.4614504638168534921
@@ -3205,11 +3208,11 @@ status	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235
 stderr	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":3920037762690034323,"outputs":{"10376369925670944939":{"success":true,"stat/;"	s	object:outputs.10376369925670944939
 stderr	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":3920037762690034323,"outputs":{"10376369925670944939":{"success":true,"stat/;"	s	object:outputs.15697416045686424142
 stderr	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":3920037762690034323,"outputs":{"10376369925670944939":{"success":true,"stat/;"	s	object:outputs.4614504638168534921
-stderr	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"4614504638168534921":{"success":true,"statu/;"	s	object:outputs.10376369925670944939
-stderr	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"4614504638168534921":{"success":true,"statu/;"	s	object:outputs.15493033989842322569
-stderr	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"4614504638168534921":{"success":true,"statu/;"	s	object:outputs.15697416045686424142
-stderr	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"4614504638168534921":{"success":true,"statu/;"	s	object:outputs.4614504638168534921
-stderr	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"4614504638168534921":{"success":true,"statu/;"	s	object:outputs.9218888252049904301
+stderr	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"9218888252049904301":{"success":false,"stat/;"	s	object:outputs.10376369925670944939
+stderr	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"9218888252049904301":{"success":false,"stat/;"	s	object:outputs.15493033989842322569
+stderr	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"9218888252049904301":{"success":false,"stat/;"	s	object:outputs.15697416045686424142
+stderr	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"9218888252049904301":{"success":false,"stat/;"	s	object:outputs.4614504638168534921
+stderr	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"9218888252049904301":{"success":false,"stat/;"	s	object:outputs.9218888252049904301
 stderr	search/target/.rustc_info.json	/^{"rustc_fingerprint":3920037762690034323,"outputs":{"15697416045686424142":{"success":false,"sta/;"	s	object:outputs.10376369925670944939
 stderr	search/target/.rustc_info.json	/^{"rustc_fingerprint":3920037762690034323,"outputs":{"15697416045686424142":{"success":false,"sta/;"	s	object:outputs.15697416045686424142
 stderr	search/target/.rustc_info.json	/^{"rustc_fingerprint":3920037762690034323,"outputs":{"15697416045686424142":{"success":false,"sta/;"	s	object:outputs.4614504638168534921
@@ -3219,11 +3222,11 @@ stderr	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235
 stdout	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":3920037762690034323,"outputs":{"10376369925670944939":{"success":true,"stat/;"	s	object:outputs.10376369925670944939
 stdout	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":3920037762690034323,"outputs":{"10376369925670944939":{"success":true,"stat/;"	s	object:outputs.15697416045686424142
 stdout	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":3920037762690034323,"outputs":{"10376369925670944939":{"success":true,"stat/;"	s	object:outputs.4614504638168534921
-stdout	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"4614504638168534921":{"success":true,"statu/;"	s	object:outputs.10376369925670944939
-stdout	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"4614504638168534921":{"success":true,"statu/;"	s	object:outputs.15493033989842322569
-stdout	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"4614504638168534921":{"success":true,"statu/;"	s	object:outputs.15697416045686424142
-stdout	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"4614504638168534921":{"success":true,"statu/;"	s	object:outputs.4614504638168534921
-stdout	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"4614504638168534921":{"success":true,"statu/;"	s	object:outputs.9218888252049904301
+stdout	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"9218888252049904301":{"success":false,"stat/;"	s	object:outputs.10376369925670944939
+stdout	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"9218888252049904301":{"success":false,"stat/;"	s	object:outputs.15493033989842322569
+stdout	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"9218888252049904301":{"success":false,"stat/;"	s	object:outputs.15697416045686424142
+stdout	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"9218888252049904301":{"success":false,"stat/;"	s	object:outputs.4614504638168534921
+stdout	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"9218888252049904301":{"success":false,"stat/;"	s	object:outputs.9218888252049904301
 stdout	search/target/.rustc_info.json	/^{"rustc_fingerprint":3920037762690034323,"outputs":{"15697416045686424142":{"success":false,"sta/;"	s	object:outputs.10376369925670944939
 stdout	search/target/.rustc_info.json	/^{"rustc_fingerprint":3920037762690034323,"outputs":{"15697416045686424142":{"success":false,"sta/;"	s	object:outputs.15697416045686424142
 stdout	search/target/.rustc_info.json	/^{"rustc_fingerprint":3920037762690034323,"outputs":{"15697416045686424142":{"success":false,"sta/;"	s	object:outputs.4614504638168534921
@@ -3242,11 +3245,11 @@ str	search_complex/src/algorithms/problem.rs	/^pub type State = &'static str;$/;
 success	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":3920037762690034323,"outputs":{"10376369925670944939":{"success":true,"stat/;"	b	object:outputs.10376369925670944939
 success	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":3920037762690034323,"outputs":{"10376369925670944939":{"success":true,"stat/;"	b	object:outputs.15697416045686424142
 success	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":3920037762690034323,"outputs":{"10376369925670944939":{"success":true,"stat/;"	b	object:outputs.4614504638168534921
-success	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"4614504638168534921":{"success":true,"statu/;"	b	object:outputs.10376369925670944939
-success	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"4614504638168534921":{"success":true,"statu/;"	b	object:outputs.15493033989842322569
-success	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"4614504638168534921":{"success":true,"statu/;"	b	object:outputs.15697416045686424142
-success	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"4614504638168534921":{"success":true,"statu/;"	b	object:outputs.4614504638168534921
-success	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"4614504638168534921":{"success":true,"statu/;"	b	object:outputs.9218888252049904301
+success	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"9218888252049904301":{"success":false,"stat/;"	b	object:outputs.10376369925670944939
+success	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"9218888252049904301":{"success":false,"stat/;"	b	object:outputs.15493033989842322569
+success	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"9218888252049904301":{"success":false,"stat/;"	b	object:outputs.15697416045686424142
+success	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"9218888252049904301":{"success":false,"stat/;"	b	object:outputs.4614504638168534921
+success	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"9218888252049904301":{"success":false,"stat/;"	b	object:outputs.9218888252049904301
 success	search/target/.rustc_info.json	/^{"rustc_fingerprint":3920037762690034323,"outputs":{"15697416045686424142":{"success":false,"sta/;"	b	object:outputs.10376369925670944939
 success	search/target/.rustc_info.json	/^{"rustc_fingerprint":3920037762690034323,"outputs":{"15697416045686424142":{"success":false,"sta/;"	b	object:outputs.15697416045686424142
 success	search/target/.rustc_info.json	/^{"rustc_fingerprint":3920037762690034323,"outputs":{"15697416045686424142":{"success":false,"sta/;"	b	object:outputs.4614504638168534921
@@ -3254,7 +3257,7 @@ success	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":1227964823
 success	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	b	object:outputs.2797684049618456168
 success	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	b	object:outputs.931469667778813386
 successes	adversarial_search_and_games/target/.rustc_info.json	/^{"rustc_fingerprint":3920037762690034323,"outputs":{"10376369925670944939":{"success":true,"stat/;"	o
-successes	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"4614504638168534921":{"success":true,"statu/;"	o
+successes	constraint_satisfaction_problems/target/.rustc_info.json	/^{"rustc_fingerprint":4616343204527345352,"outputs":{"9218888252049904301":{"success":false,"stat/;"	o
 successes	search/target/.rustc_info.json	/^{"rustc_fingerprint":3920037762690034323,"outputs":{"15697416045686424142":{"success":false,"sta/;"	o
 successes	search_complex/target/.rustc_info.json	/^{"rustc_fingerprint":12279648235127346928,"outputs":{"17598535894874457435":{"success":true,"sta/;"	o
 take_action	adversarial_search_and_games/src/algorithms/game.rs	/^    fn take_action(&mut self, state: &S, action: &A) -> &S;$/;"	P	interface:Game
