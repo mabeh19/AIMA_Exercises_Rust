@@ -8,7 +8,8 @@ use crate::algorithms::game::{Game, Player};
 
 
 pub type BoardPosition = (usize, usize);
-pub type ChessBoard = [[Option<Box<ChessPiece>>; 8]; 8];
+pub type ChessBoard = [[Option<ChessPiece>; 8]; 8];
+//pub type ChessBoard = [[Option<Box<ChessPiece>>; 8]; 8];
 /* The chess state consists of the following values:
  * 0. Current board positions
  * 1. Players (and their pieces)
@@ -205,7 +206,8 @@ impl ChessGame {
         // update players piece
         if let Some(promoted_pawn) = Self::get_current_player_as_mut(&mut new_state).update_piece(&action) {
             let pos = promoted_pawn.get_position().clone();
-            new_state.0[pos.1][pos.0] = Some(Box::new(promoted_pawn));
+            new_state.0[pos.1][pos.0] = Some(promoted_pawn);
+            //new_state.0[pos.1][pos.0] = Some(Box::new(promoted_pawn));
         }
         if piece_taken.is_some() {
             Self::get_other_player_as_mut(&mut new_state).remove_piece(&action);
@@ -240,11 +242,11 @@ impl ChessGame {
         let other_player = Self::get_other_player(state);
         let k = if player.king.is_some() { 1. } else { 0. };
         let k_m = if other_player.king.is_some() { 1. } else { 0. };
-        200. * (k - k_m)
-        + 9. * (player.queens.len() as f64 - other_player.queens.len() as f64)
-        + 5. * (player.rooks.len() as f64 - other_player.rooks.len() as f64)
-        + 3. * (player.knights.len() as f64 - other_player.knights.len() as f64 + player.bishops.len() as f64 - other_player.bishops.len() as f64)
-        + 1. * (player.pawns.len() as f64 - other_player.pawns.len() as f64)
+        20000. * (k - k_m)
+        + 900. * (player.queens.len() as f64 - other_player.queens.len() as f64)
+        + 500. * (player.rooks.len() as f64 - other_player.rooks.len() as f64)
+        + 300. * (player.knights.len() as f64 - other_player.knights.len() as f64 + player.bishops.len() as f64 - other_player.bishops.len() as f64)
+        + 100. * (player.pawns.len() as f64 - other_player.pawns.len() as f64)
     }
 
     fn get_weighted_attacked_pieces_value(state: &ChessState, player: &ChessPlayer) -> f64 {
@@ -253,7 +255,7 @@ impl ChessGame {
         for piece in &attacked_pieces {
             total_value += piece.1.get_value() * WEIGHT_MATRIX[piece.0.1][piece.0.0];
         }
-        total_value * 0.0005
+        total_value * 0.0002
     }
 
     fn get_weighted_defended_pieces_value(state: &ChessState, player: &ChessPlayer) -> f64 {
@@ -263,7 +265,7 @@ impl ChessGame {
             total_value += piece.1.get_value() * WEIGHT_MATRIX[piece.0.1][piece.0.0]; 
         }
 
-        total_value * 0.0005
+        total_value * 0.0002
     }
 
     fn get_weighted_available_moves(state: &ChessState, player: &ChessPlayer) -> f64 {
@@ -273,17 +275,15 @@ impl ChessGame {
         for m in &moves {
             total += WEIGHT_MATRIX[m.1.1][m.1.0];
         }
-        0.0005 * (total + moves.len() as f64)
+        0.0002 * (total + moves.len() as f64)
     }
 
     fn get_repetition_penalty(state: &ChessState) -> f64 {
-        let mut penalty: f64 = 0.;
-        for i in 4..if state.2 < state.3.len() { state.2 } else { state.3.len() } {
-            if state.3[i] == state.3[i-4] {
-                penalty += 300.;
-            }
-        }
-        penalty
+        let mut occurrences = 0;
+        let _ = state.3.as_ref().into_iter().map(|a| 
+            if &state.0 == a { occurrences += 1; } 
+        );
+        (occurrences * 300) as f64
     }
 }
 
@@ -350,7 +350,10 @@ impl Game<ChessState, ChessAction, ChessPlayer> for ChessGame {
 
     fn is_terminal(&self, state: &ChessState) -> bool {
         // If we can't perform any moves, the game must be over
-        if Self::get_current_player(state).king == None || Self::get_current_player(state).get_moves(state).len() == 0 || (state.3[0] == state.3[1] && state.3[1] == state.3[2]) {
+        if  Self::get_current_player(state).king == None || 
+            Self::get_current_player(state).get_moves(state).len() == 0 || 
+            (Self::get_current_player(state).get_num_pieces() == 1 && Self::get_other_player(state).get_num_pieces() == 1)
+        {
             true
         } else {
             false
@@ -410,16 +413,24 @@ impl Game<ChessState, ChessAction, ChessPlayer> for ChessGame {
     }
 }
 
-#[derive(Clone, Debug)]
+#[derive(Clone, Debug, PartialEq)]
 pub struct ChessPlayer {
     color: PlayerColor,
     pieces: HashMap<(usize, usize), (ChessPieceType, usize)>,
+    /*
     king: Option<Box<ChessPiece>>,
     queens: Vec<Box<ChessPiece>>,
     rooks: Vec<Box<ChessPiece>>,
     knights: Vec<Box<ChessPiece>>,
     bishops: Vec<Box<ChessPiece>>,
     pawns: Vec<Box<ChessPiece>>,
+    */
+    king: Option<ChessPiece>,
+    queens: Vec<ChessPiece>,
+    rooks: Vec<ChessPiece>,
+    knights: Vec<ChessPiece>,
+    bishops: Vec<ChessPiece>,
+    pawns: Vec<ChessPiece>,
     checked_by: Option<ChessPiece>,
     last_move: Option<ChessAction>
 }
@@ -438,15 +449,24 @@ impl ChessPlayer {
     
     fn new(color: PlayerColor) -> Self {
         let mut new_player: ChessPlayer;
+        /*
         let king: Box<ChessPiece>;
         let queen: Box<ChessPiece>;
         let rooks: Vec<Box<ChessPiece>>;
         let knights: Vec<Box<ChessPiece>>;
         let bishops: Vec<Box<ChessPiece>>;
         let mut pawns: Vec<Box<ChessPiece>>;
-        
+        */
+        let king: ChessPiece;
+        let queen: ChessPiece;
+        let rooks: Vec<ChessPiece>;
+        let knights: Vec<ChessPiece>;
+        let bishops: Vec<ChessPiece>;
+        let mut pawns: Vec<ChessPiece>;
+
         match color {
             PlayerColor::White => {
+                /*
                 king = Box::new(ChessPiece { piece_type: ChessPieceType::King, position: (4, 7 - 0), color, can_perform: true });
                 queen = Box::new(ChessPiece { piece_type: ChessPieceType::Queen, position: (3, 7 - 0), color, can_perform: false });
                 rooks = vec![Box::new(ChessPiece { piece_type: ChessPieceType::Rook, position: (0, 7 - 0), color, can_perform: true }), Box::new(ChessPiece { piece_type: ChessPieceType::Rook, position: (7, 7 - 0), color, can_perform: true })];
@@ -456,8 +476,19 @@ impl ChessPlayer {
                 for i in 0..BOARD_COLS {
                     pawns.push(Box::new(ChessPiece { piece_type: ChessPieceType::Pawn, position: (i, 7 - 1), color, can_perform: true }));
                 }
+                */
+                king = ChessPiece { piece_type: ChessPieceType::King, position: (4, 7 - 0), color, can_perform: true };
+                queen = ChessPiece { piece_type: ChessPieceType::Queen, position: (3, 7 - 0), color, can_perform: false };
+                rooks = vec![ChessPiece { piece_type: ChessPieceType::Rook, position: (0, 7 - 0), color, can_perform: true }, ChessPiece { piece_type: ChessPieceType::Rook, position: (7, 7 - 0), color, can_perform: true }];
+                knights = vec![ChessPiece { piece_type: ChessPieceType::Knight, position: (1, 7 - 0), color, can_perform: false }, ChessPiece { piece_type: ChessPieceType::Knight, position: (6, 7 - 0), color, can_perform: false }];
+                bishops = vec![ChessPiece { piece_type: ChessPieceType::Bishop, position: (2, 7 - 0), color, can_perform: false }, ChessPiece { piece_type: ChessPieceType::Bishop, position: (5, 7 - 0), color, can_perform: false }];
+                pawns = Vec::new();
+                for i in 0..BOARD_COLS {
+                    pawns.push(ChessPiece { piece_type: ChessPieceType::Pawn, position: (i, 7 - 1), color, can_perform: true });
+                }
             },
             PlayerColor::Black => {
+                /*
                 king = Box::new(ChessPiece { piece_type: ChessPieceType::King, position: (4, 7 - 7), color, can_perform: true });
                 queen = Box::new(ChessPiece { piece_type: ChessPieceType::Queen, position: (3, 7 - 7), color, can_perform: false });
                 rooks = vec![Box::new(ChessPiece { piece_type: ChessPieceType::Rook, position: (0, 7 - 7), color, can_perform: true }), Box::new(ChessPiece { piece_type: ChessPieceType::Rook, position: (7, 7 - 7), color, can_perform: true })];
@@ -466,6 +497,16 @@ impl ChessPlayer {
                 pawns = Vec::new();
                 for i in 0..BOARD_COLS {
                     pawns.push(Box::new(ChessPiece { piece_type: ChessPieceType::Pawn, position: (i, 7 - 6), color, can_perform: true }));
+                }
+                */
+                king = ChessPiece { piece_type: ChessPieceType::King, position: (4, 7 - 7), color, can_perform: true };
+                queen = ChessPiece { piece_type: ChessPieceType::Queen, position: (3, 7 - 7), color, can_perform: false };
+                rooks = vec![ChessPiece { piece_type: ChessPieceType::Rook, position: (0, 7 - 7), color, can_perform: true }, ChessPiece { piece_type: ChessPieceType::Rook, position: (7, 7 - 7), color, can_perform: true }];
+                knights = vec![ChessPiece { piece_type: ChessPieceType::Knight, position: (1, 7 - 7), color, can_perform: false }, ChessPiece { piece_type: ChessPieceType::Knight, position: (6, 7 - 7), color, can_perform: false }];
+                bishops = vec![ChessPiece { piece_type: ChessPieceType::Bishop, position: (2, 7 - 7), color, can_perform: false }, ChessPiece { piece_type: ChessPieceType::Bishop, position: (5, 7 - 7), color, can_perform: false }];
+                pawns = Vec::new();
+                for i in 0..BOARD_COLS {
+                    pawns.push(ChessPiece { piece_type: ChessPieceType::Pawn, position: (i, 7 - 6), color, can_perform: true });
                 }
             }
         }
@@ -679,6 +720,16 @@ impl ChessPlayer {
         promoted_pawn
     }
 
+    fn get_num_pieces(&self) -> usize {
+        let mut pieces = 0;
+        if self.king.is_some() {
+            pieces += 1;
+        }
+        pieces += self.queens.len() + self.rooks.len() + self.knights.len() + self.bishops.len() + self.pawns.len();
+
+        return pieces;
+    }
+
     fn remove_piece(&mut self, action: &ChessAction) {
         let piece_info = self.pieces.get(&action.1).clone();
         if piece_info.is_some() {
@@ -781,7 +832,7 @@ impl ChessPlayer {
         for m in other_player.get_moves(state) {
             if m.1 == self.king.as_ref().unwrap().get_position() {
                 is_checked = true;
-                self.checked_by = Some(*state.0[m.0.1][m.0.0].clone().unwrap());
+                self.checked_by = Some(state.0[m.0.1][m.0.0].clone().unwrap());
             }
         }
 

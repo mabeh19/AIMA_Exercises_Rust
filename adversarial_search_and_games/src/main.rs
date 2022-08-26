@@ -11,10 +11,12 @@ use rand::prelude::*;
 pub mod algorithms;
 
 use crate::algorithms::{
+    node,
     game::*,
     games::chess,
     minimax,
     alpha_beta,
+    monte_carlo_tree_search,
 };
 
 type Algorithm<G, S, A> = fn(game: &G, state: &S, depth: usize) -> Option<A>;
@@ -45,17 +47,18 @@ fn play_chess() {
     draw_board(&term, &init_state);
     const AI_DEPTH: usize = 4;
     let mut state = init_state.clone();
-
     /*
      * First we perform some sequence of moves to get the game started...
      */
-    
+   
     let mut rng = rand::thread_rng();
     for m in chess::OPENERS[rng.gen_range(0..chess::OPENERS.len())] {
         state = game.take_action(&state, &m).clone();
         sleep(std::time::Duration::from_millis(500));
         draw_board(&term, &state);
     }
+
+    let mut mcts = monte_carlo_tree_search::MonteCarloTree::<_, chess::ChessAction>::new(&state);    
 
     while !game.is_terminal(&state) {
         let current_player = chess::ChessGame::to_move(&state).clone();
@@ -69,8 +72,8 @@ fn play_chess() {
             state = game.result(&state, &moves[choice]).clone();
         } else {
             //let choice = try_algorithm(minimax::minimax_search, &game, &state, AI_DEPTH);
-            let choice = try_algorithm(alpha_beta::alpha_beta_search, &game, &state, AI_DEPTH);
-
+            //let choice = try_algorithm(alpha_beta::alpha_beta_search, &game, &state, AI_DEPTH);
+            let choice = mcts.monte_carlo_tree_search(&game, &state);
             if CHECK_AI_CHOICE {
                 term.move_cursor_to(10, 0).expect("");
                 term.write_line(&format!("Choice: {:?}", choice)).expect("");
@@ -80,13 +83,14 @@ fn play_chess() {
             }
             if choice.is_some() {
                 state = game.result(&state, &choice.unwrap()).clone();
+            } else {
+                println!("Game over, {:?} wins!", chess::ChessGame::to_move(&state).get_color());
+                break;
             }
         }
-
         draw_board(&term, &state);
         term.move_cursor_down(1).expect("");
-        term.write_line(&format!("Current utility for {:?} = {:.2}", current_player.get_color(), game.utility(&state, &current_player))).expect("");
-
+        term.write_line(&format!("Current utility for {:?} = {:.4}", current_player.get_color(), game.utility(&state, &current_player))).expect("");
         /*
          * Black
          */
@@ -104,9 +108,11 @@ fn play_chess() {
         
         //draw_board(&term, &state);
     }
-    
 
 }
+
+
+
 
 fn display_actions(term: &Term, actions: &Vec<chess::ChessAction>) {
     let pos = (10, 0);
@@ -132,60 +138,60 @@ fn draw_board(term: &Term, state: &chess::ChessState) {
                     chess::ChessPieceType::King => {
                         match p.get_color() {
                             chess::PlayerColor::White => {
-                                icon = "\x1b[38;5;11mK\x1b[38;5;15m";
+                                icon = "\x1b[38;5;11mK\x1b[38;5;0m";
                             },
                             chess::PlayerColor::Black => {
-                                icon = "\x1b[38;5;5mK\x1b[38;5;15m";
+                                icon = "\x1b[38;5;5mK\x1b[38;5;0m";
                             }
                         }
                     },
                     chess::ChessPieceType::Queen => {
                         match p.get_color() {
                             chess::PlayerColor::White => {
-                                icon = "\x1b[38;5;11mQ\x1b[38;5;15m";
+                                icon = "\x1b[38;5;11mQ\x1b[38;5;0m";
                             },
                             chess::PlayerColor::Black => {
-                                icon = "\x1b[38;5;5mQ\x1b[38;5;15m";
+                                icon = "\x1b[38;5;5mQ\x1b[38;5;0m";
                             }
                         }
                     },
                     chess::ChessPieceType::Rook => {
                         match p.get_color() {
                             chess::PlayerColor::White => {
-                                icon = "\x1b[38;5;11mR\x1b[38;5;15m";
+                                icon = "\x1b[38;5;11mR\x1b[38;5;0m";
                             },
                             chess::PlayerColor::Black => {
-                                icon = "\x1b[38;5;5mR\x1b[38;5;15m";
+                                icon = "\x1b[38;5;5mR\x1b[38;5;0m";
                             }
                         }
                     },
                     chess::ChessPieceType::Knight => {
                         match p.get_color() {
                             chess::PlayerColor::White => {
-                                icon = "\x1b[38;5;11mN\x1b[38;5;15m";
+                                icon = "\x1b[38;5;11mN\x1b[38;5;0m";
                             },
                             chess::PlayerColor::Black => {
-                                icon = "\x1b[38;5;5mN\x1b[38;5;15m";
+                                icon = "\x1b[38;5;5mN\x1b[38;5;0m";
                             }
                         }
                     },
                     chess::ChessPieceType::Bishop => {
                         match p.get_color() {
                             chess::PlayerColor::White => {
-                                icon = "\x1b[38;5;11mB\x1b[38;5;15m";
+                                icon = "\x1b[38;5;11mB\x1b[38;5;0m";
                             },
                             chess::PlayerColor::Black => {
-                                icon = "\x1b[38;5;5mB\x1b[38;5;15m";
+                                icon = "\x1b[38;5;5mB\x1b[38;5;0m";
                             }
                         }
                     },
                     chess::ChessPieceType::Pawn => {
                         match p.get_color() {
                             chess::PlayerColor::White => {
-                                icon = "\x1b[38;5;11mP\x1b[38;5;15m";
+                                icon = "\x1b[38;5;11mP\x1b[38;5;0m";
                             },
                             chess::PlayerColor::Black => {
-                                icon = "\x1b[38;5;5mP\x1b[38;5;15m";
+                                icon = "\x1b[38;5;5mP\x1b[38;5;0m";
                             }
                         }
                     }
