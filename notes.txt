@@ -1,0 +1,3 @@
+Chess AI implementeret med ICO
+	- Pred input er brættet
+	- Refl input er reduktion i værdi
