@@ -38,7 +38,7 @@ pub struct PathConstraint {
 
 impl<T> Constraint<T> for UnaryConstraint
 where
-    T: Clone + PartialEq + PartialOrd + Eq + Hash
+    T: Clone + PartialEq + PartialOrd + Eq + Hash + std::fmt::Debug
 {
     type FirstVariable = T;
     type OtherVariables = Domain<T>;
@@ -54,7 +54,7 @@ where
 
 impl<T> Constraint<T> for BinaryConstraint
 where
-    T: Clone + PartialEq + PartialOrd + Eq + Hash
+    T: Clone + PartialEq + PartialOrd + Eq + Hash + std::fmt::Debug
 {
     type FirstVariable = T;
     type OtherVariables = T;
@@ -70,7 +70,7 @@ where
 
 impl<T> Constraint<T> for PathConstraint
 where
-    T: Clone + PartialEq + PartialOrd + Eq + Hash
+    T: Clone + PartialEq + PartialOrd + Eq + Hash + std::fmt::Debug
 {
     type FirstVariable = T;
     type OtherVariables = Vec<T>;
@@ -84,10 +84,10 @@ where
     }
 }
 
-#[derive(Clone, PartialEq)]
+#[derive(Clone, PartialEq, std::fmt::Debug)]
 pub struct Variable<T> 
 where
-    T: Clone + PartialEq + PartialOrd + Eq + Hash
+    T: Clone + PartialEq + PartialOrd + Eq + Hash + std::fmt::Debug
 {
     name: String,
     domain: Domain<T>,
@@ -97,7 +97,7 @@ where
 
 impl<T> Variable<T>
 where
-    T: Clone + PartialEq + PartialOrd + Eq + Hash
+    T: Clone + PartialEq + PartialOrd + Eq + Hash + std::fmt::Debug
 {
     pub fn new(name: &str, value: T, domain: Domain<T>, neighbors: Option<Vec<String>>) -> Self {
         let neighbors = if neighbors.is_some() { neighbors.unwrap() } else { Vec::new() };
@@ -138,7 +138,7 @@ where
 #[derive(Clone, PartialEq)]
 pub struct CSP<T> 
 where
-    T: Clone + PartialEq + PartialOrd + Eq + Hash,
+    T: Clone + PartialEq + PartialOrd + Eq + Hash + std::fmt::Debug,
 //    C: Constraint<T> + PartialEq + PartialOrd
 {
     variables: HashMap<String, Variable<T>>,
@@ -147,7 +147,7 @@ where
 
 impl<T> CSP<T>
 where
-    T: Clone + PartialEq + PartialOrd + Eq + Hash,
+    T: Clone + PartialEq + PartialOrd + Eq + Hash + std::fmt::Debug,
 //    C: Constraint<T> + PartialEq + PartialOrd
 {
     pub fn new() -> Self {
@@ -162,7 +162,7 @@ where
         &self.variables
     }
 
-    pub fn get_arcs(&self) -> VecDeque<(String, String)> {// &std::collections::hash_map::Keys<(String, String), VecDeque<C>> {
+    pub fn get_arcs(&self) -> VecDeque<(String, String)> {
         self.constraints.keys().map(|k| k.clone()).collect()
     }
 
@@ -184,6 +184,52 @@ where
 
     pub fn get_variable_as_mut(&mut self, name: &str) -> &mut Variable<T> {
         self.variables.get_mut(name).unwrap()
+    }
+
+    pub fn set_domain(&mut self, name: &str, domain: Domain<T>) {
+        self.variables.get_mut(name).unwrap().domain = domain;
+    }
+
+    pub fn assignment_complete(&self) -> bool
+    {
+        let mut is_assignment_complete: bool = true;
+        
+        for var in self.get_variables() {
+            if var.1.get_domain().len() != 1 {
+                is_assignment_complete = false;
+                break;
+            }
+        }
+
+        return is_assignment_complete;
+    }
+
+    pub fn get_num_conflicts(&self, name: &str) -> u32 {
+        let mut conflicts = 0;
+        let var = self.get_variable(name);
+        for n in &var.neighbors {
+            for c in self.constraints.get(&(name.to_string(), n.to_string())).unwrap() {
+                for o in self.get_variable(&n).get_domain() {
+                    if !c.is_satisfied(&var.domain[0], &o) {
+                        conflicts += 1;
+                    }
+                }
+            }
+        }
+        conflicts
+    }
+}
+
+impl<T> std::fmt::Display for CSP<T> 
+where
+    T: Clone + PartialEq + PartialOrd + Eq + Hash + std::fmt::Debug
+{
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        write!(f, "Variables: \n")?;
+        for var in &self.variables {
+            write!(f, "     {} = {:?}\n", var.0, var.1.get_domain())?;
+        }
+        Ok(())
     }
 }
 
@@ -236,8 +282,10 @@ pub enum RuleType {
 macro_rules! alldiff2binary {
     ( $csp:tt, $vars:tt ) => {
         for x_i in &$vars {
-            for x_j in $vars {
-                $csp.add_constraint(&x_i, &x_j, constraint::ConstraintType::Binary, constraint::RuleType::NotEqualTo);
+            for x_j in &$vars {
+                if ( x_i != x_j ) {
+                    $csp.add_constraint(&x_i, &x_j, constraint::ConstraintType::Binary, constraint::RuleType::NotEqualTo);
+                }
             }
         }
     }
