@@ -76,28 +76,29 @@ fn try_sudoku() {
     }
 
     /* Set values of known cells */
-    sudoku.set_domain("A1", vec![Some(9)]);
-    sudoku.set_domain("A2", vec![Some(2)]);
-    sudoku.set_domain("A5", vec![Some(7)]);
-    sudoku.set_domain("B7", vec![Some(3)]);
-    sudoku.set_domain("C5", vec![Some(8)]);
-    sudoku.set_domain("C6", vec![Some(5)]);
-    sudoku.set_domain("C7", vec![Some(4)]);
-    sudoku.set_domain("D2", vec![Some(8)]);
-    sudoku.set_domain("D3", vec![Some(4)]);
-    sudoku.set_domain("D8", vec![Some(6)]);
-    sudoku.set_domain("E2", vec![Some(5)]);
-    sudoku.set_domain("E7", vec![Some(8)]);
-    sudoku.set_domain("F4", vec![Some(2)]);
-    sudoku.set_domain("F5", vec![Some(1)]);
-    sudoku.set_domain("G2", vec![Some(7)]);
-    sudoku.set_domain("G7", vec![Some(9)]);
-    sudoku.set_domain("H4", vec![Some(6)]);
+    sudoku.set_domain("A2", vec![Some(9)]);
+    sudoku.set_domain("A4", vec![Some(1)]);
+    sudoku.set_domain("B1", vec![Some(1)]);
+    sudoku.set_domain("B3", vec![Some(6)]);
+    sudoku.set_domain("B6", vec![Some(8)]);
+    sudoku.set_domain("B7", vec![Some(7)]);
+    sudoku.set_domain("C4", vec![Some(5)]);
+    sudoku.set_domain("C8", vec![Some(3)]);
+    sudoku.set_domain("D5", vec![Some(6)]);
+    sudoku.set_domain("D9", vec![Some(7)]);
+    sudoku.set_domain("E3", vec![Some(2)]);
+    sudoku.set_domain("F1", vec![Some(4)]);
+    sudoku.set_domain("F3", vec![Some(8)]);
+    sudoku.set_domain("F6", vec![Some(1)]);
+    sudoku.set_domain("F7", vec![Some(6)]);
+    sudoku.set_domain("G2", vec![Some(2)]);
+    sudoku.set_domain("G7", vec![Some(4)]);
+    sudoku.set_domain("H2", vec![Some(7)]);
     sudoku.set_domain("H6", vec![Some(9)]);
-    sudoku.set_domain("H7", vec![Some(2)]);
-    sudoku.set_domain("H9", vec![Some(5)]);
-    sudoku.set_domain("I2", vec![Some(4)]);
+    sudoku.set_domain("I1", vec![Some(9)]);
+    sudoku.set_domain("I3", vec![Some(4)]);
     sudoku.set_domain("I4", vec![Some(8)]);
+    sudoku.set_domain("I9", vec![Some(5)]);
 
     /* Solve problem */
     if let Some(solution) = min_conflicts::min_conflicts(&sudoku, 1000) {

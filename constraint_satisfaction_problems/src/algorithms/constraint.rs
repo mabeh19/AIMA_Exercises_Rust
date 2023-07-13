@@ -170,7 +170,7 @@ where
         self.constraints.get(&(x_1.to_owned(), x_2.to_owned())).unwrap()[0].is_satisfied(x, y)
     }
 
-    pub fn add_constraint(&mut self, x_1: &str, x_2: &str, ctype: ConstraintType, rtype: RuleType) {
+    pub fn add_constraint(&mut self, x_1: &str, x_2: &str, _ctype: ConstraintType, rtype: RuleType) {
         if !self.constraints.contains_key(&(x_1.to_owned(), x_2.to_owned())) {
             self.constraints.insert((x_1.to_owned(), x_2.to_owned()), VecDeque::new());
         }
@@ -195,7 +195,8 @@ where
         let mut is_assignment_complete: bool = true;
         
         for var in self.get_variables() {
-            if var.1.get_domain().len() != 1 {
+            if var.1.get_domain().len() != 1 || 
+                self.get_num_conflicts(var.0) > 0 {
                 is_assignment_complete = false;
                 break;
             }

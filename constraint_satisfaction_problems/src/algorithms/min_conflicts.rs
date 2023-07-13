@@ -29,7 +29,7 @@ where
         }
         
         let rand_var = current.get_variables().keys().nth(rng.gen_range(0..n_vars)).unwrap().clone();
-        let val = var_minimizing_conflicts(csp, &rand_var, &current).unwrap();
+        let val = var_minimizing_conflicts(csp, &rand_var, &current).expect("No improvement found");
         current.set_domain(&rand_var, vec![val]);
     }
 
@@ -64,7 +64,7 @@ where
         curr_copy.get_variable_as_mut(rand_var).set_value(&v);
         let num_conflicts = curr_copy.get_num_conflicts(rand_var);
 
-        if num_conflicts > min_num_conflicts {
+        if num_conflicts < min_num_conflicts {
             min_num_conflicts = num_conflicts;
             min_num_conflicts_val = Some(v);
         }
